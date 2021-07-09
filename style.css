@@ -262,7 +262,8 @@ canvas {
 .tab {
   overflow: hidden;
   border: 2px solid #515151;
-  display: button;
+  display: block;
+  background-color: #f1f1f1;
 }
 .tab button {
   background-color: inherit;
