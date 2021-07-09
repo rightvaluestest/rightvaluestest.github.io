@@ -288,4 +288,10 @@ canvas {
   padding: 6px 12px;
   border: 2px solid #515151;
   border-top: none;
+  animation: fadeEffect 1s; 
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
