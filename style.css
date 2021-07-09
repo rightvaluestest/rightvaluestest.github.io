@@ -268,7 +268,7 @@ canvas {
 .tab button {
   background-color: inherit;
   float: left;
-  border: none;
+  border: 2px solid CornflowerBlue;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
