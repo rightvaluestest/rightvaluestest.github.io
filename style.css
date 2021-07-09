@@ -278,11 +278,12 @@ canvas {
 
 .tab button:hover {
   background-color: #ccc;
+  border-bottom: 2px solid DeepSkyBlue;
 }
 
 .tab button.active {
   background-color: #bbb;
-  border-bottom: 2px solid CornflowerBlue;
+  border-bottom: 2px solid DodgerBlue;
 }
 
 .tabcontent {
