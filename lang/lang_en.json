@@ -9,7 +9,7 @@
     "quiz_back": "back",
     "quiz_question_of": "Question {{count}} of {{total}}",
     "inst_h2": "Instructions",
-    "inst_p": "You will be presented with a series of statements. For each one, click the button with your opinion on it.",
+    "inst_p": "You will be presented with a series of statements. For each one, click the button with your opinion on it. There is a langauge picker in the top right if you wish to use this site in another language.",
     "inst_gotit": "Got it!",
     "inst_nvm": "Wait, nevermind!",
     "result_h1": "Results",
