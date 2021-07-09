@@ -268,7 +268,7 @@ canvas {
 .tab button {
   background-color: inherit;
   float: left;
-  border: 2px solid CornflowerBlue;
+  border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -277,11 +277,12 @@ canvas {
 }
 
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #ccc;
 }
 
 .tab button.active {
-  background-color: #ccc;
+  background-color: #bbb;
+  border-bottom: 2px solid CornflowerBlue;
 }
 
 .tabcontent {
