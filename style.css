@@ -283,7 +283,6 @@ canvas {
 
 .tab button.active {
   background-color: #bbb;
-  border-bottom: 2px solid DodgerBlue;
 }
 
 .tabcontent {
