@@ -285,9 +285,8 @@ canvas {
 }
 
 .tabcontent {
-  display: none;
+  display: block;
   padding: 6px 12px;
-  border: 2px solid #515151;
   border-top: none;
   animation: fadeEffect 1s; 
 }
