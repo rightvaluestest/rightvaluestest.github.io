@@ -64,11 +64,11 @@
 	<img src="img/allvalues.png" class="center" alt="The values being differentiated in this quiz" />	
 	
     <div class="tab">
-	<button class="tablinks" onclick="openLang(event, 'en')" id="defaultOpen">English</button>
-	<button class="tablinks" onclick="openLang(event, 'ru')">Pусский</button>
-  	<button class="tablinks" onclick="openLang(event, 'ja')">日本語</button>
-  	<button class="tablinks" onclick="openLang(event, 'cn')">简体中文</button>
-  	<button class="tablinks" onclick="openLang(event, 'ko')">한국어</button>
+	<button class="tablinks" onclick="openLang(event, 'en') ; enbutton()" id="defaultOpen">English</button>
+	<button class="tablinks" onclick="openLang(event, 'ru') ; rubutton()" id="buttonru">Pусский</button>
+  	<button class="tablinks" onclick="openLang(event, 'ja') ; jabutton()" id="buttonja">日本語</button>
+  	<button class="tablinks" onclick="openLang(event, 'cn') ; cnbutton()" id="buttoncn">简体中文</button>
+  	<button class="tablinks" onclick="openLang(event, 'ko') ; kobutton()" id="buttonko">한국어</button>
     </div>
 	
 	<br><br><br>
@@ -299,6 +299,26 @@
 	document.getElementById(langName).style.display = "block";
   	evt.currentTarget.className += " active";
 	} 
+	    
+	function enbutton() {
+	document.getElementById("defaultOpen").innerHTML = "Start!";
+	}
+	    
+	function rubutton() {
+	document.getElementById("buttonru").innerHTML = "начать!";
+	}
+	    
+	function jabutton() {
+	document.getElementById("buttonja").innerHTML = "診断する";
+	}
+	    
+	function cnbutton() {
+	document.getElementById("buttoncn").innerHTML = "开始!";
+	}
+	    
+	function kobutton() {
+	document.getElementById("buttonko").innerHTML = "클릭해서 시작하기!";
+	}
 	    
     </script>
 	
