@@ -60,15 +60,15 @@
 
 	<h1>RightValues</h1>
 	<hr>
-	<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Start Now!</button>
+	<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;" id="startbutton">Start Now!</button>
 	<img src="img/allvalues.png" class="center" alt="The values being differentiated in this quiz" />	
 	
     <div class="tab">
 	<button class="tablinks" onclick="openLang(event, 'en') ; enbutton()" id="defaultOpen">English</button>
-	<button class="tablinks" onclick="openLang(event, 'ru') ; rubutton()" id="buttonru">Pусский</button>
-  	<button class="tablinks" onclick="openLang(event, 'ja') ; jabutton()" id="buttonja">日本語</button>
-  	<button class="tablinks" onclick="openLang(event, 'cn') ; cnbutton()" id="buttoncn">简体中文</button>
-  	<button class="tablinks" onclick="openLang(event, 'ko') ; kobutton()" id="buttonko">한국어</button>
+	<button class="tablinks" onclick="openLang(event, 'ru') ; rubutton()">Pусский</button>
+  	<button class="tablinks" onclick="openLang(event, 'ja') ; jabutton()">日本語</button>
+  	<button class="tablinks" onclick="openLang(event, 'cn') ; cnbutton()">简体中文</button>
+  	<button class="tablinks" onclick="openLang(event, 'ko') ; kobutton()">한국어</button>
     </div>
 	
 	<br><br><br>
@@ -301,23 +301,23 @@
 	} 
 	    
 	function enbutton() {
-	document.getElementById("defaultOpen").innerHTML = "Start!";
+	document.getElementById("startbutton").innerHTML = "Start!";
 	}
 	    
 	function rubutton() {
-	document.getElementById("buttonru").innerHTML = "начать!";
+	document.getElementById("startbutton").innerHTML = "начать!";
 	}
 	    
 	function jabutton() {
-	document.getElementById("buttonja").innerHTML = "診断する";
+	document.getElementById("startbutton").innerHTML = "診断する";
 	}
 	    
 	function cnbutton() {
-	document.getElementById("buttoncn").innerHTML = "开始!";
+	document.getElementById("startbutton").innerHTML = "开始!";
 	}
 	    
 	function kobutton() {
-	document.getElementById("buttonko").innerHTML = "클릭해서 시작하기!";
+	document.getElementById("startbutton").innerHTML = "클릭해서 시작하기!";
 	}
 	    
     </script>
