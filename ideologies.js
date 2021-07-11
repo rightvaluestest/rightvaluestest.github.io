@@ -141,7 +141,7 @@ const ideologies = {
     
     'Geo-Libertarianism': {
             a: 60,
-            b: 55,
+            b: 60,
             c: 20,
             d: 40,
             e: 50,
