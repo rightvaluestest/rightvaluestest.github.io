@@ -133,27 +133,27 @@
     }
 
     function getIdeologyNameByIndex(i) {
-        return (userLang in ideologies[i].i18n) ? ideologies[i].i18n[userLang].name : ideologies[i].name;
+        return i18n.getString(`ideology_${name}_name`)
     }
 
     function getIdeologyDescriptionByIndex(i) {
-        return (userLang in ideologies[i].i18n) ? ideologies[i].i18n[userLang].desc : ideologies[i].desc;
+        return i18n.getString(`ideology_${name}_desc`)
     }
 
-    reform  = getQueryVariable("a")
-    stateown  = getQueryVariable("b")
-    central   = getQueryVariable("c")
-    world  = getQueryVariable("d")
-    religious  = getQueryVariable("e")
-    economy  = getQueryVariable("f")
-    race  = getQueryVariable("g")
-    preserve    = (100 - reform).toFixed(1)
-    market     = (100 - stateown   ).toFixed(1)
-    decentral = (100 - central ).toFixed(1)
-    nation = (100 - world).toFixed(1)
-    secular = (100 - religious).toFixed(1)
-    nature = (100 - economy).toFixed(1)
-    equality = (100 - race).toFixed(1)
+    const reform  = getQueryVariable("a")
+    const stateown  = getQueryVariable("b")
+    const central   = getQueryVariable("c")
+    const world  = getQueryVariable("d")
+    const religious  = getQueryVariable("e")
+    const economy  = getQueryVariable("f")
+    const race  = getQueryVariable("g")
+    const preserve    = (100 - reform).toFixed(1)
+    const market     = (100 - stateown   ).toFixed(1)
+    const decentral = (100 - central ).toFixed(1)
+    const nation = (100 - world).toFixed(1)
+    const secular = (100 - religious).toFixed(1)
+    const nature = (100 - economy).toFixed(1)
+    const equality = (100 - race).toFixed(1)
 
     setBarValue("reform", reform)
     setBarValue("preserve", preserve)
@@ -170,13 +170,14 @@
     setBarValue("race", race)
     setBarValue("equality", equality)
 
-    document.getElementById("a-label").innerHTML = setLabel(reform, i18n.getString("result_a_label"))
-    document.getElementById("b-label").innerHTML = setLabel(stateown, i18n.getString("result_b_label"))
-    document.getElementById("c-label").innerHTML = setLabel(central, i18n.getString("result_c_label"))
-    document.getElementById("d-label").innerHTML = setLabel(world, i18n.getString("result_d_label"))
-    document.getElementById("e-label").innerHTML = setLabel(religious, i18n.getString("result_e_label"))
-    document.getElementById("f-label").innerHTML = setLabel(economy, i18n.getString("result_f_label"))
-    document.getElementById("g-label").innerHTML = setLabel(race, i18n.getString("result_g_label"))
+    loadTranslation().then(() => {
+    	document.getElementById("a-label").innerHTML = setLabel(reform, i18n.getString("result_a_label"))
+    	document.getElementById("b-label").innerHTML = setLabel(stateown, i18n.getString("result_b_label"))
+    	document.getElementById("c-label").innerHTML = setLabel(central, i18n.getString("result_c_label"))
+    	document.getElementById("d-label").innerHTML = setLabel(world, i18n.getString("result_d_label"))
+    	document.getElementById("e-label").innerHTML = setLabel(religious, i18n.getString("result_e_label"))
+    	document.getElementById("f-label").innerHTML = setLabel(economy, i18n.getString("result_f_label"))
+    	document.getElementById("g-label").innerHTML = setLabel(race, i18n.getString("result_g_label"))
 
     let ideology = ''
     let ideodesc = ''
