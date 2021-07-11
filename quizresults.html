@@ -141,14 +141,14 @@
     function getIdeologyDescriptionByIndex (name) {
         return i18n.getString(`ideology_${name}_desc`)
     }
-
-    const reform  = getQueryVariable("a")
-    const stateown  = getQueryVariable("b")
-    const central   = getQueryVariable("c")
-    const world  = getQueryVariable("d")
-    const religious  = getQueryVariable("e")
-    const economy  = getQueryVariable("f")
-    const race  = getQueryVariable("g")
+    
+    const reform  = getQueryVariable('a')
+    const stateown  = getQueryVariable('b')
+    const central   = getQueryVariable('c')
+    const world  = getQueryVariable('d')
+    const religious  = getQueryVariable('e')
+    const economy  = getQueryVariable('f')
+    const race  = getQueryVariable('g')
     const preserve    = (100 - reform).toFixed(1)
     const market     = (100 - stateown   ).toFixed(1)
     const decentral = (100 - central ).toFixed(1)
