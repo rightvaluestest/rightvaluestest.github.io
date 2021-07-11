@@ -19,7 +19,7 @@ const ideologies = {
             g: 100
     },
    
-    'Absolute Monarchism': {
+    'Absolute-Monarchism': {
             a: 30,
             b: 50,
             c: 80,
@@ -39,7 +39,7 @@ const ideologies = {
             g: 70
     },
     
-    'Constitutional Monarchism': {
+    'Constitutional-Monarchism': {
             a: 20,
             b: 30,
             c: 60,
@@ -59,7 +59,7 @@ const ideologies = {
             g: 10
     },
     
-    'Neo-Conservatism': {
+    'Neoconservatism': {
             a: 10,
             b: 20,
             c: 40,
@@ -79,7 +79,7 @@ const ideologies = {
             g: 20
     },
     
-    'Individualist Anarchism': {
+    'Individualist-Anarchism': {
             a: 50,
             b: 10,
             c: 10,
@@ -129,7 +129,7 @@ const ideologies = {
             g: 20
     },
 
-    'Neo-Liberalism': {
+    'Neoliberalism': {
             a: 70,
             b: 30,
             c: 30,
@@ -179,7 +179,7 @@ const ideologies = {
             g: 20
    },
    
-   'Reactionary Conservatism': {
+   'Reactionary-Conservatism': {
             a: 10,
             b: 20,
             c: 80,
@@ -189,7 +189,7 @@ const ideologies = {
             g: 10
     },
 
-    'Pink Capitalism': {
+    'Pink-Capitalism': {
             a: 80,
             b: 10,
             c: 10,
@@ -209,7 +209,7 @@ const ideologies = {
             g: 20
     },
     
-    'Right-Wing Populism': {
+    'Right-Wing-Populism': {
             a: 30,
             b: 30,
             c: 40,
@@ -229,7 +229,7 @@ const ideologies = {
             g: 50
     },
     
-    'Progressive Conservatism': {
+    'Progressive-Conservatism': {
             a: 60,
             b: 30,
             c: 35,
@@ -239,7 +239,7 @@ const ideologies = {
             g: 50
     },
     
-    'Classical Liberalism': {
+    'Classical-Liberalism': {
             a: 40,
             b: 30,
             c: 40,
