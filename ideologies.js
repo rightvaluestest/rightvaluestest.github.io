@@ -149,7 +149,7 @@ const ideologies = {
             g: 20
     },
     
-    'Centre-Right Politics': {
+    'Centre-Right-Politics': {
             a: 60,
             b: 50,
             c: 50,
@@ -209,7 +209,7 @@ const ideologies = {
             g: 50
     },
 
-   'Civic Nationalism': {
+   'Civic-Nationalism': {
             a: 60,
             b: 30,
             c: 35,
