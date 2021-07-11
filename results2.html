@@ -133,27 +133,27 @@
     }
 
     function getIdeologyNameByIndex(i) {
-        return (userLang in ideologies[i].i18n) ? ideologies[i].i18n[userLang].name : ideologies[i].name;
+         return i18n.getString(`ideology_${name}_name`)
     }
 
     function getIdeologyDescriptionByIndex(i) {
-        return (userLang in ideologies[i].i18n) ? ideologies[i].i18n[userLang].desc : ideologies[i].desc;
+        return i18n.getString(`ideology_${name}_desc`)
     }
 
     reform  = getQueryVariable("a")
     stateown  = getQueryVariable("b")
     central   = getQueryVariable("c")
     world  = getQueryVariable("d")
-	religious  = getQueryVariable("e")
-	economy  = getQueryVariable("f")
-	race  = getQueryVariable("g")
+    religious  = getQueryVariable("e")
+    economy  = getQueryVariable("f")
+    race  = getQueryVariable("g")
     preserve    = (100 - reform).toFixed(1)
     market     = (100 - stateown   ).toFixed(1)
     decentral = (100 - central ).toFixed(1)
     nation = (100 - world).toFixed(1)
-	secular = (100 - religious).toFixed(1)
-	nature = (100 - economy).toFixed(1)
-	equality = (100 - race).toFixed(1)
+    secular = (100 - religious).toFixed(1)
+    nature = (100 - economy).toFixed(1)
+    equality = (100 - race).toFixed(1)
 
     setBarValue("reform", reform)
     setBarValue("preserve", preserve)
