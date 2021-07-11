@@ -29,16 +29,6 @@ const ideologies = {
             g: 70
     },
     
-    'Feudalism': {
-            a: 30,
-            b: 20,
-            c: 70,
-            d: 80,
-            e: 80,
-            f: 50,
-            g: 70
-    },
-    
     'Constitutional-Monarchism': {
             a: 20,
             b: 30,
