@@ -220,12 +220,12 @@ const ideologies = {
     },
     
     'Progressive-Conservatism': {
-            a: 60,
+            a: 65,
             b: 30,
             c: 35,
             d: 50,
             e: 55,
-            f: 50,
+            f: 70,
             g: 50
     },
     
