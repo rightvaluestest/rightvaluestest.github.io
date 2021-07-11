@@ -133,27 +133,27 @@
     }
 
     function getIdeologyNameByIndex(i) {
-        return i18n.getString(`ideology_${name}_name`)
+        return (userLang in ideologies[i].i18n) ? ideologies[i].i18n[userLang].name : ideologies[i].name;
     }
 
     function getIdeologyDescriptionByIndex(i) {
-        return i18n.getString(`ideology_${name}_desc`)
+        return (userLang in ideologies[i].i18n) ? ideologies[i].i18n[userLang].desc : ideologies[i].desc;
     }
 
-    const reform  = getQueryVariable("a")
-    const stateown  = getQueryVariable("b")
-    const central   = getQueryVariable("c")
-    const world  = getQueryVariable("d")
-    const religious  = getQueryVariable("e")
-    const economy  = getQueryVariable("f")
-    const race  = getQueryVariable("g")
-    const preserve    = (100 - reform).toFixed(1)
-    const market     = (100 - stateown   ).toFixed(1)
-    const decentral = (100 - central ).toFixed(1)
-    const nation = (100 - world).toFixed(1)
-    const secular = (100 - religious).toFixed(1)
-    const nature = (100 - economy).toFixed(1)
-    const equality = (100 - race).toFixed(1)
+    reform  = getQueryVariable("a")
+    stateown  = getQueryVariable("b")
+    central   = getQueryVariable("c")
+    world  = getQueryVariable("d")
+	religious  = getQueryVariable("e")
+	economy  = getQueryVariable("f")
+	race  = getQueryVariable("g")
+    preserve    = (100 - reform).toFixed(1)
+    market     = (100 - stateown   ).toFixed(1)
+    decentral = (100 - central ).toFixed(1)
+    nation = (100 - world).toFixed(1)
+	secular = (100 - religious).toFixed(1)
+	nature = (100 - economy).toFixed(1)
+	equality = (100 - race).toFixed(1)
 
     setBarValue("reform", reform)
     setBarValue("preserve", preserve)
@@ -163,44 +163,39 @@
     setBarValue("decentral", decentral)
     setBarValue("nation", nation)
     setBarValue("world", world)
-    setBarValue("religious", religious)
+	setBarValue("religious", religious)
     setBarValue("secular", secular)
-    setBarValue("economy", economy)
+	setBarValue("economy", economy)
     setBarValue("nature", nature)
-    setBarValue("race", race)
+	setBarValue("race", race)
     setBarValue("equality", equality)
 
-    loadTranslation().then(() => {
-    	document.getElementById("a-label").innerHTML = setLabel(reform, i18n.getString("result_a_label"))
-    	document.getElementById("b-label").innerHTML = setLabel(stateown, i18n.getString("result_b_label"))
-    	document.getElementById("c-label").innerHTML = setLabel(central, i18n.getString("result_c_label"))
-    	document.getElementById("d-label").innerHTML = setLabel(world, i18n.getString("result_d_label"))
-    	document.getElementById("e-label").innerHTML = setLabel(religious, i18n.getString("result_e_label"))
-    	document.getElementById("f-label").innerHTML = setLabel(economy, i18n.getString("result_f_label"))
-    	document.getElementById("g-label").innerHTML = setLabel(race, i18n.getString("result_g_label"))
+    document.getElementById("a-label").innerHTML = setLabel(reform, i18n.getString("result-a-label"))
+    document.getElementById("b-label").innerHTML = setLabel(stateown, i18n.getString("result-b-label"))
+    document.getElementById("c-label").innerHTML = setLabel(central, i18n.getString("result-c-label"))
+    document.getElementById("d-label").innerHTML = setLabel(world, i18n.getString("result-d-label"))
+	document.getElementById("e-label").innerHTML = setLabel(religious, i18n.getString("result-e-label"))
+	document.getElementById("f-label").innerHTML = setLabel(economy, i18n.getString("result-f-label"))
+	document.getElementById("g-label").innerHTML = setLabel(race, i18n.getString("result-g-label"))
 
-    let ideology = ''
-    let ideodesc = ''
-    const ideologyIndexAndDistance = []
-    var closestMatch = {}
-	    
-    let index = 0
-    for (const name of Object.keys(ideologies)) {
-    let dist = 0
-        dist += Math.pow(Math.abs(ideologies[name].stats.a - reform), 2)
-        dist += Math.pow(Math.abs(ideologies[name].stats.c - central), 2)
-        dist += Math.pow(Math.abs(ideologies[name].stats.b - stateown), 2)
-        dist += Math.pow(Math.abs(ideologies[name].stats.d - world), 2)
-	dist += Math.pow(Math.abs(ideologies[name].stats.e - religious), 2)
-	dist += Math.pow(Math.abs(ideologies[name].stats.f - economy), 2)
-	dist += Math.pow(Math.abs(ideologies[name].stats.g - race), 2)
-	    
-                ideologyIndexAndDistance.push({
-                distance: dist,
-                name,
-                index
-                })
-                index++
+    ideology = ""
+	ideodesc = ""
+    ideodist = Infinity
+    ideologyToDistance = {};
+    sortedIdeologies = [];
+    ideologyIndexAndDistance = [];
+    for (var i = 0; i < ideologies.length; i++) {
+        dist = 0
+        dist += Math.pow(Math.abs(ideologies[i].stats.a - reform), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.c - central), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.b - stateown), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.d - world), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.e - religious), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.f - economy), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.g - race), 2)
+
+        ideologyToDistance[ideologies[i].name] = dist;
+        ideologyIndexAndDistance.push({index: i, distance: dist});
     }
     
     ideologyIndexAndDistance.sort(function(a, b) {
@@ -260,15 +255,15 @@
         ctx.drawImage(img, 20, 530, 100, 100)
         img = document.getElementById("img-nation")
         ctx.drawImage(img, 680, 530, 100, 100)
-	img = document.getElementById("img-religious")
+		img = document.getElementById("img-religious")
         ctx.drawImage(img, 20, 650, 100, 100)
         img = document.getElementById("img-secular")
         ctx.drawImage(img, 680, 650, 100, 100)
-	img = document.getElementById("img-economy")
+		img = document.getElementById("img-economy")
         ctx.drawImage(img, 20, 770, 100, 100)
         img = document.getElementById("img-nature")
         ctx.drawImage(img, 680, 770, 100, 100)
-	img = document.getElementById("img-race")
+		img = document.getElementById("img-race")
         ctx.drawImage(img, 20, 890, 100, 100)
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 680, 890, 100, 100)
@@ -278,9 +273,9 @@
         ctx.fillRect(120, 300, 560, 80)
         ctx.fillRect(120, 420, 560, 80)
         ctx.fillRect(120, 540, 560, 80)
-	ctx.fillRect(120, 660, 560, 80)
-	ctx.fillRect(120, 780, 560, 80)
-	ctx.fillRect(120, 900, 560, 80)
+		ctx.fillRect(120, 660, 560, 80)
+		ctx.fillRect(120, 780, 560, 80)
+		ctx.fillRect(120, 900, 560, 80)
         ctx.fillStyle="#0c5199"
         ctx.fillRect(120, 184, 5.6*reform-2, 72)
         ctx.fillStyle="#42c2f5"
@@ -316,39 +311,36 @@
         ctx.font="50px Montserrat"
         ctx.fillText(getIdeologyNameByIndex(closestMatch.index), 20, 140)
 
-	ctx.fillStyle="#dddddd"
+		ctx.fillStyle="#dddddd"
         ctx.textAlign="left"
         if (reform  > 30) {ctx.fillText(reform + "%", 130, 237.5)}
         if (stateown     > 30) {ctx.fillText(stateown + "%", 130, 357.5)}
         if (central   > 30) {ctx.fillText(central + "%", 130, 477.5)}
         if (world > 30) {ctx.fillText(world + "%", 130, 597.5)}
-	if (religious > 30) {ctx.fillText(religious + "%", 130, 717.5)}
-	if (economy > 30) {ctx.fillText(economy + "%", 130, 837.5)}
-	if (race > 30) {ctx.fillText(race + "%", 130, 957.5)}
+		if (religious > 30) {ctx.fillText(religious + "%", 130, 717.5)}
+		if (economy > 30) {ctx.fillText(economy + "%", 130, 837.5)}
+		if (race > 30) {ctx.fillText(race + "%", 130, 957.5)}
         ctx.textAlign="right"
         if (preserve    > 30) {ctx.fillText(preserve + "%", 670, 237.5)}
         if (market     > 30) {ctx.fillText(market + "%", 670, 357.5)}
         if (decentral > 30) {ctx.fillText(decentral + "%", 670, 477.5)}
         if (nation  > 30) {ctx.fillText(nation + "%", 670, 597.5)}
-	if (secular  > 30) {ctx.fillText(secular + "%", 670, 717.5)}
-	if (nature  > 30) {ctx.fillText(nature + "%", 670, 837.5)}
-	if (equality  > 30) {ctx.fillText(equality + "%", 670, 957.5)}
+		if (secular  > 30) {ctx.fillText(secular + "%", 670, 717.5)}
+		if (nature  > 30) {ctx.fillText(nature + "%", 670, 837.5)}
+		if (equality  > 30) {ctx.fillText(equality + "%", 670, 957.5)}
 		
-	    
-            ctx.fillStyle = "#222222"
-            ctx.font = "300 30px Montserrat"
-            ctx.fillText("rightvaluestest.github.io", 780, 60)
-            ctx.textAlign = 'center'
-            ctx.fillText("" + document.getElementById("a-label").innerHTML, 400, 175)
-            ctx.fillText("" + document.getElementById("b-label").innerHTML, 400, 295)
-            ctx.fillText("" + document.getElementById("c-label").innerHTML, 400, 415)
-            ctx.fillText("" + document.getElementById("d-label").innerHTML, 400, 535)
-            ctx.fillText("" + document.getElementById("e-label").innerHTML, 400, 655)
-            ctx.fillText("" + document.getElementById("f-label").innerHTML, 400, 775)
-            ctx.fillText("" + document.getElementById("g-label").innerHTML, 400, 895)
+		ctx.fillStyle="#222222"
+        ctx.font="300 30px Montserrat"
+        ctx.fillText("rightvalues.github.io", 780, 60)
+        ctx.textAlign="center"
+        ctx.fillText("" + document.getElementById("a-label").innerHTML, 400, 175)
+        ctx.fillText("" + document.getElementById("b-label").innerHTML, 400, 295)
+        ctx.fillText("" + document.getElementById("c-label").innerHTML, 400, 415)
+        ctx.fillText("" + document.getElementById("d-label").innerHTML, 400, 535)
+		ctx.fillText("" + document.getElementById("e-label").innerHTML, 400, 655)
+		ctx.fillText("" + document.getElementById("f-label").innerHTML, 400, 775)
+		ctx.fillText("" + document.getElementById("g-label").innerHTML, 400, 895)
     }
-	
-	
-    </script>
+</script>
 </body>
 </html>
