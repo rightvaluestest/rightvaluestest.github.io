@@ -179,21 +179,21 @@
     document.getElementById("f-label").innerHTML = setLabel(economy, i18n.getString("result-f-label"))
     document.getElementById("g-label").innerHTML = setLabel(race, i18n.getString("result-g-label"))
 
-    ideology = ""
-	ideodesc = ""
-    ideodist = Infinity
-    ideologyToDistance = {};
-    sortedIdeologies = [];
-    ideologyIndexAndDistance = [];
+    let ideology = ''
+    let ideodesc = ''
+    const ideologyIndexAndDistance = []
+    var closestMatch = {}
+	    
+    let index = 0
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.a - reform), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.c - central), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.b - stateown), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.d - world), 2)
-	dist += Math.pow(Math.abs(ideologies[i].stats.e - religious), 2)
-	dist += Math.pow(Math.abs(ideologies[i].stats.f - economy), 2)
-	dist += Math.pow(Math.abs(ideologies[i].stats.g - race), 2)
+        dist += Math.pow(Math.abs(ideologies[name].stats.a - reform), 2)
+        dist += Math.pow(Math.abs(ideologies[name].stats.c - central), 2)
+        dist += Math.pow(Math.abs(ideologies[name].stats.b - stateown), 2)
+        dist += Math.pow(Math.abs(ideologies[name].stats.d - world), 2)
+	dist += Math.pow(Math.abs(ideologies[name].stats.e - religious), 2)
+	dist += Math.pow(Math.abs(ideologies[name].stats.f - economy), 2)
+	dist += Math.pow(Math.abs(ideologies[name].stats.g - race), 2)
 
         ideologyToDistance[ideologies[i].name] = dist;
         ideologyIndexAndDistance.push({index: i, distance: dist});
