@@ -3,7 +3,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700%7CRoboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>LeftValues Quiz</title>
+<title>RightValues Quiz</title>
 <link rel="icon" type="image/png" href="icon.png">
 <link rel="shortcut icon" type="image/png" href="icon.png">
 <meta charset="utf-8">
@@ -41,9 +41,9 @@
         max_b += Math.abs(questions[i].effect.b)
         max_c += Math.abs(questions[i].effect.c)
         max_d += Math.abs(questions[i].effect.d)
-		    max_e += Math.abs(questions[i].effect.e)
-		    max_f += Math.abs(questions[i].effect.f)
-		    max_g += Math.abs(questions[i].effect.g)
+	max_e += Math.abs(questions[i].effect.e)
+	max_f += Math.abs(questions[i].effect.f)
+	max_g += Math.abs(questions[i].effect.g)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = (userLang in questions[qn].i18n) ? questions[qn].i18n[userLang] : questions[qn].question
@@ -63,9 +63,9 @@
         b += mult*questions[qn].effect.b
         c += mult*questions[qn].effect.c
         d += mult*questions[qn].effect.d
-		    e += mult*questions[qn].effect.e
-		    f += mult*questions[qn].effect.f
-		    g += mult*questions[qn].effect.g
+	e += mult*questions[qn].effect.e
+	f += mult*questions[qn].effect.f
+	g += mult*questions[qn].effect.g
       
         qn++
         prev_answer = mult
@@ -84,9 +84,9 @@
         b -= prev_answer * questions[qn].effect.b
         c -= prev_answer * questions[qn].effect.c
         d -= prev_answer * questions[qn].effect.d
-		    e -= prev_answer * questions[qn].effect.e
-		    f -= prev_answer * questions[qn].effect.f
-		    g -= prev_answer * questions[qn].effect.g
+	e -= prev_answer * questions[qn].effect.e
+	f -= prev_answer * questions[qn].effect.f
+	g -= prev_answer * questions[qn].effect.g
         
         prev_answer = null
         init_question()
@@ -101,9 +101,9 @@
             + `&b=${calc_score(b,max_b)}`
             + `&c=${calc_score(c,max_c)}`
             + `&d=${calc_score(d,max_d)}`
-			      + `&e=${calc_score(e,max_e)}`
-			      + `&f=${calc_score(f,max_f)}`
-			      + `&g=${calc_score(g,max_g)}`
+	    + `&e=${calc_score(e,max_e)}`
+	    + `&f=${calc_score(f,max_f)}`
+	    + `&g=${calc_score(g,max_g)}`
     }
 </script>
 </body>
