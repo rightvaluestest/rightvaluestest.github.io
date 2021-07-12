@@ -19,11 +19,11 @@ setBodyClassUserLang(userLang)
 
 const languages = [
   {
-        "name": "english",
+        "name": "English",
         "code": "en"
     },
 	{
-        "name": "ру́сский",
+        "name": "Pу́сский",
         "code": "ru"
     },
 	{
@@ -105,7 +105,7 @@ const i18n = {
 },
   
 "quiz-back": {
-    "en": "back",
+    "en": "Back",
     "de": "Zurück",
     "ko": "뒤로",
     "ru": "Назад",
@@ -118,16 +118,16 @@ const i18n = {
     ko(qn, questions) {return `${questions.length}개 질문 중 ${qn +1} 번째`},
     ru(qn, questions) {return `Вопрос ${qn + 1} из ${questions.length}`},
     cn(qn, questions) {return `第 ${qn + 1} 题，共 ${questions.length} 题`},
-		ja(qn, questions) {return `Pitanje ${qn + 1} od ${questions.length}`}
+    ja(qn, questions) {return `問 ${qn + 1} ，全 ${questions.length} 問`}
 },
   
-    // instructions.html
+ // instructions.html
 "inst-h2": {
     "en": "Instructions",
     "ko": "소개",
     "ru": "Инструкция",
     "cn": "说明",
-    "ja": "Uputstva"
+    "ja": "診断の受け方"
 },
   
 "inst-p": {
@@ -135,7 +135,7 @@ const i18n = {
     "ko": "당신은 일련의 질문들을 받게 될 것입니다. 해당되는 답변을 클릭하세요.",
     "ru": "Вам будет предложен ряд утверждений. Для каждого нажмите на кнопку с вашим мнением о нём.",
     "cn": "你将会看到一系列观点。请点击对应按钮选择你对于每个观点的看法。",
-    "ja": "Biće vam predstavljen niz izjava. Za svaku, kliknite dugme na kojem je vaše mišljenje."
+    "ja": "これから、様々な思想や考えをあらわす短い文が表示されます。それぞれについて、あなたの立場にもっとも近い選択肢をクリックしてください。"
 },
   
 "inst-gotit": {
@@ -143,7 +143,7 @@ const i18n = {
     "ko": "알겠습니다",
     "ru": "Понял!",
     "cn": "知道了！",
-    "ja": "Razumijem!"
+    "ja": "わかりました"
 },
   
 "inst-nvm": {
@@ -151,53 +151,48 @@ const i18n = {
     "ko": "그만둘래요.",
     "ru": "Вернуться",
     "cn": "等等，还是算了！",
-    "ja": "Čekaj, nema veze!"
+    "ja": "やっぱりやめる"
 },
   
     // results.html
 "result-h1": {
     "en": "Results",
-    "de": "Ergebnisse",
     "ko": "결과",
     "ru": "Результаты",
     "cn": "结果",
-    "ja": "Rezultati"
+    "ja": "診断結果"
 },
   
 "result-url": {
     "en": "<br>You can send these results by copying and pasting the URL at the top of the page or using the image below.",
-    "de": "<br>Sie können diese Ergebnisse senden, indem Sie die URL oben auf der Seite kopieren und einfügen oder das folgende Bild verwenden.",
     "ko": "<br>당신은 상단의 URL을 복사하거나 아래 이미지를 이용해 설문 결과를 공유할 수 있습니다.",
     "ru": "<br>Вы можете отправить эти результаты, скопировав и вставив URL в верхней части страницы или используя изображение ниже.",
     "cn": "<br>你可以通过复制粘贴页面顶端的URL或是使用下方的图片来分享结果。",
-    "ja": "<br>Možete da pošaljete ove rezultate kopirajući URL na vrhu stranice ili koristeći sliku ispod."
+    "ja": "<br>URLをコピー、またはページ下部の画像を保存することで診断結果をシェアできます。"
 },
   
 "result-h2-match": {
     "en": "Closest Match: <span class='weight-300' id='ideology-label'> </span>",
-    "de": "Höchste Übereinstimmung: <span class='weight-300' id='ideology-label'> </span>",
     "ko": `가장 일치하는 성향: <span class="weight-300" id="ideology-label"> </span>`,
     "ru": "Ближайшее совпадение: <span class='weight-300' id='ideology-label'> </span>",
     "cn": "最接近的匹配: <span class='weight-300' id='ideology-label'> </span>",
-    "ja": "Najbliže podudaranje: <span class='weight-300' id='ideology-label'> </span>"
+    "ja": "あなたにもっとも近い思想 <span class='weight-300' id='ideology-label'> </span>"
 },
   
 "result-h2-next-matches": {
     "en": "Next closest matches",
-    "de": "Nächst höchste Überstimmungen",
     "ko": "다음으로 일치하는 성향",
     "ru": "Следующие ближайшие совпадения",
     "cn": "次接近匹配",
-    "ja": "Sledeća najbliža podudaranja"
+    "ja": "その他の近い思想"
 },
   
 "next-matches-percent": {
     "en": "With your closest match as 100% and farthest as 0%, here is how closely you matched the other ideologies.",
-    "de": "Hier sind die Ideologien mit denen du am meisten übereinstimmst, wo volle Übereinstimmung 100% ist und keine 0%.",
     "ko": "당신과 가장 일치하는 성향을 100%로, 가장 일치하지 않는 성향을 0%로 둘 때, 아래 사상들은 당신의 성향에 가까운 다른 다른 사상들 입니다.",
     "ru": "С вашим самым близким соответствием в 100% и самым дальним на 0%, вот как близко вы подходите к другим идеологиям.",
     "cn": "这是你与其他意识形态之间的匹配程度，以100%表示完全符合，0%表示完全不符合。",
-    "ja": "Sa vašom najbližom na 100% i najdaljom na 0%, evo koliko su vam bliske ostale ideologije."
+    "ja": ">もっとも近い思想を100%、もっとも遠いものを0％として、あなたの思想との距離を示しています。"
 },
   
 "result-h2-score": {
@@ -205,15 +200,15 @@ const i18n = {
     "ko": "제 결과가 마음에 들지 않습니다.",
     "ru": "Мне не нравятся мои результаты!",
     "cn": "我不喜欢我的分数！",
-    "ja": "Ne sviđaju mi se moji rezultati!"
+    "ja": "結果が気に入らん！"
 },
 
 "result-issues": {
-    "en": "Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>short form</a> or open an issue on the <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub Page</a>.",
+    "en": "Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href='https://forms.gle/Puc4sjaSQqvwNu6q8'>short form</a> or open an issue on the <a href='https://github.com/rightvaluestest/rightvaluestest.github.io'>GitHub Page</a>.",
     "ko": `어떠한 범주에서든 100%의 점수를 얻을 수 없다는 것을 기억하십시오. 이 설문의 목적은 당신 자신의 관점에 직면하는 것에 있습니다. 의견이나 건설적인 비판은 <a href="https://forms.gle/6WZYMb5GXkkDLhxr5">이 양식</a>이나 <a href="https://github.com/LeftValues/leftvalues.github.io">GitHub Page</a>의 이슈를 통해 개진할 수 있습니다.`,
-    "ru": "Пожалуйста, помните, что вы не намерены получить 100%-ый результат ни в одной из осей. Смысл викторины заключается в том, чтобы оспорить ваши взгляды. Если у вас какие-либо предложения или конструктивная критика, то, пожалуйста, заполните эту <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>короткую форму</a> или откройте вкладку ''issue'' на <a href='https://github.com/LeftValues/leftvalues.github.io'>странице GitHub</a>.",
-    "cn": "这个测试的目的在于表达你的观点，切记不要在任何一类（意识形态）中去有意取得满分。如果你有任何意见或建议，请填写<a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>这份表格</a>或是在<a href='https://github.com/LeftValues/leftvalues.github.io'>该项目的GitHub Page</a>上开个issue。",
-    "ja": "Imajte na umu da cilj nije da dobijete 100% na bilo kojoj kategoriji. Smisao kviza je da izazove vaše mišljenje. Ako imate bilo kakve prijedloge ili konstruktivnu kritiku molimo vas da ispunite ovaj <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>kratki formular</a> ili otvorite pitanje na <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub stranici</a>."
+    "ru": "Пожалуйста, помните, что вы не намерены получить 100%-ый результат ни в одной из осей. Смысл викторины заключается в том, чтобы оспорить ваши взгляды. Если у вас какие-либо предложения или конструктивная критика, то, пожалуйста, заполните эту <a href='https://forms.gle/Puc4sjaSQqvwNu6q8'>короткую форму</a> или откройте вкладку ''issue'' на <a href='https://github.com/rightvaluestest/rightvaluestest.github.io''>странице GitHub</a>.",
+    "cn": "这个测试的目的在于表达你的观点，切记不要在任何一类（意识形态）中去有意取得满分。如果你有任何意见或建议，请填写<a href='https://forms.gle/Puc4sjaSQqvwNu6q8'>这份表格</a>或是在<a href='https://github.com/rightvaluestest/rightvaluestest.github.io''>该项目的GitHub Page</a>上开个issue。",
+    "ja": "いずれの軸についても、100％をとる必要はありません。ご自身の価値観を把握し、問い直すためにご活用ください。その上で、改善に役立つご批判やご提案がございましたら、 <a href='https://forms.gle/Puc4sjaSQqvwNu6q8'>こちら</a>よりご連絡ください。"
 },
   
 "result-a-label": {
