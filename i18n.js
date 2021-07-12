@@ -97,7 +97,6 @@ const i18n = {
   
 "quiz-strongly-disagree": {
     "en": "Strongly Disagree",
-    "de": "Stimme überhaupt nicht zu",
     "ko": "결코 동의하지 않음",
     "ru": "Полностью не согласен",
     "cn": "强烈反对",
@@ -106,7 +105,6 @@ const i18n = {
   
 "quiz-back": {
     "en": "Back",
-    "de": "Zurück",
     "ko": "뒤로",
     "ru": "Назад",
     "cn": "返回",
@@ -212,69 +210,63 @@ const i18n = {
 },
   
 "result-a-label": {
-    "en": ["Extremely Revolutionary","Very Revolutionary","Revolutionary","Neutral","Reformist","Very Reformist","Extremely Reformist"],
-    "ko": ["극단적 혁명주의","강경한 혁명주의","혁명주의","중립","개혁주의","강경한 개혁주의","극단적 개혁주의"],
-    "ru": ["Крайне Революционный","Очень Революционный","Революционный","Нейтральный","Реформистский","Очень Реформистский","Крайне Реформистский"],
-    "cn": ["极端革命派","非常革命派","革命派","中立","改良派","非常改良派","极端改良派"],
-    "ja": ["Izuzetno Revolucionarni","Vrlo Revolucionarni","Revolucionarni","Neutralni","Reformistički","Vrlo Reformistički","Izuzetno Reformistički"]
+    "en": ["Revolutionary","Progressive","Reformist","Neutral","Conservative","Traditionalist","Reactionary"],
+    "ko": ["혁명적","진보적","개혁적","중도적","보수적","전통적","반동적"],
+    "ru": ["Реакционный","Прогрессивный","Реформистский","Нейтральный","Консервативный","Традиционный","Реакционный"],
+    "cn": ["革命派","进步派","改革派","中立","保守派","传统派","反动派"],
+    "ja": ["革命主義","進歩主義","革新派","中立","保守派","伝統主義","復古主義"]
 },
   
-"result-b-label": {
-    "en": ["Extremely Scientific","Very Scientific","Scientific","Neutral","Utopian","Very Utopian","Extremely Utopian"],
-    "ko": ["극단적 과학주의","강경한 과학주의","과학주의","중립","공상주의","강경한 공상주의","극단적 공상주의"],
-    "ru": ["Крайне Научный","Очень Научный","Научный","Нейтральный","Утопичный","Очень Утопичный","Крайне Утопичный"],
-    "cn": ["极端科学社会主义","非常科学社会主义","科学社会主义","中立","空想社会主义","非常空想社会主义","极端空想社会主义"],
-    "ja": ["Izuzetno Naučni","Vrlo Naučni","Naučni","Neutralni","Utopijski","Vrlo Utopijski","Izuzetno Utopijski"]
+"result-b-label": { //Reversed
+    "en": ["Laissez-Faire","Free Markets","Limited Regulation","Neutral","Regulationist","Interventionist","Planned Economy"],
+    "ko": ["자유방임주의","자유시장","제한적 규제","중도적","규제주의","간섭주의","계획경제"],
+    "ru": ["Невмешательство","Свободный рынок","Ограниченное регулирование","Нейтральный","Регуляционизм","Интервенционизм","Плановая экономика"],
+    "cn": ["自由放任","自由市场","有限管制","中立","管制经济","干预经济","计划经济"],
+    "ja": ["レッセフェール","自由市場主義","最小限の介入","中立","介入派","介入主義","計画経済"]
 },
   
-"result-c-label": {
-    "en": ["Extremely Centralist","Very Centralist","Centralist","Neutral","Decentralist","Very Decentralist","Extremely Decentralist"],
-    "de": ["Extrem Zentralisiert", "Sehr Zentralisiert", "Zentralisiert", "Neutral", "Dezentralisiert", "Sehr Dezentralisiert", "Extrem Dezentralisiert"],
-    "ko": ["극단적 중앙집권주의", "강경한 중앙집권주의", "중앙집권주의", "중립", "분권주의", "강경한 분권주의", "극단적 분권주의"],
-    "ru": ["Крайне Централизованный","Очень Централизованный","Централизованный","Нейтральный","Децентрализованный","Очень Децентрализованный","Крайне Децентрализованный"],
-    "cn": ["极端集权","非常集权","集权","中立","分权","非常分权","极端分权"],
-    "ja": ["Izuzetno Centralistički","Vrlo Centralistički","Centralistički","Neutralni","Decentralistički","Vrlo Decentralistički","Izuzetno Decentralistički"]
+"result-c-label": { //Reversed
+    "en": ["Anarchist","Libertarian","Democratic","Neutral","Statist","Authoritarian","Totalitarian"],
+    "ko": ["아나키즘", "자유지상주의", "민주주의", "중도적", "국가주의", "권위주의", "전체주의"],
+    "ru": ["Анархистский","Либертарианский","Демократический","Нейтральный","Государственный","Авторитарный","Тоталитарный"],
+    "cn": ["无政府主义","自由主义","民主派","中立","国家主义","保皇派","极权主义"],
+    "ja": ["無政府主義","自由至上主義","民主主義","中立","国家重視","権威主義","全体主義"]
 },
   
-"result-d-label": {
-    "en": ["Extremely Internationalist","Very Internationalist","Internationalist","Neutral","Nationalist","Very Nationalist","Extremely Nationalist"],
-    "de": ["Extrem Internationalistisch", "Sehr Internationalistisch", "Internationalistisch", "Neutral", "Nationalistisch", "Sehr Nationalistisch", "Extrem Nationalistisch"],
-    "ko": ["극단적 세계주의","강경한 세계주의","세계주의","중립","국가주의","강경한 국가주의","극단적 국가주의"],
+"result-d-label": { 
+    "en": ["Isolationism","Pacifism","Non-Aggressive","Neutral","Diplomatic Interventionism","Universalism","Imperialism"],
+    "ko": ["상대주의","배타주의","평화주의","중도적","외교적 개입주의","국제주의","제국주의"],
     "ru": ["Крайне Интернациональный","Очень Интернациональный","Интернациональный","Нейтральный","Национальный","Очень Национальный","Крайне Национальный"],
     "cn": ["极端国际主义","非常国际主义","国际主义","中立","民族主义","非常民族主义","极端民族主义"],
-    "ja": ["Izuzetno Internacionalistički","Vrlo Internacionalistički","Internacionalistički","Neutralni","Nacionalistički","Vrlo Nacionalistički","Izuzetno Nacionalistički"]
+    "ja": ["相対主義","特殊主義","平和重視","中立","介入主義寄り","普遍主義","帝国主義"]
 },
   
 "result-e-label": {
-    "en": ["Extremely Partisan","Very Partisan","Partisan","Neutral","Unionist","Very Unionist","Extremely Unionist"],
-    "de": ["Extrem Parteiisch", "Sehr Parteiisch", "Parteiisch", "Neutral", "Gewerkschaftlich", "Sehr Gewerkschaftlich", "Extrem Gewerkschaftlich"],
-    "ko": ["극단적 정당주의", "강경한 정당주의", "정당주의", "중립", "조합주의", "강경한 조합주의", "극단적 조합주의"],
-    "ru": ["Крайне Партийный","Очень Партийный","Партийный","Нейтральный","Профсоюзный","Очень Профсоюзный","Крайне Профсоюзный"],
-    "cn": ["极端倾向党派","非常倾向党派","倾向党派","中立","倾向工会","非常倾向工会","极端倾向工会"],
-    "ja": ["Izuzetno Partijski","Vrlo Partijski","Partijski","Neutralni","Sindikatski","Vrlo Sindikatski","Izuzetno Sindikatski"]
+    "en": ["Theocrat","Theocrat","Religious Influence","Neutral","Anti-Clericalism","Seperation","Secularism"],
+    "ko": ["신정주의","종교적 권위주의","종교적 영향","중도적","반교권주의","세속국가","반종교주의"],
+    "ru": ["Теократия","Религиозный Авторитаризм","Религиозное влияние","Нейтралитет","Антиклерикализм","Светское государство","Атеизм"],
+    "cn": ["君权神授","宗教威权主义","宗教影响政治","中立","反教权主义","政教分离","世俗国家"],
+    "ja": ["神権政治","宗教的権威主義","教会国家寄り","中立","反聖職権","政教分離","世俗国家"]
 },
   
 "result-f-label": {
-    "en": ["Extremely Productivist","Very Productivist","Productivist","Neutral","Ecological","Very Ecological","Extremely Ecological"],
-    "de": ["Extrem Produktivist", "Sehr Produktivist", "Produktivist", "Neutral", "Ökologisch", "Sehr Ökologisch", "Extrem Ökologisch"],
-    "ko": ["극단적 생산주의", "강경한 생산주의", "생산주의", "중립", "생태주의", "강경한 생태주의", "극단적 생태주의"],
-    "ru": ["Крайне Производственный","Очень Производственный","Производственный","Нейтральный","Экологический","Очень Экологический","Крайне Экологический"],
-    "cn": ["极端生产主义","非常生产主义","生产主义","中立","生态主义","非常生态主义","极端生态主义"],
-    "ja": ["Izuzetno Proizvođački","Vrlo Proizvođački","Proizvođački","Neutralni","Ekološki","Vrlo Ekološki","Izuzetno Ekološki"]
+    "en": ["Extreme Accelerationism","Accelerationism","Productivism","Neutral","Bioconservatism","Decelerationism","Extreme Decelerationism"],
+    "ko": ["트랜스휴머니즘","가속주의","친기술주의","중도적","인문주의","감속주의","원시주의"],
+    "ru": ["Трансгуманизм", "Акселерационизм","Про-Технология","Нейтралитет","Гуманизм","Замедление","Примитивизм"],
+    "cn": ["超人类主义","加速主义","倾向科技","中立","人本主义","减速主义","原始主义"],
+    "ja": ["超人間主義","科学発展重視","科学賛成派","中立","慎重派","科学減速主義","原始主義"]
 },
   
 "result-g-label": {
-    "en": ["Extremely Conservative","Very Conservative","Conservative","Neutral","Progressive","Very Progressive","Extremely Progressive"],
-    "de": ["Extrem Konservativ", "Sehr Konservativ", "Konservativ", "Neutral", "Progressiv", "Sehr Progressiv", "Extrem Progressiv"],
-    "ko": ["극단적 보수주의", "강경한 보수주의", "보수주의", "중립", "진보주의", "강경한 진보주의", "극단적 진보주의"],
-    "ru": ["Крайне Консервативный", "Очень Консервативный", "Консервативный", "Нейтральный", "Прогрессивный", "Очень Прогрессивный", "Крайне Прогрессивный"],
-    "cn": ["极端保守主义","非常保守主义","保守主义","中立","进步主义","非常进步主义","极端进步主义"],
-    "ja": ["Izuzetno Konzervativni","Vrlo Konzervativni","Konzervativni","Neutralni","Progresivni","Vrlo Progresivni","Izuzetno Progresivni"]
+    "en": ["Monoculturalism","Nativism","Assimilationism","Neutral","Polyculturalism","Multiculturalism","Multiculturalism"],
+    "ko": ["단일문화주의","원주민주의","동화주의","중도적","다문화주의","다문화주의","다문화주의"],
+    "ru": ["Монокультурность", "нативизм", "ассимиляционизм", "Нейтральный", "поликультурность", "мультикультурализм", "мультикультурализм"],
+    "cn": ["单一文化主义","本土主义","同化主义","中立","多元文化主义","多元文化主义","多元文化主义"],
+    "ja": ["単一文化主義","反移民","同化主義","中立","多文化主義","多文化主義","多文化主義"]
 },
   
 "result-back": {
     "en": "Back",
-    "de": "Zurück",
     "ko": "뒤로",
     "ru": "Назад",
     "cn": "返回",
