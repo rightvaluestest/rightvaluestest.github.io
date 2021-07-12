@@ -34,6 +34,8 @@
 <button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
 <button class="small_button_off" id="back_button_off">Back</button>
+	
+<button onclick="changeLang()">test</button>
 <br>
 
 
@@ -114,6 +116,11 @@
 			+ `&f=${calc_score(f,max_f)}`
 			+ `&g=${calc_score(g,max_g)}`
     }
+	
+    function myFunction() {
+  	let str = document.getElementById("question-text").innerHTML; 
+  	document.getElementById("question-text").innerHTML = str.replace("Homosexuality is against my personal moral values.", "testing");;
+	}
 </script>
 </body>
 </html>
