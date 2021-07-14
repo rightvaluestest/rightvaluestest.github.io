@@ -23,6 +23,8 @@
 <script type="application/javascript" src="ideologies.js"> </script>
 </head>
 <body>
+
+<div id="capture">
 <h1>RightValues</h1>
 <hr> <h1>Results</h1> <br>
 
@@ -84,11 +86,12 @@
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
 <p class="ideodesc"><span class="weight-300" id="ideodesc-label"></span></h3>
 <p><br>You can send these results by copying and pasting the URL at the top of the page.</p>
-<hr>	
+<br><hr><br>	
 <h2>Next closest matches</h2> 
 <p>With your closest match as 100% and farthest as 0%, here is how closely you matched the other ideologies.</p>
 <dl id="next-matches"></dl>
 </div>
+	</div>
 
 <div class="element">
 <h2>I don't like my scores!</h2>
@@ -96,11 +99,19 @@
 </div> <br>
 	
 <canvas id="banner" width=800 height=1000 style="font-family:Montserrat"></canvas>
+<button class="button" onclick="doCapture();" style="font-size:18pt;">Capture</button>
 <button class="button" onclick="location.href='index.html';" style="font-size:18pt;">Back</button>
 
 <!-- JavaScript for the test itself -->
 <script type="application/javascript" src="i18n.js"></script>
+<script src=html2canvas.js></script>
 <script>
+	
+    function doCapture() {
+	html2canvas(document.getElementbyId("capture")).then( function (canvas) {
+	console.log(canvas.toDataURL("image/png", 0.7));
+    });
+	
     function getQueryVariable(variable)
     {
            var query = window.location.search.substring(1)
@@ -146,16 +157,16 @@
     stateown  = getQueryVariable("b")
     central   = getQueryVariable("c")
     world  = getQueryVariable("d")
-	religious  = getQueryVariable("e")
-	economy  = getQueryVariable("f")
-	race  = getQueryVariable("g")
+   religious  = getQueryVariable("e")
+   economy  = getQueryVariable("f")
+   race  = getQueryVariable("g")
     preserve    = (100 - reform).toFixed(1)
     market     = (100 - stateown   ).toFixed(1)
     decentral = (100 - central ).toFixed(1)
     nation = (100 - world).toFixed(1)
-	secular = (100 - religious).toFixed(1)
-	nature = (100 - economy).toFixed(1)
-	equality = (100 - race).toFixed(1)
+   secular = (100 - religious).toFixed(1)
+   nature = (100 - economy).toFixed(1)
+   equality = (100 - race).toFixed(1)
 
     setBarValue("reform", reform)
     setBarValue("preserve", preserve)
@@ -165,36 +176,37 @@
     setBarValue("decentral", decentral)
     setBarValue("nation", nation)
     setBarValue("world", world)
-	setBarValue("religious", religious)
+    setBarValue("religious", religious)
     setBarValue("secular", secular)
-	setBarValue("economy", economy)
+    setBarValue("economy", economy)
     setBarValue("nature", nature)
-	setBarValue("race", race)
+    setBarValue("race", race)
     setBarValue("equality", equality)
 
     document.getElementById("a-label").innerHTML = setLabel(reform, i18n.getString("result-a-label"))
     document.getElementById("b-label").innerHTML = setLabel(stateown, i18n.getString("result-b-label"))
     document.getElementById("c-label").innerHTML = setLabel(central, i18n.getString("result-c-label"))
     document.getElementById("d-label").innerHTML = setLabel(world, i18n.getString("result-d-label"))
-	document.getElementById("e-label").innerHTML = setLabel(religious, i18n.getString("result-e-label"))
-	document.getElementById("f-label").innerHTML = setLabel(economy, i18n.getString("result-f-label"))
-	document.getElementById("g-label").innerHTML = setLabel(race, i18n.getString("result-g-label"))
+    document.getElementById("e-label").innerHTML = setLabel(religious, i18n.getString("result-e-label"))
+    document.getElementById("f-label").innerHTML = setLabel(economy, i18n.getString("result-f-label"))
+    document.getElementById("g-label").innerHTML = setLabel(race, i18n.getString("result-g-label"))
 
     ideology = ""
-	ideodesc = ""
+    ideodesc = ""
     ideodist = Infinity
     ideologyToDistance = {};
     sortedIdeologies = [];
     ideologyIndexAndDistance = [];
+	
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
         dist += Math.pow(Math.abs(ideologies[i].stats.a - reform), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.c - central), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.b - stateown), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.d - world), 2)
-		dist += Math.pow(Math.abs(ideologies[i].stats.e - religious), 2)
-		dist += Math.pow(Math.abs(ideologies[i].stats.f - economy), 2)
-		dist += Math.pow(Math.abs(ideologies[i].stats.g - race), 2)
+	dist += Math.pow(Math.abs(ideologies[i].stats.e - religious), 2)
+	dist += Math.pow(Math.abs(ideologies[i].stats.f - economy), 2)
+	dist += Math.pow(Math.abs(ideologies[i].stats.g - race), 2)
 
         ideologyToDistance[ideologies[i].name] = dist;
         ideologyIndexAndDistance.push({index: i, distance: dist});
@@ -257,15 +269,15 @@
         ctx.drawImage(img, 20, 530, 100, 100)
         img = document.getElementById("img-nation")
         ctx.drawImage(img, 680, 530, 100, 100)
-		img = document.getElementById("img-religious")
+	img = document.getElementById("img-religious")
         ctx.drawImage(img, 20, 650, 100, 100)
         img = document.getElementById("img-secular")
         ctx.drawImage(img, 680, 650, 100, 100)
-		img = document.getElementById("img-economy")
+	img = document.getElementById("img-economy")
         ctx.drawImage(img, 20, 770, 100, 100)
         img = document.getElementById("img-nature")
         ctx.drawImage(img, 680, 770, 100, 100)
-		img = document.getElementById("img-race")
+	img = document.getElementById("img-race")
         ctx.drawImage(img, 20, 890, 100, 100)
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 680, 890, 100, 100)
@@ -275,9 +287,9 @@
         ctx.fillRect(120, 300, 560, 80)
         ctx.fillRect(120, 420, 560, 80)
         ctx.fillRect(120, 540, 560, 80)
-		ctx.fillRect(120, 660, 560, 80)
-		ctx.fillRect(120, 780, 560, 80)
-		ctx.fillRect(120, 900, 560, 80)
+	ctx.fillRect(120, 660, 560, 80)
+	ctx.fillRect(120, 780, 560, 80)
+	ctx.fillRect(120, 900, 560, 80)
         ctx.fillStyle="#0c5199"
         ctx.fillRect(120, 184, 5.6*reform-2, 72)
         ctx.fillStyle="#42c2f5"
