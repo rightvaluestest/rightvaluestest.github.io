@@ -19,7 +19,7 @@
 <link rel="icon" type="image/png" href="icon.png">
 <link rel="shortcut icon" type="image/png" href="icon.png">
 <meta charset="utf-8">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="application/javascript" src="ideologies.js"> </script>
 </head>
 <body>
@@ -99,7 +99,7 @@
 </div> <br>
 	
 <canvas id="banner" width=800 height=1000 style="font-family:Montserrat"></canvas>
-<button class="button" onclick="doCapture();" style="font-size:18pt;">Capture</button>
+<button class="button" onclick="doCapture()" style="font-size:18pt;">Capture</button><br>
 <button class="button" onclick="location.href='index.html';" style="font-size:18pt;">Back</button>
 
 <!-- JavaScript for the test itself -->
@@ -109,8 +109,8 @@
 	
     function doCapture() {
 	html2canvas(document.getElementbyId("capture")).then( function (canvas) {
-	console.log(canvas.toDataURL("image/png", 0.7));
-    });
+	document.body.appendChild (canvas)
+    })
 	 
 </script>
 <script>
