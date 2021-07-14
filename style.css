@@ -161,12 +161,117 @@ div.bar {
     display: block;
     width: 50%;
 }
-div.text-wrapper {
+div.text-wrapper-reform {
     font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
-    color: #dddddd;
+    color: #b4a7d6;
     display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-preserve {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #45818e;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-stateown {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #626e78;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-market {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #9fc5e8;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-central {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #8e7cc3;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-decentral {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #3c78d8;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-world {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #3d85c6;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-nation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #073763;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-religious {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #6fa8dc;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-secular {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #1155cc;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-economy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #7e7791;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-nature {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #5e7db2;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-race {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #a2c4c9;
+    display: inline-block;
+    font-weight: bold;
+}
+div.text-wrapper-equality {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #327785;
+    display: inline-block;
+    font-weight: bold;
 }
 div.reform {
     background-color: #d9d2e9;
