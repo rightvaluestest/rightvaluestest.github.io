@@ -109,9 +109,12 @@
 <script>
 	
     function doCapture() {
-	html2canvas(document.getElementbyId('capture')).then( function (canvas) {
-	document.body.appendChild (canvas)
-    })
+ 	console.log('test');
+  	html2canvas(document.getElementById('capture'), {
+    	onrendered: function(canvas) {
+      	document.body.appendChild(canvas);
+    	},
+  	});
     }
 	
     function getQueryVariable(variable)
