@@ -294,12 +294,12 @@ div.market {
     border-left-style: solid;
 }
 div.central {
-    background-color: #6d9eeb;
+    background-color: #b4a7d6;
     text-align: left;
     border-right-style: solid;
 }
 div.decentral {
-    background-color: #b4a7d6;
+    background-color: #6d9eeb;
     text-align: right;
     border-left-style: solid;
 }
