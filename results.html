@@ -99,7 +99,7 @@
     <p>Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href="https://forms.gle/Puc4sjaSQqvwNu6q8">short form</a>.</p>
 </div> <br>
 	
-<button class="button" onclick="doCapture()" style="font-size:18pt;">Capture</button><br>
+<button class="button" onclick="doCapture()" style="font-size:18pt;">Generate Image</button><br>
 <button class="button" onclick="location.href='index.html';" style="font-size:18pt;">Back</button>
 
 <!-- JavaScript for the test itself -->
@@ -160,16 +160,16 @@
     stateown  = getQueryVariable("b")
     central   = getQueryVariable("c")
     world  = getQueryVariable("d")
-   religious  = getQueryVariable("e")
-   economy  = getQueryVariable("f")
-   race  = getQueryVariable("g")
+    religious  = getQueryVariable("e")
+    economy  = getQueryVariable("f")
+    race  = getQueryVariable("g")
     preserve    = (100 - reform).toFixed(1)
     market     = (100 - stateown   ).toFixed(1)
     decentral = (100 - central ).toFixed(1)
     nation = (100 - world).toFixed(1)
-   secular = (100 - religious).toFixed(1)
-   nature = (100 - economy).toFixed(1)
-   equality = (100 - race).toFixed(1)
+    secular = (100 - religious).toFixed(1)
+    nature = (100 - economy).toFixed(1)
+    equality = (100 - race).toFixed(1)
 
     setBarValue("reform", reform)
     setBarValue("preserve", preserve)
@@ -241,124 +241,6 @@
         return "<dt>" + ideology + ": " + relativeDistancePercent + "%</dt>" +
             "<dd>" + ideodesc + "</dd>";
     }).join("\n");
-
-    function createImage(src, x, y, w, h) {
-        img = new Image ()
-        img.src = src
-        img.onLoad = function() {
-            ctx.drawImage(img, x, y, w, h)
-        }
-    }
-
-    window.onload = function() {
-        var c = document.getElementById("banner")
-        var ctx = c.getContext("2d")
-        ctx.fillStyle = "#EEEEEE"
-        ctx.fillRect(0,0,800,1000)
-
-        img = document.getElementById("img-reform")
-        ctx.drawImage(img, 20, 170, 100, 100);
-        img = document.getElementById("img-preserve")
-        ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-stateown")
-        ctx.drawImage(img, 20, 290, 100, 100)
-        img = document.getElementById("img-market")
-        ctx.drawImage(img, 680, 290, 100, 100)
-        img = document.getElementById("img-central")
-        ctx.drawImage(img, 20, 410, 100, 100)
-        img = document.getElementById("img-decentral")
-        ctx.drawImage(img, 680, 410, 100, 100)
-        img = document.getElementById("img-world")
-        ctx.drawImage(img, 20, 530, 100, 100)
-        img = document.getElementById("img-nation")
-        ctx.drawImage(img, 680, 530, 100, 100)
-	img = document.getElementById("img-religious")
-        ctx.drawImage(img, 20, 650, 100, 100)
-        img = document.getElementById("img-secular")
-        ctx.drawImage(img, 680, 650, 100, 100)
-	img = document.getElementById("img-economy")
-        ctx.drawImage(img, 20, 770, 100, 100)
-        img = document.getElementById("img-nature")
-        ctx.drawImage(img, 680, 770, 100, 100)
-	img = document.getElementById("img-race")
-        ctx.drawImage(img, 20, 890, 100, 100)
-        img = document.getElementById("img-equality")
-        ctx.drawImage(img, 680, 890, 100, 100)
-
-        ctx.fillStyle="#222222"
-        ctx.fillRect(120, 180, 560, 80)
-        ctx.fillRect(120, 300, 560, 80)
-        ctx.fillRect(120, 420, 560, 80)
-        ctx.fillRect(120, 540, 560, 80)
-	ctx.fillRect(120, 660, 560, 80)
-	ctx.fillRect(120, 780, 560, 80)
-	ctx.fillRect(120, 900, 560, 80)
-        ctx.fillStyle="#0c5199"
-        ctx.fillRect(120, 184, 5.6*reform-2, 72)
-        ctx.fillStyle="#42c2f5"
-        ctx.fillRect(682-5.6*preserve, 184, 5.6*preserve-2, 72)
-        ctx.fillStyle="#174f8a"
-        ctx.fillRect(120, 304, 5.6*stateown-2, 72)
-        ctx.fillStyle="#c7c406"
-        ctx.fillRect(682-5.6*market, 304, 5.6*market-2, 72)
-        ctx.fillStyle="#9403fc"
-        ctx.fillRect(120, 424, 5.6*central-2, 72)
-        ctx.fillStyle="#1fa3c4"
-        ctx.fillRect(682-5.6*decentral, 424, 5.6*decentral-2, 72)
-        ctx.fillStyle="#90bcd6"
-        ctx.fillRect(120, 544, 5.6*world-2, 72)
-        ctx.fillStyle="#7F3300"
-        ctx.fillRect(682-5.6*nation, 544, 5.6*nation-2, 72)
-	ctx.fillStyle="#d48817"
-        ctx.fillRect(120, 664, 5.6*religious-2, 72)
-        ctx.fillStyle="#d1ccae"
-        ctx.fillRect(682-5.6*secular, 664, 5.6*secular-2, 72)
-	ctx.fillStyle="#389cd1"
-        ctx.fillRect(120, 784, 5.6*economy-2, 72)
-        ctx.fillStyle="#c4b631"
-        ctx.fillRect(682-5.6*nature, 784, 5.6*nature-2, 72)
-	ctx.fillStyle="#27577A"
-        ctx.fillRect(120, 904, 5.6*race-2, 72)
-        ctx.fillStyle="#C4A717"
-        ctx.fillRect(682-5.6*equality, 904, 5.6*equality-2, 72)
-        ctx.fillStyle="#222222"
-        ctx.font="700 80px Montserrat"
-        ctx.textAlign="left"
-        ctx.fillText("RightValues", 20, 90)
-        ctx.font="50px Montserrat"
-        ctx.fillText(getIdeologyNameByIndex(closestMatch.index), 20, 140)
-
-		ctx.fillStyle="#dddddd"
-        ctx.textAlign="left"
-        if (reform  > 30) {ctx.fillText(reform + "%", 130, 237.5)}
-        if (stateown     > 30) {ctx.fillText(stateown + "%", 130, 357.5)}
-        if (central   > 30) {ctx.fillText(central + "%", 130, 477.5)}
-        if (world > 30) {ctx.fillText(world + "%", 130, 597.5)}
-		if (religious > 30) {ctx.fillText(religious + "%", 130, 717.5)}
-		if (economy > 30) {ctx.fillText(economy + "%", 130, 837.5)}
-		if (race > 30) {ctx.fillText(race + "%", 130, 957.5)}
-        ctx.textAlign="right"
-        if (preserve    > 30) {ctx.fillText(preserve + "%", 670, 237.5)}
-        if (market     > 30) {ctx.fillText(market + "%", 670, 357.5)}
-        if (decentral > 30) {ctx.fillText(decentral + "%", 670, 477.5)}
-        if (nation  > 30) {ctx.fillText(nation + "%", 670, 597.5)}
-		if (secular  > 30) {ctx.fillText(secular + "%", 670, 717.5)}
-		if (nature  > 30) {ctx.fillText(nature + "%", 670, 837.5)}
-		if (equality  > 30) {ctx.fillText(equality + "%", 670, 957.5)}
-		
-		ctx.fillStyle="#222222"
-        ctx.font="300 30px Montserrat"
-        ctx.fillText("rightvalues.github.io", 780, 60)
-        ctx.textAlign="center"
-        ctx.fillText("" + document.getElementById("a-label").innerHTML, 400, 175)
-        ctx.fillText("" + document.getElementById("b-label").innerHTML, 400, 295)
-        ctx.fillText("" + document.getElementById("c-label").innerHTML, 400, 415)
-        ctx.fillText("" + document.getElementById("d-label").innerHTML, 400, 535)
-		ctx.fillText("" + document.getElementById("e-label").innerHTML, 400, 655)
-		ctx.fillText("" + document.getElementById("f-label").innerHTML, 400, 775)
-		ctx.fillText("" + document.getElementById("g-label").innerHTML, 400, 895)
-    }
-	
 	
     </script>
 </body>
