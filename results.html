@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,14 +20,13 @@
 <link rel="shortcut icon" type="image/png" href="icon.png">
 <meta charset="utf-8">
 
-<!-- <script type="application/javascript" src="quizideologies.js"> </script> -->
+<script type="application/javascript" src="ideologies.js"> </script>
 </head>
 <body>
-<script src="quiz/ideologies.js"> </script>
 <h1>RightValues</h1>
 <hr>
 <h1 data-i18n="result-h1">Results</h1>
-<button class="button" onclick="changeLang() ;" style="font-size:18pt;">Test</button>
+
 <h2>
 <span class="weight-300" id="a-label"></span></h2>
 <div class="axis">
@@ -343,10 +343,7 @@
 		ctx.fillText("" + document.getElementById("g-label").innerHTML, 400, 895)
     }
 	
-    function changeLang() {
-      let str = document.getElementById("demo").innerHTML; 
-      document.getElementById("demo").innerHTML = str.replace("Conservatism", "Test");;
+	
     </script>
-	<script href="https://rightvaluestest.github.io/quizideologies.js"></script>
 </body>
 </html>
