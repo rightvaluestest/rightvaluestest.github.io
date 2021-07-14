@@ -1,5 +1,5 @@
 html {
-    background-color: #bbbbbb;
+    background: linear-gradient(180deg, rgba(100,149,237,1) 0%, rgba(240,230,140,1) 100%); 
     padding: 0px;
 }
 body {
@@ -7,11 +7,16 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #dddddd;
-    border-color: #eeeeee;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-width: 20px;
+    background-color: rgba(229, 229, 229, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.element {
+    width: 85%;
+    padding: 16pt;
+    background-color: #EEEEEE;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+    margin: auto;
 }
 p {
     color: #444444;
