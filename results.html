@@ -108,13 +108,10 @@
 <script>
 	
     function doCapture() {
- 	console.log('test');
   	html2canvas(document.getElementById('capture'), {
     	onrendered: function(canvas) {
       	document.body.appendChild(canvas);
     	},
-	width: 800,
- 	height: 1000
   	});
     }
 	
