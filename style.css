@@ -305,12 +305,12 @@ div.decentral {
 }
 div.world {
     background-color: #6fa8dc;
-    text-align: right;
+    text-align: left;
     border-left-style: solid;
 }
 div.nation {
     background-color: #0b5394;
-    text-align: left;
+    text-align: right;
     border-right-style: solid;
 }
 div.religious {
