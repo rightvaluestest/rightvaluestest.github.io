@@ -55,7 +55,7 @@ const i18n = {
     "lang": userLang,
 
 // titles
-"result-h1": {
+"title-results": {
     "en": "RightValues Results",
     "ko": "RightValues 결과",
     "ru": "RightValues Результаты",
