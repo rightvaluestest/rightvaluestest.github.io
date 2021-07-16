@@ -140,7 +140,7 @@ questions = [
 "i18n":{"ko": "국가는 폐지되어야 합니다.",
 	"ru": "",
 	"cn": "政府应该被废除。",
-	"ja": ""},
+	"ja": "政府は廃止されるべき"},
 "effect": { "a": 0, "b": 0, "c": -5, "d": 0, "e": 0, "f": 0, "g": 0 } },
 	
 { "question": "I would rather have a constitutional monarchy than an absolute monarchy.",
