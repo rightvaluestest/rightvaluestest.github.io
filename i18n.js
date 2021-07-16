@@ -281,6 +281,9 @@ const i18n = {
     "cn": "返回",
     "ja": "戻る"
 },
+	
+//Images?	
+
 }
 
 langElements.forEach((element) =>  {
