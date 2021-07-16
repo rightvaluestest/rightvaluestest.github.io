@@ -53,8 +53,17 @@ const i18n = {
         return i18n[name]["en"]  
     },
     "lang": userLang,
-    
-	// quiz.html
+
+// titles
+"title-results": {
+    "en": "RightValues Results",
+    "ko": "RightValues 퀴즈 결과 ",
+    "ru": "полученные результаты",
+    "cn": "RightValues 测试结果",
+    "ja": "RightValues 診断結果"
+},
+	
+// quiz.html
 "quiz-loading": {
     "en": "Loading…",
     "ko": "로딩중...",
