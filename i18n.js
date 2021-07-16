@@ -55,11 +55,11 @@ const i18n = {
     "lang": userLang,
 
 // titles
-"title-results": {
+"result-h1": {
     "en": "RightValues Results",
-    "ko": "RightValues 퀴즈 결과 ",
-    "ru": "полученные результаты",
-    "cn": "RightValues 测试结果",
+    "ko": "RightValues 결과",
+    "ru": "RightValues Результаты",
+    "cn": "RightValues 结果",
     "ja": "RightValues 診断結果"
 },
 	
@@ -161,7 +161,7 @@ const i18n = {
     "ja": "やっぱりやめる"
 },
   
-    // results.html
+// results.html
 "result-h1": {
     "en": "Results",
     "ko": "결과",
