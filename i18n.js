@@ -282,7 +282,118 @@ const i18n = {
     "ja": "戻る"
 },
 	
-//Images?	
+//Images
+"img-reform": {
+    "en": "<img id='img-reform' src='value_images/reform.png' height='128pt'/>",
+    "ko": "<img id='img-reform' src='value_images/ko/reform.png' height='128pt'/>",
+    "ru": "<img id='img-reform' src='value_images/reform.png' height='128pt'/>",
+    "cn": "<img id='img-reform' src='value_images/cn/reform.png' height='128pt'/>",
+    "ja": "<img id='img-reform' src='value_images/reform.png' height='128pt'/>"
+},
+	
+"img-preserve": {
+    "en": "<img id='img-preserve' src='value_images/preserve.png' height='128pt'/>",
+    "ko": "<img id='img-preserve' src='value_images/ko/preserve.png' height='128pt'/>",
+    "ru": "<img id='img-preserve' src='value_images/preserve.png' height='128pt'/>",
+    "cn": "<img id='img-preserve' src='value_images/cn/preserve.png' height='128pt'/>",
+    "ja": "<img id='img-preserve' src='value_images/preserve.png' height='128pt'/>"
+},
+	
+"img-stateown": {
+    "en": "<img id='img-stateown' src='value_images/stateown.png' height='128pt'/>",
+    "ko": "<img id='img-stateown' src='value_images/ko/stateown.png' height='128pt'/>",
+    "ru": "<img id='img-stateown' src='value_images/stateown.png' height='128pt'/>",
+    "cn": "<img id='img-stateown' src='value_images/cn/stateown.png' height='128pt'/>",
+    "ja": "<img id='img-stateown' src='value_images/stateown.png' height='128pt'/>"
+},
+	
+"img-market": {
+    "en": "<img id='img-market' src='value_images/market.png' height='128pt'/>",
+    "ko": "<img id='img-market' src='value_images/ko/market.png' height='128pt'/>",
+    "ru": "<img id='img-market' src='value_images/market.png' height='128pt'/>",
+    "cn": "<img id='img-market' src='value_images/cn/market.png' height='128pt'/>",
+    "ja": "<img id='img-market' src='value_images/market.png' height='128pt'/>"
+},
+	
+"img-central": {
+    "en": "<img id='img-central' src='value_images/central.png' height='128pt'/>",
+    "ko": "<img id='img-central' src='value_images/ko/central.png' height='128pt'/>",
+    "ru": "<img id='img-central' src='value_images/central.png' height='128pt'/>",
+    "cn": "<img id='img-central' src='value_images/cn/central.png' height='128pt'/>",
+    "ja": "<img id='img-central' src='value_images/central.png' height='128pt'/>"
+},
+	
+"img-decentral": {
+    "en": "<img id='img-decentral' src='value_images/decentral.png' height='128pt'/>",
+    "ko": "<img id='img-decentral' src='value_images/ko/decentral.png' height='128pt'/>",
+    "ru": "<img id='img-decentral' src='value_images/decentral.png' height='128pt'/>",
+    "cn": "<img id='img-decentral' src='value_images/cn/decentral.png' height='128pt'/>",
+    "ja": "<img id='img-decentral' src='value_images/decentral.png' height='128pt'/>"
+},
+	
+"img-world": {
+    "en": "<img id='img-world' src='value_images/world.png' height='128pt'/>",
+    "ko": "<img id='img-world' src='value_images/ko/world.png' height='128pt'/>",
+    "ru": "<img id='img-world' src='value_images/world.png' height='128pt'/>",
+    "cn": "<img id='img-world' src='value_images/cn/world.png' height='128pt'/>",
+    "ja": "<img id='img-world' src='value_images/world.png' height='128pt'/>"
+},
+	
+"img-nation": {
+    "en": "<img id='img-nation' src='value_images/nation.png' height='128pt'/>",
+    "ko": "<img id='img-nation' src='value_images/ko/nation.png' height='128pt'/>",
+    "ru": "<img id='img-nation' src='value_images/nation.png' height='128pt'/>",
+    "cn": "<img id='img-nation' src='value_images/cn/nation.png' height='128pt'/>",
+    "ja": "<img id='img-nation' src='value_images/nation.png' height='128pt'/>"
+},
+	
+"img-religious": {
+    "en": "<img id='img-religious' src='value_images/religious.png' height='128pt'/>",
+    "ko": "<img id='img-religious' src='value_images/ko/religious.png' height='128pt'/>",
+    "ru": "<img id='img-religious' src='value_images/religious.png' height='128pt'/>",
+    "cn": "<img id='img-religious' src='value_images/cn/religious.png' height='128pt'/>",
+    "ja": "<img id='img-religious' src='value_images/religious.png' height='128pt'/>"
+},
+	
+"img-secular": {
+    "en": "<img id='img-secular' src='value_images/secular.png' height='128pt'/>",
+    "ko": "<img id='img-secular' src='value_images/ko/secular.png' height='128pt'/>",
+    "ru": "<img id='img-secular' src='value_images/secular.png' height='128pt'/>",
+    "cn": "<img id='img-secular' src='value_images/cn/secular.png' height='128pt'/>",
+    "ja": "<img id='img-secular' src='value_images/secular.png' height='128pt'/>"
+},
+	
+"img-economy": {
+    "en": "<img id='img-economy' src='value_images/economy.png' height='128pt'/>",
+    "ko": "<img id='img-economy' src='value_images/ko/economy.png' height='128pt'/>",
+    "ru": "<img id='img-economy' src='value_images/economy.png' height='128pt'/>",
+    "cn": "<img id='img-economy' src='value_images/cn/economy.png' height='128pt'/>",
+    "ja": "<img id='img-economy' src='value_images/economy.png' height='128pt'/>"
+},
+	
+"img-nature": {
+    "en": "<img id='img-nature' src='value_images/nature.png' height='128pt'/>",
+    "ko": "<img id='img-nature' src='value_images/ko/nature.png' height='128pt'/>",
+    "ru": "<img id='img-nature' src='value_images/nature.png' height='128pt'/>",
+    "cn": "<img id='img-nature' src='value_images/cn/nature.png' height='128pt'/>",
+    "ja": "<img id='img-nature' src='value_images/nature.png' height='128pt'/>"
+},
+	
+"img-race": {
+    "en": "<img id='img-race' src='value_images/race.png' height='128pt'/>",
+    "ko": "<img id='img-race' src='value_images/ko/race.png' height='128pt'/>",
+    "ru": "<img id='img-race' src='value_images/race.png' height='128pt'/>",
+    "cn": "<img id='img-race' src='value_images/cn/race.png' height='128pt'/>",
+    "ja": "<img id='img-race' src='value_images/race.png' height='128pt'/>"
+},
+	
+"img-equality": {
+    "en": "<img id='img-equality' src='value_images/equality.png' height='128pt'/>",
+    "ko": "<img id='img-equality' src='value_images/ko/equality.png' height='128pt'/>",
+    "ru": "<img id='img-equality' src='value_images/equality.png' height='128pt'/>",
+    "cn": "<img id='img-equality' src='value_images/cn/equality.png' height='128pt'/>",
+    "ja": "<img id='img-equality' src='value_images/equality.png' height='128pt'/>"
+},
 
 }
 
