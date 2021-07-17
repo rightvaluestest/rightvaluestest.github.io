@@ -63,7 +63,7 @@ const i18n = {
     "ja": "RightValues 診断結果"
 },
 	
-"title-intructions": {
+"title-instructions": {
     "en": "RightValues Instructions",
     "ko": "RightValues 훈령",
     "ru": "RightValues инструкции",
