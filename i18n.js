@@ -63,6 +63,22 @@ const i18n = {
     "ja": "RightValues 診断結果"
 },
 	
+"title-intructions": {
+    "en": "RightValues Instructions",
+    "ko": "RightValues 훈령",
+    "ru": "RightValues инструкции",
+    "cn": "RightValues 指示",
+    "ja": "RightValues 指示"
+},
+	
+"title-quiz": {
+    "en": "RightValues Quiz",
+    "ko": "RightValues 테스트",
+    "ru": "RightValues викторина",
+    "cn": "RightValues 测试",
+    "ja": "RightValues 診断"
+},
+	
 // quiz.html
 "quiz-loading": {
     "en": "Loading…",
