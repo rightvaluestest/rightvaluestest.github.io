@@ -414,7 +414,7 @@ questions = [
 	
 { "question": "Currently, people are too paranoid about AI.",
 "i18n":{"ko": "현재 사람들은 AI에 대해 너무 편집증적입니다. ",
-	"ru": "urrently, people are too paranoid about AI."",
+	"ru": "Currently, people are too paranoid about AI.",
 	"cn": "我们应该加快技术进步。",
 	"ja": "現在、人々はAIに対してあまりにも偏執的である"},
 "effect": { "a": 0, "b": 0, "c": 0, "d": 0, "e": 0, "f": 5, "g": 0 } },
