@@ -154,7 +154,7 @@ const i18n = {
 },
   
 "inst-p": {
-    "en": "You will be presented with a series of statements. For each one, click the button with your opinion on it.",
+    "en": "You will be presented with a series of statements. For each one, click the button with your opinion on it. There is a langauge picker in the top right if you wish to use this site in another language.",
     "ko": "당신은 일련의 질문들을 받게 될 것입니다. 해당되는 답변을 클릭하세요.",
     "ru": "Вам будет предложен ряд утверждений. Для каждого нажмите на кнопку с вашим мнением о нём.",
     "cn": "你将会看到一系列观点。请点击对应按钮选择你对于每个观点的看法。",
