@@ -1,13 +1,16 @@
-const ideologies = {
-    'Fascism': {
-            a: 20,
-            b: 85,
-            c: 85,
-            d: 10,
-            e: 0,
-            f: 50,
-            g: 80
-    },
+ideologies = [
+{ "name": "Marxism-Leninism",
+  "desc": "Marxism-Leninism is a form of Marxism that was forged in the 20th century in the Soviet Union. Marxist-Leninists heavily favor the use of a communist political party as the platform for both achieving revolution and establishing socialism. Many Marxist-Leninists are somewhat more nationalistic and patriotic than many other Marxists, and may favor industrial progress over environmental goals.",
+  "i18n": { 
+    "ko": { "name": "마르크스-레닌주의", 
+            "desc": "마르크스-레닌주의는 소비에트 연방에서 20 세기에 형성된 마르크스주의의 한 형태입니다. 마르크스-레닌주의자들은 혁명을 달성하고 사회주의를 확립하기 위한 발판으로 공산당을 이용하는 것을 매우 선호합니다. 많은 마르크스주의-레닌주의자들은 다른 많은 마르크스주의자들보다 다소 국가주의적이고 애국심이 강하며, 환경보다 산업 발전을 선호할 수 있습니다." },
+    "ru": { "name": "Марксизм-ленинизм",
+            "desc": "Марксизм-ленинизм — это форма марксизма, которая была сформирована в 20 веке в Советском Союзе. Марксисты-ленинцы в значительной степени выступают за использование коммунистической политической партии в качестве платформы как для достижения революции, так и для утверждения социализма. Многие марксисты-ленинцы несколько более националистичны и патриотичны, чем многие другие марксисты, и могут отдавать предпочтение промышленному прогрессу перед экологическими целями." },
+    "cn": { "name": "马克思列宁主义", 
+            "desc": "马克思列宁主义（Marxism-Leninism，简称马列主义）是20世纪在苏联形成的马克思主义的一种形式。马列主义者非常赞成把共产主义政党作为实现革命和建立社会主义的平台。许多马列主义者比其他马克思主义者更具有民族主义和爱国主义色彩，而且可能更倾向于工业进步而不是环保目标。" },
+    "ja": { "name": "Marksizam-Lenjinizam", 
+            "desc": "Marksizam-lenjinizam je forma marksizma stvorena u XX vijeku u Sovjetskom Savezu. Marksisti-lenjinisti snažno podržavaju komunističke političke partije kao platforme za postizanje revolucije i osnivanje socijalizma. Mnogi marksisti-lenjinisti su donekle više nacionalistički od drugih marksista, i ponekad teže industrijskom napretku prije nego očuvanju prirodne sredine." }},
+"stats": { "a": 20, "b": 85, "c": 85, "d": 10, "e": 0, "f": 50, "g": 80 }},
     
     'Nazism': {
             a: 0
