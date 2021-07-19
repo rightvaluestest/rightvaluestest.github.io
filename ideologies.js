@@ -1,6 +1,6 @@
 ideologies = [
-{ "name": "Marxism-Leninism",
-  "desc": "Marxism-Leninism is a form of Marxism that was forged in the 20th century in the Soviet Union. Marxist-Leninists heavily favor the use of a communist political party as the platform for both achieving revolution and establishing socialism. Many Marxist-Leninists are somewhat more nationalistic and patriotic than many other Marxists, and may favor industrial progress over environmental goals.",
+{ "name": "<a href='https://en.wikipedia.org/wiki/Fascism'> Marxism-Leninism </a>",
+  "desc": "Fascism is a form of authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition, and strong regimentation of society and of the economy, which came to prominence in early 20th-century Europe.",
   "i18n": { 
     "ko": { "name": "마르크스-레닌주의", 
             "desc": "마르크스-레닌주의는 소비에트 연방에서 20 세기에 형성된 마르크스주의의 한 형태입니다. 마르크스-레닌주의자들은 혁명을 달성하고 사회주의를 확립하기 위한 발판으로 공산당을 이용하는 것을 매우 선호합니다. 많은 마르크스주의-레닌주의자들은 다른 많은 마르크스주의자들보다 다소 국가주의적이고 애국심이 강하며, 환경보다 산업 발전을 선호할 수 있습니다." },
