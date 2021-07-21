@@ -408,3 +408,8 @@ canvas {
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
