@@ -149,7 +149,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 30, "b": 30 "c": 20, "d": 40, "e": 30, "f": 60, "g": 50 }}, 
+"stats": { "a": 30, "b": 30, "c": 20, "d": 40, "e": 30, "f": 60, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Geolibertarianism'>Geolibertarianism </a>",
   "desc": "Geolibertarianism is a political and economic ideology that integrates libertarianism with Georgism, and holds that although people should own the value they produce themselves, all land should belong equally to all members of society. It does not consider land as legitimate private property.",
@@ -162,7 +162,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 50, "b": 60 "c": 20, "d": 40, "e": 50, "f": 60, "g": 50 }},
+"stats": { "a": 50, "b": 60, "c": 20, "d": 40, "e": 50, "f": 60, "g": 50 }},
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Neoliberalism'> Neoliberalism </a>",
   "desc": "Neoliberalism is generally associated with policies of economic liberalization, including privatization, deregulation, globalization, free trade, and tricke-down economics, and served as the opposition of Keynesian Economics.",
@@ -175,7 +175,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 60, "b": 30 "c": 50, "d": 50, "e": 30, "f": 70, "g": 50 }}, 
+"stats": { "a": 60, "b": 30, "c": 50, "d": 50, "e": 30, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Classical_Liberalism'> Classical Liberalism </a>",
   "desc": "Classical liberalism is a political ideology and a branch of liberalism that advocates civil liberties under the rule of law with an emphasis on economic freedom. Highly influenced by the Enlightenment, it believes in a limited government that protects individual rights, and limited public services and welfare.",
@@ -188,7 +188,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 40, "b": 30 "c": 40, "d": 40, "e": 60, "f": 50, "g": 50 }}, 
+"stats": { "a": 40, "b": 30, "c": 40, "d": 40, "e": 60, "f": 50, "g": 50 }}, 
 
 
 //Traditionalism
@@ -230,7 +230,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 60, "b": 50 "c": 50, "d": 50, "e": 50, "f": 50, "g": 50 }}, 
+"stats": { "a": 60, "b": 50, "c": 50, "d": 50, "e": 50, "f": 50, "g": 50 }}, 
 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Reactionary'> Reactionary Conservatism </a>",
@@ -244,7 +244,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 10, "b": 20 "c": 80, "d": 70, "e": 80, "f": 50, "g": 50 }}, 
+"stats": { "a": 10, "b": 20, "c": 80, "d": 70, "e": 80, "f": 50, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Paleoconservatism'> Paleoconservatism </a>",
   "desc": "Paleoconservatism is a political philosophy and variety of conservatism in the United States stressing nationalism, Christian ethics, regionalism, and traditionalist conservatism. Their views overlap with the Old Right and Right-Wing Populism.",
@@ -257,7 +257,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 25, "b": 40 "c": 50, "d": 60, "e": 60, "f": 40, "g": 50 }}, 
+"stats": { "a": 25, "b": 40, "c": 50, "d": 60, "e": 60, "f": 40, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Right-Wing_Populism'> Right-Wing Populism </a>",
   "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
@@ -270,7 +270,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 30, "b": 30 "c": 40, "d": 70, "e":55, "f": 50, "g": 50 }}, 
+"stats": { "a": 30, "b": 30, "c": 40, "d": 70, "e":55, "f": 50, "g": 50 }}, 
 
 
 //Others
@@ -286,7 +286,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 80, "b": 10 "c": 10, "d": 30, "e": 50, "f": 70, "g": 50 }}, 
+"stats": { "a": 80, "b": 10, "c": 10, "d": 30, "e": 50, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Civic_Nationalism'> Civic Nationalism </a>",
   "desc": "Civic Nationalism is a form of nationalism identified by political philosophers who believe in an inclusive form of nationalism that adheres to traditional liberal values of freedom, tolerance, equality, and individual rights.",
@@ -299,7 +299,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 60, "b": 30 "c": 50, "d": 50, "e": 55, "f": 50, "g": 50 }}, 
+"stats": { "a": 60, "b": 30, "c": 50, "d": 50, "e": 55, "f": 50, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Progressive_Conservatism'> Progressive Conservatism </a>",
   "desc": "Civic Nationalism is a form of nationalism identified by political philosophers who believe in an inclusive form of nationalism that adheres to traditional liberal values of freedom, tolerance, equality, and individual rights.",
@@ -312,7 +312,7 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 65, "b": 30 "c": 40, "d": 50, "e": 55, "f": 70, "g": 50 }}, 
+"stats": { "a": 65, "b": 30, "c": 40, "d": 50, "e": 55, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Technocracy'> Technocracy </a>",
   "desc": "Technocracy is a system of government in which a decision-maker or makers are elected by the population or appointed on the basis of their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge.",
@@ -325,6 +325,6 @@ ideologies = [
             "desc": "" },
     "ja": { "name": "", 
             "desc": "" }},
-"stats": { "a": 80, "b": 60 "c": 70, "d": 60, "e": 20, "f": 80, "g": 50 }}
+"stats": { "a": 80, "b": 60, "c": 70, "d": 60, "e": 20, "f": 80, "g": 50 }}
 
 ];
