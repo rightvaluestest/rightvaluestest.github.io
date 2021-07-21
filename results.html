@@ -205,20 +205,20 @@
     ideologyToDistance = {};
     sortedIdeologies = [];
     ideologyIndexAndDistance = [];
-	
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
         dist += Math.pow(Math.abs(ideologies[i].stats.a - reform), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.c - central), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.b - stateown), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.d - world), 2)
-	dist += Math.pow(Math.abs(ideologies[i].stats.e - religious), 2)
-	dist += Math.pow(Math.abs(ideologies[i].stats.f - economy), 2)
-	dist += Math.pow(Math.abs(ideologies[i].stats.g - race), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.e - religious), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.f - economy), 2)
+		dist += Math.pow(Math.abs(ideologies[i].stats.g - race), 2)
 
         ideologyToDistance[ideologies[i].name] = dist;
         ideologyIndexAndDistance.push({index: i, distance: dist});
     }
+    
     
     ideologyIndexAndDistance.sort(function(a, b) {
         return a.distance - b.distance;
