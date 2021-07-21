@@ -4,8 +4,8 @@ ideologies = [
 { "name": "<a href='https://en.wikipedia.org/wiki/Fascism'> Fascism </a>",
   "desc": "Fascism is a form of authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition, and strong regimentation of society and of the economy, which came to prominence in early 20th-century Europe.",
   "i18n": { 
-    "ko": { "name": "", 
-            "desc": "" },
+    "ko": { "name": "파시즘", 
+            "desc": "파시즘은 권위주의적 초국가주의를 수용하는 독재 이데올로기의 한 형태입니다. 조반니 젠틸레는 이 사상을 창시했으며, 유명한 파시스트로는 베니토 무솔리니가 있습니다." },
     "ru": { "name": "",
             "desc": "" },
     "cn": { "name": "", 
@@ -17,8 +17,8 @@ ideologies = [
  { "name": "<a href='https://en.wikipedia.org/wiki/Nazism'> National Socialism </a>",
   "desc": "National Socialism, often shortened as Nazism, is a totalitarian ideology that has disdain for liberal democracy and the parliamentary system, and advocates for ideas like antisemitism, anti-communism, scientific racism, German nationalism, and eugenics.",
   "i18n": { 
-    "ko": { "name": "", 
-            "desc": "" },
+    "ko": { "name": "나치즘", 
+            "desc": "나치즘은 인종과 민족에 근거하여 힘과 기회를 할당하는 파시즘의 한 형태입니다. 그것은 안톤 드렉슬러가 창당하고 아돌프 히틀러가 대중화한 나치당의 이념이었습니다." },
     "ru": { "name": "",
             "desc": "" },
     "cn": { "name": "", 
@@ -33,8 +33,8 @@ ideologies = [
  { "name": "<a href='https://en.wikipedia.org/wiki/Absolute_monarchy'> Absolute Monarchism </a>",
   "desc": "Absolute Monarchism, also called Absolutism, is a form of monarchy in which the monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature, or unwritten customs. These are often hereditary monarchies.",
   "i18n": { 
-    "ko": { "name": "", 
-            "desc": "" },
+    "ko": { "name": "절대 군주제", 
+            "desc": "절대 군주제는 권위주의적 독재 이념입니다. 군주는 절대적인 권력을 가지고 있고, 지도자는 유전적으로 계승됩니다." },
     "ru": { "name": "",
             "desc": "" },
     "cn": { "name": "", 
@@ -46,8 +46,8 @@ ideologies = [
  { "name": "<a href='https://en.wikipedia.org/wiki/Constitutional_monarchy'> Constitutional Monarchism </a>",
   "desc": "Constitutional Monarchism is a form of monarchy in which the monarch exercises authority in accordance with a written or unwritten constitution. Within Constitutional Monarchism, the monarch acts as a non-party political head of state under the constitution, whether written or unwritten.",
   "i18n": { 
-    "ko": { "name": "", 
-            "desc": "" },
+    "ko": { "name": "입헌 군주제", 
+            "desc": "입헌 군주제는 군주제의 변형으로, 군주는 통치할 때 헌법을 따라야 합니다. 그것은 영국, 스페인, 스웨덴 등과 같은 유럽 국가에 존재합니다." },
     "ru": { "name": "",
             "desc": "" },
     "cn": { "name": "", 
@@ -59,8 +59,8 @@ ideologies = [
 { "name": "<a href='https://en.wikipedia.org/wiki/Theocracy'> Theocracy </a>",
   "desc": "Theocracy is a form of government in which a deity of some type is recognized as the supreme ruling authority, giving divine guidance to human intermediaries that manage the day-to-day affairs of the government. In some religions, the ruler, usually a king, was regarded as the chosen favorite of God (or gods) and could not be questioned, sometimes even being regarded as the descendant of or a god in their own right.",
   "i18n": { 
-    "ko": { "name": "", 
-            "desc": "" },
+    "ko": { "name": "신정 군주제", 
+            "desc": "신정 군주제는 종교를 국가 수반으로 사용하는 군주제이며, 종종 종교 조직을 사용하여 통치합니다." },
     "ru": { "name": "",
             "desc": "" },
     "cn": { "name": "", 
@@ -73,8 +73,8 @@ ideologies = [
 
 //Liberals, Libertarians
 
- { "name": "<a href='https://en.wikipedia.org/wiki/Right-Libertarianism'> Libertarianism </a>",
-  "desc": "Libertarianism, or more specifically Right-Libertarianism, is a political philosophy and movement that upholds liberty as a core principle. Libertarians seek to maximize autonomy and political freedom, emphasizing free association, freedom of choice, individualism and voluntary association.",
+ { "name": "<a href='https://en.wikipedia.org/wiki/Right-Libertarianism'> 자유주의 </a>",
+  "desc": "자유주의자들은 일반적으로 문화적으로는 진보적지만 경제적으로는 보수적입니다. 그들은 비자발적인 세금 폐지는 물론 더 작은 주/정부를 원합니다.",
   "i18n": { 
     "ko": { "name": "", 
             "desc": "" },
@@ -196,8 +196,8 @@ ideologies = [
  { "name": "<a href='https://en.wikipedia.org/wiki/Conservatism'> Conservatism </a>",
   "desc": "Conservatism is a cultural, social, and political philosophy which seeks to promote and to preserve traditional social institutions. n Western culture, conservatives seek to preserve a range of institutions such as organized religion, parliamentary government, and property rights.",
   "i18n": { 
-    "ko": { "name": "", 
-            "desc": "" },
+    "ko": { "name": "보수주의", 
+            "desc": "보수주의는 주로 현상유지에 관한 이념입니다. 보수주의자들은 대개 외교적 개입주의, 더 많은 군사비 지출, 더 낮은 세금을 지지합니다." },
     "ru": { "name": "",
             "desc": "" },
     "cn": { "name": "", 
