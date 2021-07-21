@@ -86,7 +86,7 @@ ideologies = [
             "desc": "" }},
 "stats": { "a": 60, "b": 20, "c": 30, "d": 60, "e": 50, "f": 80, "g": 50 }},
   
- { "name": "<a href='https://en.wikipedia.org/wiki/Individualist-Anarchism'> Individualist-Anarchism </a>",
+ { "name": "<a href='https://en.wikipedia.org/wiki/Individualist_Anarchism'> Individualist Anarchism </a>",
   "desc": "Individualist anarchism is the branch of anarchism that emphasizes the individual and their will over external determinants such as groups, society, traditions and ideological systems.",
   "i18n": { 
     "ko": { "name": "", 
@@ -125,7 +125,7 @@ ideologies = [
             "desc": "" }},
 "stats": { "a": 50, "b": 10, "c": 10, "d": 50, "e": 20, "f": 80, "g": 50 }}, 
 
-{ "name": "<a href='https://en.wikipedia.org/wiki/Minarchism'> Minarchism </a>",
+{ "name": "<a href='https://en.wikipedia.org/wiki/Night-watchman_state'> Minarchism </a>",
   "desc": "Minarchism maintains that the state's only legitimate function is the protection of individuals from aggression, theft, breach of contract, and fraud, and the only legitimate governmental institutions are the military, police, and courts. Similarly to other Libertarian ideologies, it emphasizes on freedom of speech, property, and voluntary association.",
   "i18n": { 
     "ko": { "name": "", 
@@ -275,7 +275,7 @@ ideologies = [
 
 //Others
 
-{ "name": "<a href='https://en.wikipedia.org/wiki/Rainbow_Capitalism'> Pink Capitalism </a>",
+{ "name": "<a href='https://en.wikipedia.org/wiki/Rainbow_capitalism'> Pink Capitalism </a>",
   "desc": "Pink Capitalism is the incorporation of the LGBT movement and sexual diversity into consumerism and capitalism, in order to create a market that is oriented and tolerated towards LGBT communities.",
   "i18n": { 
     "ko": { "name": "", 
