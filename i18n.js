@@ -162,9 +162,9 @@ const i18n = {
 
 "index-values": {
     "en": "There are currently six axes, each of which has two opposing values. They are: <br> \
-    <b style='color:#0c5199;'>Reform</b> <b>vs.</b> <b style='color:#42c2f5;'>Conserve</b> <br> \
+    <br><b style='color:#0c5199;'>Reform</b> <b>vs.</b> <b style='color:#42c2f5;'>Conserve</b> <br> \
     This is Progressive vs Conservative in other words. The Cultural Left is left-wing culturally, supporting things like LGBTQ rights and Abortion. The Cultural Right wants to preserve culture and usually do not support the legalization of weed or abortion. \
-    
+
     <br><b style='color:#174f8a;'>Intervention</b> <b>vs.</b> <b style='color:#c7c406;'>Laissez-Faire</b> <br> \
     Those with a higher Intervention score tend to want the government to regulate the economy. Those with a higher Laissez-Faire tend to reject such measures and value free-market economy. \
 
@@ -185,7 +185,7 @@ const i18n = {
 	
 	
     "ru": "В настоящее время существует шесть осей, каждая из которых имеет два противоположных мнения: <br> \
-    <b style='color:#0c5199;'>реформирование</b> <b>vs.</b> <b style='color:#42c2f5;'>традиционализм</b> <br> \
+    <br><b style='color:#0c5199;'>реформирование</b> <b>vs.</b> <b style='color:#42c2f5;'>традиционализм</b> <br> \
     Другими словами, это либерализм против консерватизма. Культурные левые поддерживают такие вещи, как ЛГБТ и аборты. Культурно правые хотят сохранить культуру и обычно не поддерживает легализацию наркотиков и аборты. \
     
     <br><b style='color:#174f8a;'>Вмешательство</b> <b>vs.</b> <b style='color:#c7c406;'>Невмешательство</b> <br> \
@@ -208,7 +208,7 @@ const i18n = {
 
 	
    "ja": "診断は、次に示す6つの「主軸」に基づいて下されます。各主軸は、対極の価値観同士を端に配置してあります。<br> \
-    <b style='color:#0c5199;'>進歩</b> <b>vs.</b> <b style='color:#42c2f5;'>保守</b> <br/> \
+    <br><b style='color:#0c5199;'>進歩</b> <b>vs.</b> <b style='color:#42c2f5;'>保守</b> <br/> \
     あなたがリベラルか、保守かを表します。一方、「進歩」のスコアが高い方は、社会を革新させようとする政策や価値観を支持する傾向にあります。「進歩」寄りの方は文化左翼的な思想をもち、LGBTQの権利や人工妊娠中絶が合法であることを支持する傾向にあります。一方、「保守」寄りの方は伝統をまもることを重視し、大麻の解禁や中絶の権利の合法化に否定的な傾向があります。 \
     
     <br><b style='color:#174f8a;'>介入</b> <b>vs.</b> <b style='color:#c7c406;'>放任</b> <br> \
@@ -231,7 +231,7 @@ const i18n = {
 	
 	
    "cn": "当前一共有七个坐标轴，其各自代表了一对相反的意识形态。它们是：<br> \
-    <b style='color:#0c5199;'>改革</b> <b>vs.</b> <b style='color:#42c2f5;'>保守</b> <br> \
+    <br><b style='color:#0c5199;'>改革</b> <b>vs.</b> <b style='color:#42c2f5;'>保守</b> <br> \
     换句话说，这就是自由主义与保守主义。自由主义在文化上是激进的，支持LQBT+群体和堕胎之类的事物合法。保守主义希望维护传统，通常不支持毒品或堕胎的合法化。 \
     
     <br><b style='color:#174f8a;'>计划经济</b> <b>vs.</b> <b style='color:#c7c406;'>市场经济</b> <br> \
@@ -254,7 +254,7 @@ const i18n = {
 	
 	
     "ko": "현재 6개의 축이 있습니다. 각각의 축은 아래와 같은 상반되는 두 개의 가치를 갖게 됩니다.:<br> \
-    <b style='color:#0c5199;'>개혁</b> <b>vs.</b> <b style='color:#42c2f5;'>보존</b> <br> \
+    <br><b style='color:#0c5199;'>개혁</b> <b>vs.</b> <b style='color:#42c2f5;'>보존</b> <br> \
     이것은 자유주의 대 보수주의와 같은 의미입니다. 개혁 점수가 높은 사람들은 문화적으로 좌익이며 LGBTQ의 권리와 낙태와 같은 것들을 지지합니다. 보존 점수가 높은 사람들은 문화를 보존하기를 원하며 보통 대마나 낙태의 합법화를 지지하지 않습니다. \
     
     <br> <b style='color:#174f8a;'>시장개입</b> <b>vs.</b> <b style='color:#c7c406;'>자유방임</b> <br> \
