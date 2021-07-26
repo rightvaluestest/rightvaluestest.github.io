@@ -54,6 +54,22 @@ const i18n = {
     },
     "lang": userLang,
 
+"index": {
+    "en": "Index",
+    "ko": "홈페이지",
+    "ru": "показатель",
+    "cn": "主页",
+    "ja": "ホームページ"
+},
+	
+"quiz": {
+    "en": "Quiz",
+    "ko": "테스트",
+    "ru": "викторина",
+    "cn": "测试",
+    "ja": "診断"
+},
+
 // titles
 "title-results": {
     "en": "RightValues Results",
