@@ -378,7 +378,7 @@ canvas {
     top: 1em;
 }
 
-//Language Tabs
+/*Language Tabs*/
 .tab {
   overflow: hidden;
   border: 2px solid #515151;
@@ -428,7 +428,7 @@ ul.ulnav {
   position: fixed;
   height: 100%;
   overflow: auto;
-  border-right: 5px solid white
+  border-right: 10px solid white
 }
 
 li.nav a {
