@@ -5,7 +5,7 @@ html {
     padding: 0px; */
 }
 body {
-    width: 80%;
+    /* width: 80%; */
     min-height: calc(100vh - 4em);
     margin: 0 /*auto*/;
     padding: 2em;
