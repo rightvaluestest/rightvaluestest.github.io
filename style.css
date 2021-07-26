@@ -445,7 +445,7 @@ rvlogo.nav a {
   text-decoration: none;
 }
 
-nav.navres a {
+#navres a {
   display: block;
   color: #555;
   padding: 8px 16px;
