@@ -440,7 +440,14 @@ li.nav a {
 
 rvlogo.nav a {
   display: block;
-  color: #222;
+  color: #444;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+navres.nav a {
+  display: block;
+  color: #555;
   padding: 8px 16px;
   text-decoration: none;
 }
