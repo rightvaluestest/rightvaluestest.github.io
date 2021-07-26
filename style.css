@@ -1,6 +1,8 @@
 html {
-    background: linear-gradient(180deg, rgba(100,149,237,1) 0%, rgba(240,230,140,1) 100%); 
-    padding: 0px;
+    background-image: background.png;
+    background-repeat: repeat-xy;
+    /* linear-gradient(180deg, rgba(100,149,237,1) 0%, rgba(240,230,140,1) 100%); 
+    padding: 0px; */
 }
 body {
     width: 80%;
