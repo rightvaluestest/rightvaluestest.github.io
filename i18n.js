@@ -104,6 +104,7 @@ const i18n = {
 },
 
 //index.html 
+/*
 "index-about": {
     "en": "Rightvalues is a quiz for the people on the right of the spectrum, based upon and serves as the alternative to the <a href='https://leftvalues.github.io/'>LeftValues</a> quiz. \
      If you are not a rightist, this quiz is obviously not suited for you, and you should look for the LeftValues instead. You will be presented with a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. \
@@ -268,7 +269,7 @@ const i18n = {
 
     <br> <b style='color:#27577A;'>동화</b> <b>vs.</b> <b style='color:#C4A717;'>다문화</b> <br> \
     동화 점수가 높은 사람들은 통일된 문화적 정체성을 중요하게 생각합니다. 그들은 다문화주의, 느슨한 국경, 불법 이민에 반대하는 경향이 있습니다. 다문화 점수가 높을수록 사회에는 여러 개의 독립적인 문화가 존재해야 한다고 생각합니다. ",
-},
+}, */
 
 // quiz.html
 "quiz-loading": {
