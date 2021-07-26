@@ -150,7 +150,7 @@ const i18n = {
      "ko": "RightValues는 '사용, 복사, 수정, 병합, 게시, 배포, 하위 라이선스 및/또는 판매할 수 있는' 권한을 '제한 없이' 허용하는 MIT 라이선스에 따라 라이선스가 부여됩니다. \
      소프트웨어의 복사본'입니다. LeftValues는 '사용, 복사, 수정, 병합, 게시, 배포, 하위 라이선스 및/또는 판매 권한을 '제한 없이' 허용하는 MIT 라이선스에 따라 라이선스가 부여됩니다. \
      따라서 RightValues는 저작권을 침해하지 않고 원본 8값을 법적으로 수정할 수 있습니다. RightValues는 LeftValues 및 8Values를 기반으로 합니다."
-}
+},
 
 "index-valueswhat": {
      "en": "What are the values?",
@@ -158,7 +158,7 @@ const i18n = {
      "ko": "가치(values)는 무엇입니까?",
      "ru": "За что отвечают значения?",
      "cn": "这些意识形态都有哪些"
-}
+},
 
 "index-values": {
     "en": "There are currently six axes, each of which has two opposing values. They are: <br> \
@@ -274,7 +274,7 @@ const i18n = {
 
     <b style='color:#27577A;'>동화</b> <b>vs.</b> <b style='color:#C4A717;'>다문화</b> <br/> \
     동화 점수가 높은 사람들은 통일된 문화적 정체성을 중요하게 생각합니다. 그들은 다문화주의, 느슨한 국경, 불법 이민에 반대하는 경향이 있습니다. 다문화 점수가 높을수록 사회에는 여러 개의 독립적인 문화가 존재해야 한다고 생각합니다. "
-}
+},
 
 // quiz.html
 "quiz-loading": {
