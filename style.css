@@ -5,9 +5,9 @@ html {
     padding: 0px; */
 }
 body {
-    /* width: 80%; */
+    width: 90%;
     /*min-height: calc(100vh - 4em);*/
-    margin-right: 2% /*auto*/;
+    margin: 0 /*auto*/;
     /*padding: 2em;*/
     background-color: rgba(229, 229, 229, 1);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
