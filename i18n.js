@@ -110,7 +110,7 @@ const i18n = {
      At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br /> There are <b><u>70</u></b> questions in the test. <br><br> \
      Similar to 8values, this quiz will attempt to match you with a specific rightist ideology, which is shown in the 'Closest Match' section. \
      Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. \
-     If you have any suggestions or constructive criticism please open an issue in the Github, linked in the upper right corner of this page. <br> <br> \", 
+     If you have any suggestions or constructive criticism please open an issue in the Github, linked in the upper right corner of this page. <br> <br> ", 
     
      "ru": "Rightvalues это тест для людей правых взглядов, основанный на <a href='https://leftvalues.github.io/'>LeftValues</a>. Это викторина, которая пытается определить вашу позицию в спектре правых, как альтернатива LeftValues. Если вы не правый, эта викторина, очевидно, вам не подходит, и вам следует вместо этого пройти LeftValues. \
      Вам будет представлен тест, а затем вы ответите своим мнением по поводу утверждения, от <b>полностью согласен</b> до <b>полностью не согласен</b>, причем каждый ответ немного влияет на ваши результаты. В конце викторины ваши ответы будут сравниваться с максимально возможным для каждой идеологии, что даст вам процентное значение. Отвечайте честно! \
