@@ -382,7 +382,6 @@ canvas {
 .tab {
   overflow: hidden;
   display: block;
-  background-color: #f1f1f1;
 }
 
 .tab button {
@@ -420,7 +419,8 @@ canvas {
 /* Navbar */
 ul.ulnav {
   list-style-type: none;
-  padding: 0;
+  margin:0;
+  padding-top: 10px;
   width: 10%;
   background-color: #f1f1f1;
   position: fixed;
