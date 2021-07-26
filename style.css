@@ -8,6 +8,7 @@ body {
     width: 80%;
     min-height: calc(100vh - 4em);
     /*margin: 0 auto;*/
+    margin:0;
     margin-left:25%;
     padding: 1px 16px;
     height: 1000px;
