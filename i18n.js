@@ -162,48 +162,48 @@ const i18n = {
 
 "index-values": {
     "en": "There are currently six axes, each of which has two opposing values. They are: <br> \
-    <b style='color:#0c5199;'>Reform</b> <b>vs.</b> <b style='color:#42c2f5;'>Conserve</b> <br/> \
+    <b style='color:#0c5199;'>Reform</b> <b>vs.</b> <b style='color:#42c2f5;'>Conserve</b> <br> \
     This is Progressive vs Conservative in other words. The Cultural Left is left-wing culturally, supporting things like LGBTQ rights and Abortion. The Cultural Right wants to preserve culture and usually do not support the legalization of weed or abortion. \
     
-    <b style='color:#174f8a;'>Intervention</b> <b>vs.</b> <b style='color:#c7c406;'>Laissez-Faire</b> <br/> \
+    <b style='color:#174f8a;'>Intervention</b> <b>vs.</b> <b style='color:#c7c406;'>Laissez-Faire</b> <br> \
     Those with a higher Intervention score tend to want the government to regulate the economy. Those with a higher Laissez-Faire tend to reject such measures and value free-market economy. \
 
-    <b style='color:#9403fc;'>Dictatorship</b> <b>vs.</b> <b style='color:#1fa3c4;'>Constitution</b> <br/> \
+    <b style='color:#9403fc;'>Dictatorship</b> <b>vs.</b> <b style='color:#1fa3c4;'>Constitution</b> <br> \
     Those with a higher dictatorship score tend to favour a dictator with less restrictions. Those who have a higher constitution score support a constitution, with the extreme having little to no government, but with a nation-wide constitution (NAP). \
 		
-    <b style='color:#90bcd6;'>Particular</b> <b>vs.</b> <b style='color:#7F3300;'>Universal</b> <br/> \
+    <b style='color:#90bcd6;'>Particular</b> <b>vs.</b> <b style='color:#7F3300;'>Universal</b> <br> \
     Those with a higher particular score tend to want things as they are, and focus internally to avoid conflict. Those with a higher Universal score tend to want to topple corrupt regimes or nations, for reasons of benefiting the nation, or the benefit of the people internationally. \
 
-    <b style='color:#d48817;'>Theocracy</b> <b>vs.</b> <b style='color:#d1ccae;'>Seperation</b> <br/> \
+    <b style='color:#d48817;'>Theocracy</b> <b>vs.</b> <b style='color:#d1ccae;'>Seperation</b> <br> \
     Those with a higher Theocracy score tend to want a theocratic government, where religious organizations make political decisions. Those with a higher Seperation score tend to want a seperated Church from the state. This does not correlate to a person's religious beliefs. \
 
-    <b style='color:#389cd1;'>Decelerate</b> <b>vs.</b> <b style='color:#c4b631;'>Accelerate</b> <br/> \
+    <b style='color:#389cd1;'>Decelerate</b> <b>vs.</b> <b style='color:#c4b631;'>Accelerate</b> <br> \
     Those with a higher Decelerate score tend to want a slower technological progress, and wants to conserve the current or past way of living. Those who score higher in Investment tend to think that acceleration brings many benefits to the market. \
 
-    <b style='color:#27577A;'>Assimilation</b> <b>vs.</b> <b style='color:#C4A717;'>Multicultural</b> <br/> \
+    <b style='color:#27577A;'>Assimilation</b> <b>vs.</b> <b style='color:#C4A717;'>Multicultural</b> <br> \
     Those with a higher Assimilation score value a unified cultural identity. They tend to oppose multiculturalism, loose borders, and illegal immigration. Those with a higher Multicultural score think that multiple independent cultures should exist within society.",
 	
 	
     "ru": "В настоящее время существует шесть осей, каждая из которых имеет два противоположных мнения: <br> \
-    <b style='color:#0c5199;'>реформирование</b> <b>vs.</b> <b style='color:#42c2f5;'>традиционализм</b> <br/> \
+    <b style='color:#0c5199;'>реформирование</b> <b>vs.</b> <b style='color:#42c2f5;'>традиционализм</b> <br> \
     Другими словами, это либерализм против консерватизма. Культурные левые поддерживают такие вещи, как ЛГБТ и аборты. Культурно правые хотят сохранить культуру и обычно не поддерживает легализацию наркотиков и аборты. \
     
-    <b style='color:#174f8a;'>Вмешательство</b> <b>vs.</b> <b style='color:#c7c406;'>Невмешательство</b> <br/> \
+    <b style='color:#174f8a;'>Вмешательство</b> <b>vs.</b> <b style='color:#c7c406;'>Невмешательство</b> <br> \
     Те, у кого более высокий балл «Вмешательство», как правило, хотят, чтобы государство регулировало экономику. У кого более высокий показатель 'Невмешательства' выступают за свободный рынок и минимальное вмешательство государства \
 
-    <b style='color:#9403fc;'>Диктатура</b> <b>vs.</b> <b style='color:#1fa3c4;'>Конституция</b> <br/> \
+    <b style='color:#9403fc;'>Диктатура</b> <b>vs.</b> <b style='color:#1fa3c4;'>Конституция</b> <br> \
     Те, у кого больше очков диктатуры, склонны отдавать предпочтение диктатору, который не имеет каких либо ограничений. Те, у кого более высокий балл по конституции, поддерживают конституцию, а крайние - практически без правительства, но с общенациональной конституцией (NAP ).\
 		
-    <b style='color:#90bcd6;'>Частный</b> <b>vs.</b> <b style='color:#7F3300;'>Универсальный</b> <br/> \
+    <b style='color:#90bcd6;'>Частный</b> <b>vs.</b> <b style='color:#7F3300;'>Универсальный</b> <br> \
     Те, у кого более высокий 'частный' балл, склонны сосредотачиваются внутри своей страны, чтобы избежать конфликта. Те, у кого более высокий универсальный балл, как правило, хотят свергнуть коррумпированные режимы или нации из соображений выгоды нации или блага людей во всем мире. \
 
-    <b style='color:#d48817;'>Теократия</b> <b>vs.</b> <b style='color:#d1ccae;'>Отделение</b> <br/> \
+    <b style='color:#d48817;'>Теократия</b> <b>vs.</b> <b style='color:#d1ccae;'>Отделение</b> <br> \
     Те, кто имеет более высокий балл теократии, склонны хотеть теократического правительства, при котором религиозные организации принимают политические решения. Те, у кого более высокий балл 'отделение', как правило, хотят отделить Церковь от государства. Это никак не соотносится с религиозными убеждениями человека. \
 
-    <b style='color:#389cd1;'>Замедление</b> <b>vs.</b> <b style='color:#c4b631;'>Ускорение</b> <br/> \
+    <b style='color:#389cd1;'>Замедление</b> <b>vs.</b> <b style='color:#c4b631;'>Ускорение</b> <br> \
     Те, у кого выше показатель замедления, склонны к более медленному техническому прогрессу и хотят сохранить текущий или прошлый образ жизни. Те, кто набирает более высокие баллы по 'ускорению', склонны думать, что ускорение приносит обществу много преимуществ. \
 
-    <b style='color:#27577A;'>Ассимиляция</b> <b>vs.</b> <b style='color:#C4A717;'>Мультикультурный</b> <br/> \
+    <b style='color:#27577A;'>Ассимиляция</b> <b>vs.</b> <b style='color:#C4A717;'>Мультикультурный</b> <br> \
     Те, у кого более высокий балл ассимиляции, ценят единую культурную идентичность. Они склонны выступать против мультикультурализма, свободных границ и нелегальной иммиграции. Те, у кого более высокий показатель мультикультурности, думают, что в обществе должно существовать несколько независимых культур. ",
 
 	
@@ -211,68 +211,68 @@ const i18n = {
     <b style='color:#0c5199;'>進歩</b> <b>vs.</b> <b style='color:#42c2f5;'>保守</b> <br/> \
     あなたがリベラルか、保守かを表します。一方、「進歩」のスコアが高い方は、社会を革新させようとする政策や価値観を支持する傾向にあります。「進歩」寄りの方は文化左翼的な思想をもち、LGBTQの権利や人工妊娠中絶が合法であることを支持する傾向にあります。一方、「保守」寄りの方は伝統をまもることを重視し、大麻の解禁や中絶の権利の合法化に否定的な傾向があります。 \
     
-    <b style='color:#174f8a;'>介入</b> <b>vs.</b> <b style='color:#c7c406;'>放任</b> <br/> \
+    <b style='color:#174f8a;'>介入</b> <b>vs.</b> <b style='color:#c7c406;'>放任</b> <br> \
     介入」のスコアが高い方は、政府が経済へ介入・干渉することに賛成します。「放任」派の方は、これらのことに否定的です。 \
 
-    <b style='color:#9403fc;'>専制</b> <b>vs.</b> <b style='color:#1fa3c4;'>憲法</b> <br/> \
+    <b style='color:#9403fc;'>専制</b> <b>vs.</b> <b style='color:#1fa3c4;'>憲法</b> <br> \
     「専制」寄りの方は、支配者の権利拡大に好意的です。一方、「憲法」寄りの方は支配層が憲法に制限されることを、さらに場合によっては他者の権利侵害を規制する基本原則（不可侵原則; Non-aggression principle）を前提とした無政府体制を、支持します。\
 		
-    <b style='color:#90bcd6;'>自国</b> <b>vs.</b> <b style='color:#7F3300;'>世界</b> <br/> \
+    <b style='color:#90bcd6;'>自国</b> <b>vs.</b> <b style='color:#7F3300;'>世界</b> <br> \
     「自国」のスコアが高い方は、他国の政策への介入に反対し、国内の問題解決や治安維持を望みます。一方、「世界」寄りの方は、自国ないしは国際社会のために、腐敗した政権や国家の転覆および廃止を積極的に望みます。\
 
-    <b style='color:#d48817;'>融合</b> <b>vs.</b> <b style='color:#d1ccae;'>分離</b> <br/> \
+    <b style='color:#d48817;'>融合</b> <b>vs.</b> <b style='color:#d1ccae;'>分離</b> <br> \
     「融合」派の方は宗教団体による政治ないし政権を求めます。「分離」のスコアが高い方は、政教分離を強く求める傾向にあります。なお、この軸は個人の宗教観とは独立して判断されます。\
 
-    <b style='color:#389cd1;'>減速</b> <b>vs.</b> <b style='color:#c4b631;'>加速</b> <br/> \
+    <b style='color:#389cd1;'>減速</b> <b>vs.</b> <b style='color:#c4b631;'>加速</b> <br> \
     「減速」の方は科学や技術の発展を減速させ、現在や過去の文化を維持することに賛成します。「加速」派の方は、投資などを通して発展を促進させることを支持します。また、科学発展は市場へ利益があると考える場合も多くあります。 \
 
-    <b style='color:#27577A;'>同化</b> <b>vs.</b> <b style='color:#C4A717;'>多文化</b> <br/> \
+    <b style='color:#27577A;'>同化</b> <b>vs.</b> <b style='color:#C4A717;'>多文化</b> <br> \
     同化スコアが高い人は、統一された文化的アイデンティティを評価します。 彼らは多文化主義、ゆるい国境、不法移民に反対する傾向があります。 多文化スコアが高い人は、社会の中に複数の独立した文化が存在するべきだと考えています。 ",	
 	
 	
    "cn": "当前一共有七个坐标轴，其各自代表了一对相反的意识形态。它们是：<br> \
-    <b style='color:#0c5199;'>改革</b> <b>vs.</b> <b style='color:#42c2f5;'>保守</b> <br/> \
+    <b style='color:#0c5199;'>改革</b> <b>vs.</b> <b style='color:#42c2f5;'>保守</b> <br> \
     换句话说，这就是自由主义与保守主义。自由主义在文化上是激进的，支持LQBT+群体和堕胎之类的事物合法。保守主义希望维护传统，通常不支持毒品或堕胎的合法化。 \
     
-    <b style='color:#174f8a;'>计划经济</b> <b>vs.</b> <b style='color:#c7c406;'>市场经济</b> <br/> \
+    <b style='color:#174f8a;'>计划经济</b> <b>vs.</b> <b style='color:#c7c406;'>市场经济</b> <br> \
     计划经济得分较高的人倾向于希望政府调控经济。市场经济得分较高的人倾向于市场自我调节经济。 \
 
-    <b style='color:#9403fc;'>精英</b> <b>vs.</b> <b style='color:#1fa3c4;'>法治</b> <br/> \
+    <b style='color:#9403fc;'>精英</b> <b>vs.</b> <b style='color:#1fa3c4;'>法治</b> <br> \
     精英得分较高的人倾向于支持较少的精英治理国家。法治得分较高的人支持依据一套法律体系治理国家，极端的甚至是无政府主义者，只依据一套全国性的法律体系治理国家。\
 		
-    <b style='color:#90bcd6;'>特殊主义</b> <b>vs.</b> <b style='color:#7F3300;'>普遍主义</b> <br/> \
+    <b style='color:#90bcd6;'>特殊主义</b> <b>vs.</b> <b style='color:#7F3300;'>普遍主义</b> <br> \
      特殊主义得分较高的人倾向于保持现状，并在内部集中精力避免冲突。 普遍主义得分较高的人倾向于为了国家或国际人民的利益推翻腐败的政权或国家。\
 
-    <b style='color:#d48817;'>政教合一</b> <b>vs.</b> <b style='color:#d1ccae;'>政教分离</b> <br/> \
+    <b style='color:#d48817;'>政教合一</b> <b>vs.</b> <b style='color:#d1ccae;'>政教分离</b> <br> \
     政教合一得分较高的人倾向于神权政府，由宗教组织执政。政教分离得分较高的人倾向于宗教与国家分离。这与个人的宗教信仰无关。\
 
-    <b style='color:#389cd1;'>保守</b> <b>vs.</b> <b style='color:#c4b631;'>激进</b> <br/> \
+    <b style='color:#389cd1;'>保守</b> <b>vs.</b> <b style='color:#c4b631;'>激进</b> <br> \
     减速得分较高的人倾向于希望技术进步较慢，并希望保持目前或过去的生活方式。激进得分较高的人倾向于认为加速会给市场带来很多好处。 \
 
-    <b style='color:#27577A;'>同化</b> <b>vs.</b> <b style='color:#C4A717;'>多文化</b> <br/> \
+    <b style='color:#27577A;'>同化</b> <b>vs.</b> <b style='color:#C4A717;'>多文化</b> <br> \
     同化分数较高的人重视统一的文化认同。 他们倾向于反对多元文化主义、宽松的边界和非法移民。 多元文化得分较高的人认为社会中应该存在多种独立的文化。",
 	
 	
     "ko": "현재 6개의 축이 있습니다. 각각의 축은 아래와 같은 상반되는 두 개의 가치를 갖게 됩니다.:<br> \
-    <b style='color:#0c5199;'>개혁</b> <b>vs.</b> <b style='color:#42c2f5;'>보존</b> <br/> \
+    <b style='color:#0c5199;'>개혁</b> <b>vs.</b> <b style='color:#42c2f5;'>보존</b> <br> \
     이것은 자유주의 대 보수주의와 같은 의미입니다. 개혁 점수가 높은 사람들은 문화적으로 좌익이며 LGBTQ의 권리와 낙태와 같은 것들을 지지합니다. 보존 점수가 높은 사람들은 문화를 보존하기를 원하며 보통 대마나 낙태의 합법화를 지지하지 않습니다. \
     
-    <b style='color:#174f8a;'>시장개입</b> <b>vs.</b> <b style='color:#c7c406;'>자유방임</b> <br/> \
+    <b style='color:#174f8a;'>시장개입</b> <b>vs.</b> <b style='color:#c7c406;'>자유방임</b> <br> \
     시장개입 점수가 높은 사람들은 정부가 경제를 규제하기를 선호하는 경향이 있습니다. 자유방임 점수가 높은 사람들은 그러한 조치를 거부하고 자유 시장 경제에 가치를 두는 경향이 있습니다. \
 
-    <b style='color:#9403fc;'>독재</b> <b>vs.</b> <b style='color:#1fa3c4;'>분권</b> <br/> \
+    <b style='color:#9403fc;'>독재</b> <b>vs.</b> <b style='color:#1fa3c4;'>분권</b> <br> \
     자국주의 점수가 높은 사람은 다른 나라의 정책 개입에 반대하고 국내 문제 해결과 치안 유지를 바랍니다. 한편, 국제주의 점수가 높은 사람은 자국 내지는 국제사회를 위해 부패한 정권이나 국가의 전복 및 폐지를 적극적으로 지지합니다.\
 		
-    <b style='color:#90bcd6;'>자국주의</b> <b>vs.</b> <b style='color:#7F3300;'>국제주의</b> <br/> \
+    <b style='color:#90bcd6;'>자국주의</b> <b>vs.</b> <b style='color:#7F3300;'>국제주의</b> <br> \
     자국주의 점수가 높은 사람은 다른 나라의 정책 개입에 반대하고 국내 문제 해결과 치안 유지를 바랍니다. 한편, 국제주의 점수가 높은 사람은 자국 내지는 국제사회를 위해 부패한 정권이나 국가의 전복 및 폐지를 적극적으로 지지합니다.\
 
-    <b style='color:#d48817;'>신정주의</b> <b>vs.</b> <b style='color:#d1ccae;'>세속주의</b> <br/> \
+    <b style='color:#d48817;'>신정주의</b> <b>vs.</b> <b style='color:#d1ccae;'>세속주의</b> <br> \
     신정주의 점수가 높은 사람들은 종교 단체에 의한 정치 내지 정권을 선호하는 경향이 있습니다. 세속주의 점수가 높은 사람들은 정교 분리를 요구하는 경향이 있습니다. 이것은 개인의 종교적 신념과 관련이 없습니다. \
 
-    <b style='color:#389cd1;'>기술 발달 감속</b> <b>vs.</b> <b style='color:#c4b631;'>기술 발달 가속</b> <br/> \
+    <b style='color:#389cd1;'>기술 발달 감속</b> <b>vs.</b> <b style='color:#c4b631;'>기술 발달 가속</b> <br> \
     기술 발달 감속 점수가 높은 사람들은 기술 발전이 더딘 것을 선호하는 경향이 있으며 현재 또는 과거 생활 방식을 보존하고자 합니다. 기술 발달 가속 점수가 높은 사람들은 가속이 시장에 많은 이점을 가져다 준다고 생각하는 경향이 있습니다. \
 
-    <b style='color:#27577A;'>동화</b> <b>vs.</b> <b style='color:#C4A717;'>다문화</b> <br/> \
+    <b style='color:#27577A;'>동화</b> <b>vs.</b> <b style='color:#C4A717;'>다문화</b> <br> \
     동화 점수가 높은 사람들은 통일된 문화적 정체성을 중요하게 생각합니다. 그들은 다문화주의, 느슨한 국경, 불법 이민에 반대하는 경향이 있습니다. 다문화 점수가 높을수록 사회에는 여러 개의 독립적인 문화가 존재해야 한다고 생각합니다. ",
 },
 
