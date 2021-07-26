@@ -438,8 +438,23 @@ li.nav a {
   text-decoration: none;
 }
 
+rvlogo.nav a {
+  display: block;
+  color: #222;
+  padding: 8px 16px;
+  text-decoration: none;
+  weight: bold
+}
+
+li.nav a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
 li.nav a.activenav {
-  background-color: #04AA6D;
+  background-color: #5dade2;
   color: white;
 }
 
