@@ -54,6 +54,14 @@ const i18n = {
     },
     "lang": userLang,
 
+"index-start": {
+    "en": "Start!",
+    "ko": "클릭해서 시작하기!",
+    "ru": "начать!",
+    "cn": "开始!",
+    "ja": "診断する"
+},
+	
 "index": {
     "en": "Index",
     "ko": "홈페이지",
