@@ -428,6 +428,7 @@ ul.ulnav {
   position: fixed;
   height: 100%;
   overflow: auto;
+  border-right: 5px solid white
 }
 
 li.nav a {
