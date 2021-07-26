@@ -164,22 +164,16 @@ const i18n = {
     "en": "There are currently six axes, each of which has two opposing values. They are: <br> \
     <br><b style='color:#0c5199;'>Reform</b> <b>vs.</b> <b style='color:#42c2f5;'>Conserve</b> <br> \
     This is Progressive vs Conservative in other words. The Cultural Left is left-wing culturally, supporting things like LGBTQ rights and Abortion. The Cultural Right wants to preserve culture and usually do not support the legalization of weed or abortion. \
-
     <br><b style='color:#174f8a;'>Intervention</b> <b>vs.</b> <b style='color:#c7c406;'>Laissez-Faire</b> <br> \
     Those with a higher Intervention score tend to want the government to regulate the economy. Those with a higher Laissez-Faire tend to reject such measures and value free-market economy. \
-
     <br><b style='color:#9403fc;'>Dictatorship</b> <b>vs.</b> <b style='color:#1fa3c4;'>Constitution</b> <br> \
-    Those with a higher dictatorship score tend to favour a dictator with less restrictions. Those who have a higher constitution score support a constitution, with the extreme having little to no government, but with a nation-wide constitution (NAP). \
-		
+    Those with a higher dictatorship score tend to favour a dictator with less restrictions. Those who have a higher constitution score support a constitution, with the extreme having little to no government, but with a nation-wide constitution (NAP). \	
     <br><b style='color:#90bcd6;'>Particular</b> <b>vs.</b> <b style='color:#7F3300;'>Universal</b> <br> \
     Those with a higher particular score tend to want things as they are, and focus internally to avoid conflict. Those with a higher Universal score tend to want to topple corrupt regimes or nations, for reasons of benefiting the nation, or the benefit of the people internationally. \
-
     <br><b style='color:#d48817;'>Theocracy</b> <b>vs.</b> <b style='color:#d1ccae;'>Seperation</b> <br> \
     Those with a higher Theocracy score tend to want a theocratic government, where religious organizations make political decisions. Those with a higher Seperation score tend to want a seperated Church from the state. This does not correlate to a person's religious beliefs. \
-
     <br><b style='color:#389cd1;'>Decelerate</b> <b>vs.</b> <b style='color:#c4b631;'>Accelerate</b> <br> \
     Those with a higher Decelerate score tend to want a slower technological progress, and wants to conserve the current or past way of living. Those who score higher in Investment tend to think that acceleration brings many benefits to the market. \
-
     <br><b style='color:#27577A;'>Assimilation</b> <b>vs.</b> <b style='color:#C4A717;'>Multicultural</b> <br> \
     Those with a higher Assimilation score value a unified cultural identity. They tend to oppose multiculturalism, loose borders, and illegal immigration. Those with a higher Multicultural score think that multiple independent cultures should exist within society.",
 	
