@@ -6,7 +6,7 @@ html {
 }
 body {
     width: 90%;
-    /*min-height: calc(100vh - 4em);*/
+    min-height: calc(100vh - 4em);
     margin: 0 auto;
     /*padding: 2em;*/
     background-color: rgba(229, 229, 229, 1);
