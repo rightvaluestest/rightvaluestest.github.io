@@ -7,13 +7,13 @@ html {
 body {
     /* width: 80%; */
     /*min-height: calc(100vh - 4em);*/
-    margin: 0 /*auto*/;
+    margin-right: 2% /*auto*/;
     /*padding: 2em;*/
     background-color: rgba(229, 229, 229, 1);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 div.main {
-    margin-left:15%;
+    margin-left: 12%;
     padding: 1px 16px;
 }
 div.element {
