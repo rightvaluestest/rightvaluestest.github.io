@@ -443,7 +443,7 @@ rvlogo.nav a {
   color: #222;
   padding: 8px 16px;
   text-decoration: none;
-  weight: bold
+  font-weight: bold
 }
 
 li.nav a {
