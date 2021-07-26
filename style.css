@@ -25,6 +25,9 @@ div.element {
     border-radius: 16px;
     margin: auto;
 }
+div.tablang {
+    display: block;
+}
 p {
     color: #444444;
     font-family: 'Roboto', sans-serif;
