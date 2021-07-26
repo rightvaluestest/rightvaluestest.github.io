@@ -464,7 +464,7 @@ li.nav a.activenav {
   color: white;
 }
 
-li.nav a:hover:not(.active) {
+li.nav a:hover:not(.active), #navres a:hover {
   background-color: #555;
   color: white;
 }
