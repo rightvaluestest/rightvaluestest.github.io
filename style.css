@@ -1,6 +1,5 @@
 html {
-    background: background.png;
-    background-repeat: repeat-xy;
+    background-color: #bdc3c7
     /* linear-gradient(180deg, rgba(100,149,237,1) 0%, rgba(240,230,140,1) 100%); 
     padding: 0px; */
 }
