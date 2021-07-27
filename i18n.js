@@ -158,9 +158,25 @@ const i18n = {
      "ja": "診断結果について",
      "ko": "가치(values)는 무엇입니까?",
      "ru": "За что отвечают значения?",
-     "cn": "这些意识形态都有哪些"
+     "cn": "这些意识形态都有哪些?"
 },
 
+"index-valuesdesc": {
+     "en": "There are currently six axes, each of which has two opposing values. They are:",
+     "ru": "В настоящее время существует шесть осей, каждая из которых имеет два противоположных мнения:",
+     "ko": "현재 6개의 축이 있습니다. 각각의 축은 아래와 같은 상반되는 두 개의 가치를 갖게 됩니다.:",
+     "ja": "診断は、次に示す6つの「主軸」に基づいて下されます。各主軸は、対極の価値観同士を端に配置してあります。",
+     "cn": "当前一共有七个坐标轴，其各自代表了一对相反的意识形态。它们是："
+},
+	
+"index-valuesimg": {
+     "en": "<img src='img/values-en.png' class='index'> ",
+     "ja": "<img src='img/values-ja.png' class='index'> ",
+     "ko": "<img src='img/values-ko.png' class='index'> ",
+     "ru": "<img src='img/values-ru.png' class='index'> ",
+     "cn": "<img src='img/values-cn.png' class='index'> "
+},
+	
 // quiz.html
 "quiz-loading": {
     "en": "Loading…",
