@@ -489,7 +489,7 @@ li.nav a:hover:not(.active), #navres a:hover {
     display: none;
   }
   div.main {
-    margin-left: 0;
+    margin-left: 0%;
   }
 }
 
