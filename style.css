@@ -57,7 +57,7 @@ p.question {
     justify-content: center;
     align-items: center;
     text-align: center;
-    overflow: auto;
+    overflow: scroll;
 }
 p.ideodesc {
     font-family: 'Montserrat', sans-serif;
