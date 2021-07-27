@@ -177,6 +177,30 @@ const i18n = {
      "cn": "<img src='img/values-cn.png' class='index'> "
 },
 	
+"tab-about": {
+    "en": "About",
+    "ko": "에 대한",
+    "ru": "О",
+    "cn": "关于",
+    "ja": "について"
+},
+	
+"tab-values": {
+    "en": "About",
+    "ko": "가치",
+    "ru": "Ценности",
+    "cn": "价值观",
+    "ja": "価値観"
+},
+	
+"license-link": {
+    "en": "About",
+    "ko": "특허",
+    "ru": "Лицензия",
+    "cn": "许可",
+    "ja": "ライセンス"
+},
+	
 // quiz.html
 "quiz-loading": {
     "en": "Loading…",
