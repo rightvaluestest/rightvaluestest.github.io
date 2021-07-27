@@ -8,10 +8,27 @@
 <link rel="shortcut icon" type="image/png" href="icon.png">
 <meta charset="utf-8">
 </head>
-<body>
+<body onbeforeunload="return leaveConfirm()">
 <script type="application/javascript"
         src="questions.js">
 </script>
+	
+<ul class="ulnav">
+     <li class="rvlogo"><b><a>RightValues</a></li></b><br>
+     <li class="nav"> <a href="#">
+     <span data-i18n="index">Index</span></a></li>
+     <li class="nav"> <a class="active" href="instructions.html">
+     <span data-i18n="inst-h2">Instructions</span></a></li>
+     <li class="nav"> <a href="quiz.html">
+     <span data-i18n="quiz"> Quiz </span></a></li>
+     <li class="nav" id="navres"> <a href="#">
+     <span data-i18n="result-h1"> Results </span> </a></li>
+     <li class="nav" id="bottomnav"> <a href="https://politicaltests.github.io/index.html">
+	PoliticalTests</a></li>
+</ul>
+
+<div class="main">
+	
 <h1>RightValues</h1>
 <select id="langPicker"></select>
 <hr>
@@ -26,6 +43,7 @@
 <button data-i18n="quiz-back" class="small_button_off" id="back_button_off">Back</button>
 <br>
 
+</div>
 <!-- JavaScript for the test itself -->
 <script type="application/javascript" src="i18n.js"></script>
 <script>
@@ -105,6 +123,10 @@
 	    + `&f=${calc_score(f,max_f)}`
 	    + `&g=${calc_score(g,max_g)}`
     }
+
+function leaveConfirm() {
+  return "Leave Site?";
+}
 </script>
 </body>
 </html>
