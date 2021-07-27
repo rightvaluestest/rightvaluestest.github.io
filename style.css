@@ -485,7 +485,7 @@ li.nav a:hover:not(.active), #navres a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  #title_message {
+  ul.ulnav {
     visibility: hidden;
     display: none;
   }
