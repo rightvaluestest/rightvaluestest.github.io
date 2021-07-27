@@ -438,7 +438,6 @@ ul.ulnav {
   overflow: auto;
   border-right: 10px solid white;
   font-family: 'Source Sans Pro', sans-serif;
-  display: none;
 }
 
 li.nav a {
@@ -485,9 +484,12 @@ li.nav a:hover:not(.active), #navres a:hover {
     width: 100%
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
   ul.ulnav {
-    display: block;
+    display: none;
+  }
+  div.main {
+    margin-left: 0;
   }
 }
 
