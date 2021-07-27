@@ -438,6 +438,7 @@ ul.ulnav {
   overflow: auto;
   border-right: 10px solid white;
   font-family: 'Source Sans Pro', sans-serif;
+  display: none;
 }
 
 li.nav a {
@@ -487,12 +488,6 @@ li.nav a:hover:not(.active), #navres a:hover {
 @media only screen and (min-width: 800px) {
   ul.ulnav {
     display: block;
-  }
-}
-
-@media only screen and (min-width: 100px) {
-  ul.ulnav {
-    display: none;
   }
 }
 
