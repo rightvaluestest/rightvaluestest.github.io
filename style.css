@@ -484,7 +484,7 @@ li.nav a:hover:not(.active), #navres a:hover {
     width: 100%
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   ul.ulnav {
     display: none;
   }
