@@ -12,7 +12,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 div.main {
-    margin-left: 14%;
+    margin-left: 16%;
     padding: 1px 16px;
     min-height: 900px 
 }
@@ -431,7 +431,7 @@ ul.ulnav {
   margin: 0;
   padding: 0;
   padding-top: 10px;
-  width: 12%;
+  width: 14%;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
