@@ -359,7 +359,7 @@ div.equality {
 span.weight-300 {
     font-weight: 300;
 }
-canvas , img.index {
+canvas {
     border-color: #444444;
     border-style: solid;
     border-width: 2px;
@@ -369,6 +369,15 @@ canvas , img.index {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+}
+img.index {
+    border-color: #444444;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8pt;
+    display: block;
+    margin: 8pt;
+    width: 40%;
 }
 #langPicker {
     position: static;
