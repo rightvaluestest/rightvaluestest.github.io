@@ -426,6 +426,10 @@ img.index {
 }
 
 /* Navbar */
+div.navdiv {
+    display: block;
+}
+
 ul.ulnav {
   list-style-type: none;
   margin: 0;
@@ -485,7 +489,7 @@ li.nav a:hover:not(.active), #navres a:hover {
 }
 
 @media screen and (max-width: 800px) {
-  ul.ulnav {
+  div.navdiv {
     display: none;
   }
   div.main {
