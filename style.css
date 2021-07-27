@@ -14,7 +14,7 @@ body {
 div.main {
     margin-left: 14%;
     padding: 1px 16px;
-    min-height: 800px 
+    min-height: 900px 
 }
 div.element {
     width: 85%;
@@ -49,7 +49,6 @@ p.question {
     width: 70%;
     min-width: 500pt;
     min-height: 144pt;
-    max-width: 90%;
     background-color: #eeeeee;
     padding: 16pt;
     border-radius: 16pt;
@@ -58,6 +57,7 @@ p.question {
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: auto;
 }
 p.ideodesc {
     font-family: 'Montserrat', sans-serif;
