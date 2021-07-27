@@ -186,7 +186,7 @@ const i18n = {
 },
 	
 "tab-values": {
-    "en": "About",
+    "en": "Values",
     "ko": "가치",
     "ru": "Ценности",
     "cn": "价值观",
@@ -194,7 +194,7 @@ const i18n = {
 },
 	
 "license-link": {
-    "en": "About",
+    "en": "License",
     "ko": "특허",
     "ru": "Лицензия",
     "cn": "许可",
