@@ -497,7 +497,7 @@ li.nav a:hover:not(.active), #navres a:hover {
   }
   body {
     width: 100%;
-    box-shadow: 0;
+    box-shadow: none;
   }
   html {
     background-color: #e5e5e5
