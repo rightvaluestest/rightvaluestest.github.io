@@ -3,7 +3,7 @@ Rightvalues is a quiz for the people on the right of the spectrum, based upon th
 
 Code of the languages that are used in the test are included in ideologies.js, questions.js, and i18n.js. 
 
-rightvaluestest.github.io
+https://rightvaluestest.github.io
 
 -------------------------
 
