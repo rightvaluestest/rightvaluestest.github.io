@@ -12,7 +12,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 div.main {
-    margin-left: 14%;
+    margin-left: 16%;
     padding: 1px 16px;
     min-height: 900px 
 }
@@ -367,8 +367,8 @@ canvas {
     border-radius: 8pt;
     display: block;
     margin: 8pt;
-    margin-left: 34%;
-    margin-right: 6%;
+    margin-left: 28%;
+    margin-right: 12%;
     width: 60%;
     display: block;
 }
