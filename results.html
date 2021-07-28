@@ -121,6 +121,7 @@
 </div> <br>
 		
 <button class="button clipboard" onclick="screenshotText()" style="font-size:18pt;" id="copybutton" data-i18n="copy-url">Copy Results URL</button><br>
+<button class="button" onclick="copyCanvas()" style="font-size:18pt;" id="canvascopy" data-i18n="copy-url">Copy Results URL</button><br>
 <button class="button" onclick="location.href='index.html';" style="font-size:18pt;" data-i18n="result-back">Back</button> <br>
 
 </div>
@@ -154,6 +155,16 @@
 	paragraph.appendChild(text);
     }
    
+	
+    const canvas = document.getElementsByTagName("canvas");
+    const button = document.getElementById("canvascopy");
+	
+    button.addEventListener("click", copyCanvas() {
+	const dataUrl = canvas.toDataURL("png");
+	console.log(dataUrl);
+	const win = window.open(dataUrl, '_blank');
+    });
+	
 	
     function getQueryVariable(variable)
     {
