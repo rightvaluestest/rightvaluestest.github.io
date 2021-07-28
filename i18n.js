@@ -420,6 +420,22 @@ const i18n = {
     "ja": "戻る"
 },
 	
+"copy-url": {
+    "en": "Copy Results URL",
+    "ko": "URL 복사",
+    "ru": "Копировать URL",
+    "cn": "复制网址",
+    "ja": "URLをコピー"
+},
+	
+"url-copied": {
+    "en": "URL Copied!",
+    "ko": "URL 복사됨",
+    "ru": "URL скопирован",
+    "cn": "网址已被复制",
+    "ja": "コピーされたURL"
+},
+	
 //Images
 "img-reform": {
     "en": "<img id='img-reform' src='value_images/reform.png' height='128pt'/>",
