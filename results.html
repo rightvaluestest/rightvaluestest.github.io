@@ -120,7 +120,7 @@
     <p data-i18n="result-issues">Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href="https://forms.gle/Puc4sjaSQqvwNu6q8">short form</a>.</p>
 </div> <br>
 		
-<button class="button" onclick="doCapture()" style="font-size:18pt;">Generate Image</button><br>
+<button class="button clipboard" onclick="doCapture()" style="font-size:18pt;" id="copybutton">Copy Results URL</button><br>
 <button class="button" onclick="location.href='index.html';" style="font-size:18pt;">Back</button> <br>
 
 </div>
@@ -137,6 +137,17 @@
     	},
   	});
     }
+	
+   var $temp = $("<input>");
+   var $url = $(location).attr('href');
+
+   $('.clipboard').on('click', function() {
+	$("body").append($temp);
+	$temp.val($url).select();
+	document.execCommand("copy");
+	$temp.remove();
+	$("#copybutton").text("URL Copied!");
+   })
 	
     function getQueryVariable(variable)
     {
