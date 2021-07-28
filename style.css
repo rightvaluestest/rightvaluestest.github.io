@@ -505,6 +505,7 @@ li.nav a:hover:not(.active), #navres a:hover {
   }
   div.main {
     margin-left: 0%;
+    min-height: none;
   }
   body {
     width: 100%;
