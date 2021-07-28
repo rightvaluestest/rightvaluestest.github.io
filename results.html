@@ -136,6 +136,7 @@
   	html2canvas(document.getElementById('capture'), {
     	onrendered: function(canvas) {
       	document.body.appendChild(canvas);
+	canvas = document.getElementById("html2canvas-canvas")
     	},
   	});
     }
