@@ -149,7 +149,9 @@
     })
    
     function screenshotText() {
-	document.getElementById("copybutton").innerHTML = "<span data-i18n='url-copied'>URL Copied!</span>";
+	var paragraph = document.getElementById("copybutton");
+	var text = document.createTextNode("&#x2713");
+	paragraph.appendChild(text);
     }
    
 	
