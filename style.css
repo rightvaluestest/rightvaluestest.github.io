@@ -508,5 +508,10 @@ li.nav a:hover:not(.active), #navres a:hover {
   .tab {
     font-size: 16px;
   }
+  canvas {
+    font-size: 16px;
+    margin: 8pt;
+    width: 80%;
+  }
 }
 
