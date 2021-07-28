@@ -108,7 +108,7 @@ const i18n = {
 "index-about": {
     "en": "Rightvalues is a quiz for the people on the right of the spectrum, based upon and serves as the alternative to the <a href='https://leftvalues.github.io/'>LeftValues</a> quiz. \
      If you are not a rightist, this quiz is obviously not suited for you, and you should look for the LeftValues instead. You will be presented with a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. \
-     At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br /> There are <b><u>70</u></b> questions in the test. <br><br> \
+     At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br /> There are <b><u>69</u></b> questions in the test. <br><br> \
      Similar to 8values, this quiz will attempt to match you with a specific rightist ideology, which is shown in the 'Closest Match' section. \
      Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. \
      If you have any suggestions or constructive criticism please open an issue in the Github, linked in the upper right corner of this page. <br> <br> ", 
@@ -125,11 +125,11 @@ const i18n = {
 	
      "ko": "Rightvalues는 <a href='https://leftvalues.github.io/' target='_blank' rel='noopener noreferrer'>LeftValues</a>의 대안으로 우익 스펙트럼 상에서 당신의 위치를 파악하기 위해 LeftValues를 바탕으로 만들어진 우익 설문입니다. 만약 당신이 우파가 아니라면, 이 설문은 분명 당신에게 적합하지 않습니다. \
      대신 LeftValues를 찾으세요. 각 문항을 살펴보고 <b>적극 동의</b>부터 <b>동의</b>, <b>중립/모르겠다</b>, <b>비동의</b>, <b>적극 비동의</b>까지의 답변중 하나를 선택하면, 각각의 답변이 당신의 점수에 조금씩 영향을 주게 될 것입니다. 설문 마지막에 당신의 답변에 기초한 점수가 각각의 가치(values)에 대해 가질 수 있는 최대값에 대한 백분율로 표시됩니다. 최대한 정직하게 대답하세요!<br /><br /> \
-     질문은 총 <b><u>70</u></b> 문항이 있습니다. 8Values, LeftValues와 비슷하게, 이 설문은 특정한 우파 이념과 당신을 짝지으려 할 것입니다. 현재 36개의 가능한 이념이 있고, 미래에는 더 많은 이념들이 있을 수 있습니다. 이는 진행중인 작업이며, 의도한대로 작동하지 않을 수도 있습니다. 제안은 언제나 환영합니다. \
+     질문은 총 <b><u>69</u></b> 문항이 있습니다. 8Values, LeftValues와 비슷하게, 이 설문은 특정한 우파 이념과 당신을 짝지으려 할 것입니다. 현재 36개의 가능한 이념이 있고, 미래에는 더 많은 이념들이 있을 수 있습니다. 이는 진행중인 작업이며, 의도한대로 작동하지 않을 수도 있습니다. 제안은 언제나 환영합니다. \
      어떠한 범주에서든 100% 의 점수를 얻을 수 없다는 것을 인지해주세요. 이 설문의 목적은 당신 자신의 관점에 직면하는 것에 있습니다. 제안이나 건설적인 비판이 있는 경우 이 페이지의 오른쪽 상단에 링크된 Github에서 문제를 여십시오. (Translated by: Mizeery)",
 	
      "cn": "RightValues是基于<a href='https://leftvalues.github.io/'>LeftValues</a>， 针对右派人士的一项测验，旨在确定您在右派人士上的定位。 如果您是左派人士，那么此测验显然不适合您，您应该寻找LeftValues。\
-     系统将为您提供一个陈述，然后对陈述做出回答，从“ <b>非常同意</b>”到“<b>非常不同意</b>”, 每个答案都会稍微影响您的分数。 测验结束时，您的答案将与每个值的最大可能值进行比较，从而得出一个百分比。<br /><br /> 有<b><u>70</u></b>道题在此测试中。\
+     系统将为您提供一个陈述，然后对陈述做出回答，从“ <b>非常同意</b>”到“<b>非常不同意</b>”, 每个答案都会稍微影响您的分数。 测验结束时，您的答案将与每个值的最大可能值进行比较，从而得出一个百分比。<br /><br /> 有<b><u>69</u></b>道题在此测试中。\
      类似于8values，该测验将尝试使您符合特定的右派意识形态。当前有36种意识形态，还有更多的意识形态欢迎你的建议。请记住，您无意在任何类别中获得100％的分数。测验的目的是挑战您的观点。如果您有任何建议或建设性的批评，请在GitHub上讨论或创建Issues。\
      此测试仅用于学术研究（如社科），测验中的任何内容不代表翻译者的政治立场。除Google Analytics外，我们不会收集任何个人信息，也不会保存答案或结果。如果你不相信这一点，本项目的开源代码对所有人开放查阅，欢迎查看。"
 },
