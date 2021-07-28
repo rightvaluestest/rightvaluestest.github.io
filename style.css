@@ -387,7 +387,7 @@ img.index {
     top: 1em;
 }
 
-/*Language Tabs*/
+/*Tabs*/
 .tab {
   overflow: hidden;
   display: block;
@@ -502,7 +502,7 @@ li.nav a:hover:not(.active), #navres a:hover {
   html {
     background-color: #e5e5e5
   }
-  p {
+  p, tab, #licensebutton {
     font-size: 16px;
   }
 }
