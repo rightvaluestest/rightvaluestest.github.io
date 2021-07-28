@@ -502,7 +502,7 @@ li.nav a:hover:not(.active), #navres a:hover {
   html {
     background-color: #e5e5e5
   }
-  p, tab, #licensebutton {
+  .tab {
     font-size: 16px;
   }
 }
