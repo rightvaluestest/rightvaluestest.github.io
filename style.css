@@ -369,7 +369,8 @@ canvas {
     margin: 8pt;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 60%;
+    display: block;
 }
 img.index {
     border-color: #444444;
