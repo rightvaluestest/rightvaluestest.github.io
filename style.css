@@ -367,7 +367,9 @@ canvas {
     border-radius: 8pt;
     display: block;
     margin: 8pt;
-    margin-left: auto;
+    --marginA: auto;
+    --marginB: calc(var(--widthA) + 14%);
+    margin-left: var(--marginB);
     margin-right: auto;
     width: 60%;
     display: block;
