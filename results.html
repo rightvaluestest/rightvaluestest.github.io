@@ -120,6 +120,8 @@
     <p data-i18n="result-issues">Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href="https://forms.gle/Puc4sjaSQqvwNu6q8">short form</a>.</p>
 </div> <br>
 	
+<canvas id="html2canvas-canvas"></canvas>
+	
 <button class="button" onclick="doCapture()" style="font-size:18pt;">Generate Image</button><br>
 <button class="button" onclick="location.href='index.html';" style="font-size:18pt;">Back</button> <br>
 
@@ -130,11 +132,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
 <script>
 	
-    function doCapture() {
+    window.onload = function doCapture() {
   	html2canvas(document.getElementById('capture'), {
     	onrendered: function(canvas) {
       	document.body.appendChild(canvas);
     	},
+	canvas = document.getElementById("html2canvas-canvas")
   	});
     }
 	
