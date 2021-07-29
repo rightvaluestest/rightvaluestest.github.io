@@ -8,7 +8,6 @@
 <link rel="shortcut icon" type="image/png" href="icon.png">
 <meta charset="utf-8">
 </head>
-<body onbeforeunload="return leaveConfirm()">
 <script type="application/javascript"
         src="questions.js">
 </script>
@@ -124,10 +123,6 @@
 	    + `&f=${calc_score(f,max_f)}`
 	    + `&g=${calc_score(g,max_g)}`
     }
-
-function leaveConfirm() {
-  return "Leave Site?";
-}
 </script>
 </body>
 </html>
