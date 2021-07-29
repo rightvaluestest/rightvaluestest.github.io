@@ -12,7 +12,7 @@ ideologies = [
             "desc": "法西斯主义是专制主义的一种形式，它包含了专制的超民族主义。乔万尼•金泰勒（Giovanni Gentile）创立了这种意识形态，著名的法西斯主义者包括墨索里尼。" },
     "ja": { "name": "ファシズム", 
             "desc": "ファシズム（Fascism）は、権威主義的なウルトラナショナリズム（超国家主義）的思想を持つ、独裁を支持する学派の一つです。ジェンティーレ（Giovanni Gentile）を始祖とします。有名なファシストとして、ムッソリーニ（Benito Mussolini）がいます。" }},
-"stats": { "a": 20, "b": 85, "c": 85, "d": 10, "e": 0, "f": 50, "g": 80 }},
+"stats": { "a": 20, "b": 85, "c": 90, "d": 10, "e": 50, "f": 50, "g": 80 }},
   
  { "name": "<a href='https://en.wikipedia.org/wiki/Nazism'> National Socialism </a>",
   "desc": "National Socialism, often shortened as Nazism, is a totalitarian ideology that has disdain for liberal democracy and the parliamentary system, and advocates for ideas like antisemitism, anti-communism, scientific racism, German nationalism, and eugenics.",
@@ -25,7 +25,7 @@ ideologies = [
             "desc": "纳粹主义是一种基于种族和种族来分配权力和机会的法西斯主义形式。这是纳粹党的意识形态，它是由安东·德雷克斯勒（Anton Drexler）创立并由阿道夫·希特勒（Adolf Hitler）推广的。" },
     "ja": { "name": "ナチズム", 
             "desc": "ナチズム（Nazism）は人種や民族性を基に権力を分配することを求める、ファシズムの一派です。 国家社会主義ドイツ労働者党（ナチス）がイデオロギーとして採用した事で有名です。ドレクスラー（Anton Drexler）を始祖とし、ヒトラー（Adolf Hitler）によって広められました。" }},
-"stats": { "a": 0, "b": 80, "c": 100, "d": 5, "e": 5, "f": 50, "g": 100 }},
+"stats": { "a": 0, "b": 80, "c": 100, "d": 10, "e": 50, "f": 50, "g": 100 }},
 
 
 //Monarchism
@@ -41,7 +41,7 @@ ideologies = [
             "desc": "绝对君主制是专制独裁的意识形态。君主具有绝对权力，领导者是世袭的。" },
     "ja": { "name": "絶対君主主義", 
             "desc": "絶対君主主義（Absolute Monarchism）とは、権威主義的な独裁制の一つです。絶対的な権力を持つ君主による政治を理想とします。また、君主の地位は血縁を基に世襲されます。" }},
-"stats": { "a": 30, "b": 50, "c": 80, "d": 80, "e": 80, "f": 30, "g": 50 }},
+"stats": { "a": 30, "b": 50, "c": 80, "d": 80, "e": 50, "f": 30, "g": 50 }},
   
  { "name": "<a href='https://en.wikipedia.org/wiki/Constitutional_monarchy'> Constitutional Monarchism </a>",
   "desc": "Constitutional Monarchism is a form of monarchy in which the monarch exercises authority in accordance with a written or unwritten constitution. Within Constitutional Monarchism, the monarch acts as a non-party political head of state under the constitution, whether written or unwritten.",
@@ -54,7 +54,7 @@ ideologies = [
             "desc": "君主立宪制是君主制的一种变体，统治君主需要遵循宪法才能统治。它存在于英国，西班牙，瑞典等欧洲国家。" },
     "ja": { "name": "立憲君主主義", 
             "desc": "立憲君主主義（Constitutional Monarchism）とは、君主が憲法に縛られる君主制の一派です。英国やスペイン、スウェーデン王国などヨーロッパの国々は、現在もこの体制下にあります。" }},
-"stats": { "a": 30, "b": 30, "c": 60, "d": 40, "e": 80, "f": 50, "g": 50 }},
+"stats": { "a": 30, "b": 30, "c": 60, "d": 40, "e": 50, "f": 50, "g": 50 }},
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Theocracy'> Theocracy </a>",
   "desc": "Theocracy is a form of government in which a deity of some type is recognized as the supreme ruling authority, giving divine guidance to human intermediaries that manage the day-to-day affairs of the government. In some religions, the ruler, usually a king, was regarded as the chosen favorite of God (or gods) and could not be questioned, sometimes even being regarded as the descendant of or a god in their own right.",
@@ -67,7 +67,7 @@ ideologies = [
             "desc": "君权神授制是使用宗教作为国家统治工具的君主制，经常使用宗教组织来统治。" },
     "ja": { "name": "神権主義", 
             "desc": "神権主義（Theocracy）とは、宗教や宗教的指導者を君主とする君主制を支持する思想です。多くの場合、宗教団体を用いた政治が行われます。" }},
-"stats": { "a": 20, "b": 50, "c": 80, "d": 50, "e": 90, "f": 40, "g": 50 }}, 
+"stats": { "a": 20, "b": 50, "c": 85, "d": 50, "e": 10, "f": 40, "g": 50 }}, 
 
 
 
@@ -123,7 +123,7 @@ ideologies = [
             "desc": "无政府资本主义是一种无政府主义意识形态，在个人权利和自由方面具有很高的优先地位。它是无政府状态和资本主义的极端形式。它认为税收是盗窃的一种形式。" },
     "ja": { "name": "無政府資本主義", 
             "desc": "無政府資本主義（アナルコキャピタリズム；Anarcho-Capitalism）とは、個人の自由や権利をつよく優先する思想です。徴税は窃盗であるとつよく主張し、政府が廃止された自由市場に基づく資本主義を提唱します。" }},
-"stats": { "a": 50, "b": 10, "c": 10, "d": 50, "e": 20, "f": 80, "g": 50 }}, 
+"stats": { "a": 50, "b": 10, "c": 10, "d": 50, "e": 50, "f": 80, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Night-watchman_state'> Minarchism </a>",
   "desc": "Minarchism maintains that the state's only legitimate function is the protection of individuals from aggression, theft, breach of contract, and fraud, and the only legitimate governmental institutions are the military, police, and courts. Similarly to other Libertarian ideologies, it emphasizes on freedom of speech, property, and voluntary association.",
@@ -149,7 +149,7 @@ ideologies = [
             "desc": "古希腊主义者基本上是自由主义者，但在文化上也很保守。他们想要一个小国家。" },
     "ja": { "name": "パレオ・リバタリアニズム", 
             "desc": "パレオ・リバタリアニズム（Paleolibertarianism）とは、文化に対しては保守主義的姿勢を取るリバタリアン（自由至上主義）の一派です。小さな国家を主張します。" }},
-"stats": { "a": 30, "b": 30, "c": 20, "d": 40, "e": 30, "f": 60, "g": 50 }}, 
+"stats": { "a": 30, "b": 30, "c": 20, "d": 40, "e": 50, "f": 60, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Geolibertarianism'>Geolibertarianism </a>",
   "desc": "Geolibertarianism is a political and economic ideology that integrates libertarianism with Georgism, and holds that although people should own the value they produce themselves, all land should belong equally to all members of society. It does not consider land as legitimate private property.",
@@ -175,7 +175,7 @@ ideologies = [
             "desc": "新自由主义是一种以自由市场为导向的改革思想，通常在文化上是激进的。减少政府影响也是该思想的重要组成部分。" },
     "ja": { "name": "新自由主義", 
             "desc": "新自由主義（ネオリベラリズム；Neo-Liberalism）とは、、自由市場志向の社会改良を求める思想です。文化に対しては左翼的思想を持ちます。また、国家の権力を縮小することも主張します。" }},
-"stats": { "a": 60, "b": 30, "c": 50, "d": 50, "e": 30, "f": 70, "g": 50 }}, 
+"stats": { "a": 60, "b": 30, "c": 50, "d": 50, "e": 50, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Classical_Liberalism'> Classical Liberalism </a>",
   "desc": "Classical liberalism is a political ideology and a branch of liberalism that advocates civil liberties under the rule of law with an emphasis on economic freedom. Highly influenced by the Enlightenment, it believes in a limited government that protects individual rights, and limited public services and welfare.",
@@ -188,7 +188,7 @@ ideologies = [
             "desc": "古典自由主义将个人自由和有限的政府视为自由社会的基础。 它是最初具有自由主义理想的意识形态之一。" },
     "ja": { "name": "古典的自由主義", 
             "desc": "古典的自由主義（Classical Liberalism）とは、個人の自由と小さな政府を前提とした自由社会を求める立場です。より新しい自由主義（新自由主義など）のもととなった思想であり、これらと区別するために「古典的」と呼ばれます。" }},
-"stats": { "a": 40, "b": 30, "c": 40, "d": 40, "e": 60, "f": 50, "g": 50 }}, 
+"stats": { "a": 40, "b": 30, "c": 40, "d": 40, "e": 50, "f": 50, "g": 50 }}, 
 
 
 //Traditionalism
@@ -204,7 +204,7 @@ ideologies = [
             "desc": "保守主义是一种倾向于主要是维护现状的意识形态。保守主义者通常支持外交干预主义，增加军费开支和降低税收。" },
     "ja": { "name": "保守主義", 
             "desc": "保守主義とは、現状維持を強く主張する思想の一つです。保守主義者の多くは他国への積極的な干渉を支持し（干渉主義）、軍事予算 の増加や税の引き下げを主張します。" }},
-"stats": { "a": 30, "b": 20, "c": 40, "d": 20, "e": 70, "f": 50, "g": 50 }},
+"stats": { "a": 30, "b": 20, "c": 40, "d": 20, "e": 50, "f": 50, "g": 50 }},
 
  { "name": "<a href='https://en.wikipedia.org/wiki/Neoconservatism'> Neoconservatism </a>",
   "desc": "Neoconservatives typically advocate the promotion of democracy and interventionism in international affairs, including peace through strength, and are known for espousing disdain for communism and political radicalism.",
@@ -217,7 +217,7 @@ ideologies = [
             "desc": "新保守主义是保守主义的一种形式，它不喜欢自由党的太平洋主义政策。新保守主义者认为西方国家的目标是将自己的榜样推向世界。它们更加国际化。" },
     "ja": { "name": "新保守主義", 
             "desc": "新保守主義（Neo-Conservatism）はリベラル政党のハト派政策に反対する保守主義の一派です。新保守主義者は、西洋諸国の思想や政治体制を積極的に世界中に広めることを主張します。海外を強く意識しているのが特徴です。" }},
-"stats": { "a": 20, "b": 20, "c": 60, "d": 20, "e": 60, "f": 60, "g": 50 }},
+"stats": { "a": 20, "b": 20, "c": 60, "d": 20, "e": 50, "f": 60, "g": 50 }},
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Centre-Right_Politics'> Centre-Right Politics </a>",
   "desc": "Center-Right Politics lean to the right of the political spectrum, but are closer to the centre than others. It is influenced by economics liberalism and neoliberalism, but also supports certain left-leaning ideas such as a welfare state and egalitarianism.",
@@ -244,7 +244,7 @@ ideologies = [
             "desc": "反动保守主义是一种意识形态，其思想是保存文化并退后一步，以恢复过去的政府体制，无论是帝国主义还是古典保守主义。" },
     "ja": { "name": "復古主義", 
             "desc": "復古主義（Reactionary Conservatism）とは、文化の保守や過去の政治体制の復活を支持します。場合によっては帝国主義（imperialism）を主張することもあります。" }},
-"stats": { "a": 10, "b": 20, "c": 80, "d": 70, "e": 80, "f": 50, "g": 50 }}, 
+"stats": { "a": 10, "b": 20, "c": 80, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Paleoconservatism'> Paleoconservatism </a>",
   "desc": "Paleoconservatism is a political philosophy and variety of conservatism in the United States stressing nationalism, Christian ethics, regionalism, and traditionalist conservatism. Their views overlap with the Old Right and Right-Wing Populism.",
@@ -257,7 +257,7 @@ ideologies = [
             "desc": "古典保守主义是保守主义的一种变体，它强调宗教，民族主义和传统主义。" },
     "ja": { "name": "パレオ保守主義", 
             "desc": "パレオ保守主義とは、保守主義のうち、宗教、国民、伝統を強く重視することを非常に強く訴える一派です。" }},
-"stats": { "a": 25, "b": 40, "c": 50, "d": 60, "e": 60, "f": 40, "g": 50 }}, 
+"stats": { "a": 25, "b": 40, "c": 50, "d": 60, "e": 50, "f": 40, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Right-Wing_Populism'> Right-Wing Populism </a>",
   "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
@@ -270,7 +270,7 @@ ideologies = [
             "desc": "右翼民粹主义是将右翼价值观与民粹主义相结合的意识形态。右翼民粹主义者通常是民族主义，保护主义，并支持更严格的移民限制。" },
     "ja": { "name": "右翼ポピュリズム", 
             "desc": "右翼ポピュリズム（Right-Wing Populism）とは、右翼的価値観をもったポピュリズム（大衆主義）です。ナショナリズム的な傾向を持ち、保護貿易と移民の規制を主張します、" }},
-"stats": { "a": 30, "b": 30, "c": 40, "d": 70, "e":55, "f": 50, "g": 50 }}, 
+"stats": { "a": 30, "b": 30, "c": 40, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
 
 
 //Others
@@ -299,7 +299,7 @@ ideologies = [
             "desc": "公民民族主义将民族主义与自由主义相结合。这是一种支持自由主义和传统（按照西方标准）价值观（例如自由，个性和平等）的民族主义。" },
     "ja": { "name": "市民民族主義", 
             "desc": "市民民族主義（Civic Nationalism）とは、リベラリズム的思想を持ったナショナリズムです。市民の自由や個人主義、そして平等を主張します。" }},
-"stats": { "a": 60, "b": 30, "c": 50, "d": 50, "e": 55, "f": 50, "g": 50 }}, 
+"stats": { "a": 60, "b": 30, "c": 50, "d": 50, "e": 50, "f": 50, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Progressive_Conservatism'> Progressive Conservatism </a>",
   "desc": "Progressive conservatism is a political ideology which combines conservative and progressive policies. It believes that social reform and progression in areas such as science, economics, education, technology and medicine were necessary to improve human living conditions, but also supports the preservation of tradition.",
@@ -312,7 +312,7 @@ ideologies = [
             "desc": "进步保守主义是一个来自于保守主義的思想意识，它依附于保守主義政策的基础上合并了進步主義的制度政策。" },
     "ja": { "name": "革新的保守主義", 
             "desc": "革新的保守主義（Progressive Conservatism）とは、社会改良主義的思想を持った保守です。社会に改良が必要であることを認めつつ、保守的態度を通した社会改革を求めます。" }},
-"stats": { "a": 65, "b": 30, "c": 40, "d": 50, "e": 55, "f": 70, "g": 50 }}, 
+"stats": { "a": 65, "b": 30, "c": 40, "d": 50, "e": 50, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Technocracy'> Technocracy </a>",
   "desc": "Technocracy is a system of government in which a decision-maker or makers are elected by the population or appointed on the basis of their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge.",
@@ -325,6 +325,6 @@ ideologies = [
             "desc": "在科技专制中，决策者是根据其在给定责任领域（尤其是在科学或技术知识方面）的专业知识来选拔的。" },
     "ja": { "name": "技術官僚主義", 
             "desc": "技術官僚主義（テクノクラシー；Technocracy）あるいは技術家主義とは、高度な専門的知識を持つ技術家を官僚（テクノクラート）とし、テクノクラートを中心とした政治体制を求める思想です。" }},
-"stats": { "a": 80, "b": 60, "c": 70, "d": 60, "e": 20, "f": 80, "g": 50 }}
+"stats": { "a": 80, "b": 60, "c": 70, "d": 60, "e": 50, "f": 80, "g": 50 }}
 
 ];
