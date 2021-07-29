@@ -84,7 +84,7 @@ ideologies = [
             "desc": "自由主义者通常在文化上是激进的，但在财政上是保守的，他们想要一个较小的政府，以及废除强制纳税。" },
     "ja": { "name": "リバタリアニズム", 
             "desc": "リバタリアニズム（Libertarians）は自由至上主義とも訳されます。リバタリアンの多くは文化については左翼的である一方、経済に関しては右派です。小さな国家／政府を支持し、自由意志に基づいて拒否できない税制の廃止を主張します。" }},
-"stats": { "a": 60, "b": 20, "c": 30, "d": 60, "e": 50, "f": 80, "g": 50 }},
+"stats": { "a": 60, "b": 20, "c": 20, "d": 60, "e": 50, "f": 80, "g": 50 }},
   
  { "name": "<a href='https://en.wikipedia.org/wiki/Individualist_Anarchism'> Individualist Anarchism </a>",
   "desc": "Individualist anarchism is the branch of anarchism that emphasizes the individual and their will over external determinants such as groups, society, traditions and ideological systems.",
@@ -136,7 +136,7 @@ ideologies = [
             "desc": "最小政府主義是一个需要很小的政府的意识形态。他们认为政府的目的只是为了执行法律。这种政府被称为守夜人政府。" },
     "ja": { "name": "最小国家主義", 
             "desc": "最小国家主義（ミナキズム；Minarchism）とは、国民を暴力やその他個人を害する行為からのみ守る政府（最小国家）を提唱する思想です。最小国家は夜警国家とも呼ばれます。" }},
-"stats": { "a": 50, "b": 15, "c": 20, "d": 50, "e": 50, "f": 30, "g": 50 }}, 
+"stats": { "a": 50, "b": 15, "c": 15, "d": 50, "e": 50, "f": 30, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Paleolibertarianism'> Paleolibertarianism </a>",
   "desc": "Paleolibertarianism is a variant of Libertarianism which stresses inherent incompatibility between progressivism and the concept of liberty, as well as a focus on the importance of inherited culture as a means of maintaining order. ",
@@ -149,7 +149,7 @@ ideologies = [
             "desc": "古希腊主义者基本上是自由主义者，但在文化上也很保守。他们想要一个小国家。" },
     "ja": { "name": "パレオ・リバタリアニズム", 
             "desc": "パレオ・リバタリアニズム（Paleolibertarianism）とは、文化に対しては保守主義的姿勢を取るリバタリアン（自由至上主義）の一派です。小さな国家を主張します。" }},
-"stats": { "a": 30, "b": 30, "c": 20, "d": 40, "e": 50, "f": 60, "g": 50 }}, 
+"stats": { "a": 30, "b": 20, "c": 20, "d": 40, "e": 50, "f": 60, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Geolibertarianism'>Geolibertarianism </a>",
   "desc": "Geolibertarianism is a political and economic ideology that integrates libertarianism with Georgism, and holds that although people should own the value they produce themselves, all land should belong equally to all members of society. It does not consider land as legitimate private property.",
@@ -188,7 +188,7 @@ ideologies = [
             "desc": "古典自由主义将个人自由和有限的政府视为自由社会的基础。 它是最初具有自由主义理想的意识形态之一。" },
     "ja": { "name": "古典的自由主義", 
             "desc": "古典的自由主義（Classical Liberalism）とは、個人の自由と小さな政府を前提とした自由社会を求める立場です。より新しい自由主義（新自由主義など）のもととなった思想であり、これらと区別するために「古典的」と呼ばれます。" }},
-"stats": { "a": 40, "b": 30, "c": 40, "d": 40, "e": 50, "f": 50, "g": 50 }}, 
+"stats": { "a": 40, "b": 30, "c": 30, "d": 40, "e": 50, "f": 50, "g": 50 }}, 
 
 
 //Traditionalism
@@ -217,7 +217,7 @@ ideologies = [
             "desc": "新保守主义是保守主义的一种形式，它不喜欢自由党的太平洋主义政策。新保守主义者认为西方国家的目标是将自己的榜样推向世界。它们更加国际化。" },
     "ja": { "name": "新保守主義", 
             "desc": "新保守主義（Neo-Conservatism）はリベラル政党のハト派政策に反対する保守主義の一派です。新保守主義者は、西洋諸国の思想や政治体制を積極的に世界中に広めることを主張します。海外を強く意識しているのが特徴です。" }},
-"stats": { "a": 20, "b": 20, "c": 60, "d": 20, "e": 50, "f": 60, "g": 50 }},
+"stats": { "a": 20, "b": 20, "c": 65, "d": 20, "e": 50, "f": 60, "g": 50 }},
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Centre-Right_Politics'> Centre-Right Politics </a>",
   "desc": "Center-Right Politics lean to the right of the political spectrum, but are closer to the centre than others. It is influenced by economics liberalism and neoliberalism, but also supports certain left-leaning ideas such as a welfare state and egalitarianism.",
@@ -244,7 +244,7 @@ ideologies = [
             "desc": "反动保守主义是一种意识形态，其思想是保存文化并退后一步，以恢复过去的政府体制，无论是帝国主义还是古典保守主义。" },
     "ja": { "name": "復古主義", 
             "desc": "復古主義（Reactionary Conservatism）とは、文化の保守や過去の政治体制の復活を支持します。場合によっては帝国主義（imperialism）を主張することもあります。" }},
-"stats": { "a": 10, "b": 20, "c": 80, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
+"stats": { "a": 0, "b": 20, "c": 80, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Paleoconservatism'> Paleoconservatism </a>",
   "desc": "Paleoconservatism is a political philosophy and variety of conservatism in the United States stressing nationalism, Christian ethics, regionalism, and traditionalist conservatism. Their views overlap with the Old Right and Right-Wing Populism.",
@@ -257,7 +257,7 @@ ideologies = [
             "desc": "古典保守主义是保守主义的一种变体，它强调宗教，民族主义和传统主义。" },
     "ja": { "name": "パレオ保守主義", 
             "desc": "パレオ保守主義とは、保守主義のうち、宗教、国民、伝統を強く重視することを非常に強く訴える一派です。" }},
-"stats": { "a": 25, "b": 40, "c": 50, "d": 60, "e": 50, "f": 40, "g": 50 }}, 
+"stats": { "a": 25, "b": 40, "c": 55, "d": 60, "e": 50, "f": 40, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Right-wing_populism'> Right-Wing Populism </a>",
   "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
@@ -270,7 +270,7 @@ ideologies = [
             "desc": "右翼民粹主义是将右翼价值观与民粹主义相结合的意识形态。右翼民粹主义者通常是民族主义，保护主义，并支持更严格的移民限制。" },
     "ja": { "name": "右翼ポピュリズム", 
             "desc": "右翼ポピュリズム（Right-Wing Populism）とは、右翼的価値観をもったポピュリズム（大衆主義）です。ナショナリズム的な傾向を持ち、保護貿易と移民の規制を主張します、" }},
-"stats": { "a": 30, "b": 30, "c": 40, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
+"stats": { "a": 30, "b": 30, "c": 60, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
 
 
 //Others
@@ -286,7 +286,7 @@ ideologies = [
             "desc": "粉色资本主义是一种旨在将进步主义纳入资本主义的意识形态。它支持自由放任的市场。" },
     "ja": { "name": "ピンク・キャピタリズム", 
             "desc": "ピンク・キャピタリズムとは、LGBTQの権利拡大を主張しつつ、する資本主義の一派です。自由放任市場を支持し。" }},
-"stats": { "a": 80, "b": 10, "c": 10, "d": 30, "e": 50, "f": 70, "g": 50 }}, 
+"stats": { "a": 80, "b": 10, "c": 30, "d": 30, "e": 50, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Civic_Nationalism'> Civic Nationalism </a>",
   "desc": "Civic Nationalism is a form of nationalism identified by political philosophers who believe in an inclusive form of nationalism that adheres to traditional liberal values of freedom, tolerance, equality, and individual rights.",
@@ -325,6 +325,6 @@ ideologies = [
             "desc": "在科技专制中，决策者是根据其在给定责任领域（尤其是在科学或技术知识方面）的专业知识来选拔的。" },
     "ja": { "name": "技術官僚主義", 
             "desc": "技術官僚主義（テクノクラシー；Technocracy）あるいは技術家主義とは、高度な専門的知識を持つ技術家を官僚（テクノクラート）とし、テクノクラートを中心とした政治体制を求める思想です。" }},
-"stats": { "a": 80, "b": 60, "c": 70, "d": 60, "e": 50, "f": 80, "g": 50 }}
+"stats": { "a": 80, "b": 60, "c": 60, "d": 60, "e": 50, "f": 80, "g": 50 }}
 
 ];
