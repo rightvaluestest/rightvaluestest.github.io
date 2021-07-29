@@ -264,15 +264,40 @@ ideologies = [
   "i18n": { 
     "ko": { "name": "우익 포퓰리즘", 
             "desc": "우익 포퓰리즘은 우파적 가치와 포퓰리즘이 결합된 이념입니다. 우익 포퓰리스트들은 대개 민족주의적이고 보호주의적이며 이민에 대한 더 강력한 규제를 지지합니다." },
-    "ru": { "name": "Правый популизм",
-            "desc": "Правый популизм-это идеология, которая сочетает в себе правые ценности с популизмом. Правые популисты, как правило, националисты, протекционисты и поддерживают более жесткие ограничения на иммиграцию." },
+    "ru": { "name": "Патерналистский консерватизм",
+            "desc": "Патернали́стский консервати́зм — ответвление консерватизма, отражающее идею того, что сообщества функционируют и развиваются взаимозависимо, и что люди внутри них имеют обязательства друг перед другом." },
     "cn": { "name": "右翼民粹主义", 
             "desc": "右翼民粹主义是将右翼价值观与民粹主义相结合的意识形态。右翼民粹主义者通常是民族主义，保护主义，并支持更严格的移民限制。" },
     "ja": { "name": "右翼ポピュリズム", 
             "desc": "右翼ポピュリズム（Right-Wing Populism）とは、右翼的価値観をもったポピュリズム（大衆主義）です。ナショナリズム的な傾向を持ち、保護貿易と移民の規制を主張します、" }},
 "stats": { "a": 30, "b": 30, "c": 60, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
 
-
+ { "name": "<a href='https://en.wikipedia.org/wiki/Paternalistic_conservatism'> Paternalistic Conservatism </a>",
+  "desc": "Paternalistic conservatism is a strand of conservatism with an emphasis on the paternalistic obligation of those who are privileged and wealthy to the poorer parts of society.",
+  "i18n": { 
+    "ko": { "name": "우익 사회주의", 
+            "desc": "우익 사회주의 는 시장 경제, 상업주의, 자유 방임, 내셔널리즘 등 우파적인 가치를 바탕으로 한 공동체주의를 의미한다." },
+    "ru": { "name": "Патерналистский консерватизм",
+            "desc": "это идеология, которая в основном направлена на сохранение статус-кво. Консерваторы обычно поддерживают дипломатический интервенционизм, увеличение военных расходов и снижение налогов." },
+    "cn": { "name": "家长式保守主义", 
+            "desc": "家长式保守主义是保守主义的一个分支，主张富人有责任支持穷人。 " },
+    "ja": { "name": "父性的保守主義", 
+            "desc": "父性的保守主義は保守主義の一分野であり、貧しい人々を支援するために裕福な人々の義務を擁護しています。 " }},
+"stats": { "a": 40, "b": 60, "c": 60, "d": 20, "e": 50, "f": 50, "g": 50 }},
+  
+ { "name": "<a href='https://en.wikipedia.org/wiki/Fiscal_conservatism'> Fiscal Conservatism </a>",
+  "desc": "Fiscal conservatism is a political and economic philosophy regarding fiscal policy and fiscal responsibility advocating privatization, low taxes, reduced government spending and minimal government debt.",
+  "i18n": { 
+    "ko": { "name": "재정보수주의", 
+            "desc": "재정보수주의 는 재정 정책과 관련하여 재정 책임의 옹호의 정치 철학이다. 재정보수주의자들은 종종 피고려 적자 지출과 전체 정부 지출 및 국가 부채의 감소뿐만 아니라 균형 예산을 중요시한다." },
+    "ru": { "name": "Фискальный консерватизм",
+            "desc": "Фискальный консерватизм, представляет собой политическую и экономическую философию, касающуюся фискальной политики и фискальной ответственности, выступающую за низкие налоги, сокращение государственных расходов и минимальный государственный долг." },
+    "cn": { "name": "财政保守主义", 
+            "desc": "财政保守主义是用来形容主张避免赤字开支的保守主义财政政策。财政保守主义者往往支持减少整体政府开支、赤字和国债，以达到最重要的平衡预算。" },
+    "ja": { "name": "財政保守主義", 
+            "desc": "財政保守主義は、低税、政府支出の削減、最小限の政府債務を提唱する財政政策と財政責任に関する政治的および経済的哲学です。" }},
+"stats": { "a": 40, "b": 30, "c": 40, "d": 20, "e": 50, "f": 50, "g": 50 }},
+  
 //Others
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Rainbow_capitalism'> Pink Capitalism </a>",
@@ -312,7 +337,7 @@ ideologies = [
             "desc": "进步保守主义是一个来自于保守主義的思想意识，它依附于保守主義政策的基础上合并了進步主義的制度政策。" },
     "ja": { "name": "革新的保守主義", 
             "desc": "革新的保守主義（Progressive Conservatism）とは、社会改良主義的思想を持った保守です。社会に改良が必要であることを認めつつ、保守的態度を通した社会改革を求めます。" }},
-"stats": { "a": 65, "b": 30, "c": 40, "d": 50, "e": 50, "f": 70, "g": 50 }}, 
+"stats": { "a": 70, "b": 30, "c": 40, "d": 50, "e": 50, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Technocracy'> Technocracy </a>",
   "desc": "Technocracy is a system of government in which a decision-maker or makers are elected by the population or appointed on the basis of their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge.",
@@ -325,6 +350,6 @@ ideologies = [
             "desc": "在科技专制中，决策者是根据其在给定责任领域（尤其是在科学或技术知识方面）的专业知识来选拔的。" },
     "ja": { "name": "技術官僚主義", 
             "desc": "技術官僚主義（テクノクラシー；Technocracy）あるいは技術家主義とは、高度な専門的知識を持つ技術家を官僚（テクノクラート）とし、テクノクラートを中心とした政治体制を求める思想です。" }},
-"stats": { "a": 80, "b": 60, "c": 60, "d": 60, "e": 50, "f": 80, "g": 50 }}
+"stats": { "a": 70, "b": 60, "c": 60, "d": 60, "e": 50, "f": 80, "g": 50 }}
 
 ];
