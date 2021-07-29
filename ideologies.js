@@ -259,7 +259,7 @@ ideologies = [
             "desc": "パレオ保守主義とは、保守主義のうち、宗教、国民、伝統を強く重視することを非常に強く訴える一派です。" }},
 "stats": { "a": 25, "b": 40, "c": 50, "d": 60, "e": 50, "f": 40, "g": 50 }}, 
 
-{ "name": "<a href='https://en.wikipedia.org/wiki/Right-Wing_Populism'> Right-Wing Populism </a>",
+{ "name": "<a href='https://en.wikipedia.org/wiki/Right-wing_populism'> Right-Wing Populism </a>",
   "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
   "i18n": { 
     "ko": { "name": "우익 포퓰리즘", 
