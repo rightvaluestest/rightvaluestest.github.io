@@ -246,9 +246,9 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.c - central), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.b - stateown), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.d - world), 2)
-		dist += Math.pow(Math.abs(ideologies[i].stats.e - religious), 2)
-		dist += Math.pow(Math.abs(ideologies[i].stats.f - economy), 2)
-		dist += Math.pow(Math.abs(ideologies[i].stats.g - race), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.e - religious), 1)
+        dist += Math.pow(Math.abs(ideologies[i].stats.f - economy), 1)
+        dist += Math.pow(Math.abs(ideologies[i].stats.g - race), 1)
 
         ideologyToDistance[ideologies[i].name] = dist;
         ideologyIndexAndDistance.push({index: i, distance: dist});
