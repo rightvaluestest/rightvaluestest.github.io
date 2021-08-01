@@ -556,10 +556,21 @@ li.nav a:hover:not(.active), #navres a:hover {
         color: white;
         box-shadow: none;
     }
-    rvlogo.nav a {
+    .rvlogo a {
         color: white;
     }
     ul.ulnav {
         border-right: 10px solid #666666;
-
+    }
+    .tab button:hover {
+        background-color: #444444;
+        color: white;
+    }
+    .tab button.active {
+        background-color: #444444;
+        color: white;
+    }
+    .tab button {
+        color: white;
+    }
 }
