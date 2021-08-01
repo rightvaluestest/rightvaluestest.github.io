@@ -573,4 +573,10 @@ li.nav a:hover:not(.active), #navres a:hover {
     .tab button {
         color: white;
     }
+    p.ideodesc, dt, dd {
+        color: white;
+    }
+    h1 a, h2 a, p a, p.ideodesc a, dt a, dd a {
+        color: LightGray;
+    }
 }
