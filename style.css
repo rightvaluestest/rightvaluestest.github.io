@@ -527,10 +527,16 @@ li.nav a:hover:not(.active), #navres a:hover {
 
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: #444444
+        background-color: #666666
+    }
+    body {
+        box-shadow: none;
     }
     div.element {
         background-color: #444444
+    }
+    div.main {
+        background-color: #222222
     }
     ul.ulnav {
         background-color: #444444
@@ -543,5 +549,13 @@ li.nav a:hover:not(.active), #navres a:hover {
     }
     h1, h2, p {
         color: white
+    }
+    p.question {
+        background-color: black;
+        color: white;
+        box-shadow: none;
+    }
+    rvlogo.nav a {
+        color: white;
     }
 }
