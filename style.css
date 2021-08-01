@@ -527,28 +527,29 @@ li.nav a:hover:not(.active), #navres a:hover {
 
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: #666666
+        background-color: #666666;
     }
     body {
         box-shadow: none;
+        background-color: #222222;
     }
     div.element {
-        background-color: #444444
+        background-color: #444444;
     }
     div.main {
-        background-color: #222222
+        background-color: #222222;
     }
     ul.ulnav {
-        background-color: #444444
+        background-color: #444444;
     }
     li.nav a {
-        color: white
+        color: white;
     }
     #navres a {
-        color: LightGray
+        color: LightGray;
     }
     h1, h2, p {
-        color: white
+        color: white;
     }
     p.question {
         background-color: black;
@@ -558,4 +559,7 @@ li.nav a:hover:not(.active), #navres a:hover {
     rvlogo.nav a {
         color: white;
     }
+    ul.ulnav {
+        border-right: 10px solid #666666;
+
 }
