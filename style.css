@@ -525,3 +525,23 @@ li.nav a:hover:not(.active), #navres a:hover {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #444444
+    }
+    div.element {
+        background-color: #444444
+    }
+    ul.ulnav {
+        background-color: #444444
+    }
+    li.nav a {
+        color: white
+    }
+    #navres a {
+        color: LightGray
+    }
+    h1, h2, p {
+        color: white
+    }
+}
