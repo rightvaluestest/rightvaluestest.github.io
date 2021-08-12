@@ -525,7 +525,7 @@ li.nav a:hover:not(.active), #navres a:hover {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     html {
         background-color: #666666;
     }
@@ -579,4 +579,4 @@ li.nav a:hover:not(.active), #navres a:hover {
     h1 a, h2 a, p a, p.ideodesc a, dt a, dd a {
         color: LightGray;
     }
-}
+} */
