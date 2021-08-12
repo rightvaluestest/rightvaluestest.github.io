@@ -84,7 +84,7 @@ ideologies = [
             "desc": "自由主义者通常在文化上是激进的，但在财政上是保守的，他们想要一个较小的政府，以及废除强制纳税。" },
     "ja": { "name": "リバタリアニズム", 
             "desc": "リバタリアニズム（Libertarians）は自由至上主義とも訳されます。リバタリアンの多くは文化については左翼的である一方、経済に関しては右派です。小さな国家／政府を支持し、自由意志に基づいて拒否できない税制の廃止を主張します。" }},
-"stats": { "a": 60, "b": 20, "c": 20, "d": 60, "e": 50, "f": 80, "g": 50 }},
+"stats": { "a": 60, "b": 10, "c": 20, "d": 60, "e": 50, "f": 80, "g": 50 }},
   
  { "name": "<a href='https://en.wikipedia.org/wiki/Individualist_Anarchism'> Individualist Anarchism </a>",
   "desc": "Individualist anarchism is the branch of anarchism that emphasizes the individual and their will over external determinants such as groups, society, traditions and ideological systems.",
@@ -97,7 +97,7 @@ ideologies = [
             "desc": "个人无政府主义是强烈倡导个人主义并支持无政府主义的意识形态。" },
     "ja": { "name": "個人主義的無政府主義", 
             "desc": "個人主義的無政府主義（Individualist Anarchism）は個人主義を強く主張する無政府主義の一派です。" }},
-"stats": { "a": 50, "b": 30, "c": 10, "d": 80, "e": 50, "f": 60, "g": 50 }},
+"stats": { "a": 50, "b": 20, "c": 10, "d": 80, "e": 50, "f": 60, "g": 50 }},
     
  { "name": "<a href='https://en.wikipedia.org/wiki/Agorism'> Agorism </a>",
   "desc": "Agorism is a free-market anarchist political philosophy that supports bringing about a society in which all relations between people are voluntary exchanges, and aims to achieve this through counter-economics.",
@@ -110,7 +110,7 @@ ideologies = [
             "desc": "黑市主义者认为所有人类关系都应通过和平革命和反经济学来完成。" },
     "ja": { "name": "アゴリズム", 
             "desc": "アゴリズム（Agorism）とは、ブラックマーケットやグレーマーケットを活用した非暴力革命を通し、あらゆる人間が能動的な契約に基づく交流を行う社会を実現することを主張する思想です。" }},
-"stats": { "a": 50, "b": 20, "c": 10, "d": 80, "e": 50, "f": 60, "g": 50 }},
+"stats": { "a": 50, "b": 40, "c": 10, "d": 80, "e": 50, "f": 60, "g": 50 }},
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Anarcho-Capitalism'> Anarcho-Capitalism </a>",
   "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
@@ -123,7 +123,7 @@ ideologies = [
             "desc": "无政府资本主义是一种无政府主义意识形态，在个人权利和自由方面具有很高的优先地位。它是无政府状态和资本主义的极端形式。它认为税收是盗窃的一种形式。" },
     "ja": { "name": "無政府資本主義", 
             "desc": "無政府資本主義（アナルコキャピタリズム；Anarcho-Capitalism）とは、個人の自由や権利をつよく優先する思想です。徴税は窃盗であるとつよく主張し、政府が廃止された自由市場に基づく資本主義を提唱します。" }},
-"stats": { "a": 50, "b": 10, "c": 10, "d": 50, "e": 50, "f": 80, "g": 50 }}, 
+"stats": { "a": 50, "b": 0, "c": 10, "d": 50, "e": 50, "f": 80, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Night-watchman_state'> Minarchism </a>",
   "desc": "Minarchism maintains that the state's only legitimate function is the protection of individuals from aggression, theft, breach of contract, and fraud, and the only legitimate governmental institutions are the military, police, and courts. Similarly to other Libertarian ideologies, it emphasizes on freedom of speech, property, and voluntary association.",
@@ -136,7 +136,7 @@ ideologies = [
             "desc": "最小政府主義是一个需要很小的政府的意识形态。他们认为政府的目的只是为了执行法律。这种政府被称为守夜人政府。" },
     "ja": { "name": "最小国家主義", 
             "desc": "最小国家主義（ミナキズム；Minarchism）とは、国民を暴力やその他個人を害する行為からのみ守る政府（最小国家）を提唱する思想です。最小国家は夜警国家とも呼ばれます。" }},
-"stats": { "a": 50, "b": 15, "c": 15, "d": 50, "e": 50, "f": 30, "g": 50 }}, 
+"stats": { "a": 50, "b": 5, "c": 15, "d": 50, "e": 50, "f": 30, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Paleolibertarianism'> Paleolibertarianism </a>",
   "desc": "Paleolibertarianism is a variant of Libertarianism which stresses inherent incompatibility between progressivism and the concept of liberty, as well as a focus on the importance of inherited culture as a means of maintaining order. ",
@@ -149,7 +149,7 @@ ideologies = [
             "desc": "古希腊主义者基本上是自由主义者，但在文化上也很保守。他们想要一个小国家。" },
     "ja": { "name": "パレオ・リバタリアニズム", 
             "desc": "パレオ・リバタリアニズム（Paleolibertarianism）とは、文化に対しては保守主義的姿勢を取るリバタリアン（自由至上主義）の一派です。小さな国家を主張します。" }},
-"stats": { "a": 30, "b": 20, "c": 20, "d": 40, "e": 50, "f": 60, "g": 50 }}, 
+"stats": { "a": 30, "b": 10, "c": 20, "d": 40, "e": 50, "f": 60, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Geolibertarianism'>Geolibertarianism </a>",
   "desc": "Geolibertarianism is a political and economic ideology that integrates libertarianism with Georgism, and holds that although people should own the value they produce themselves, all land should belong equally to all members of society. It does not consider land as legitimate private property.",
@@ -175,7 +175,7 @@ ideologies = [
             "desc": "新自由主义是一种以自由市场为导向的改革思想，通常在文化上是激进的。减少政府影响也是该思想的重要组成部分。" },
     "ja": { "name": "新自由主義", 
             "desc": "新自由主義（ネオリベラリズム；Neo-Liberalism）とは、、自由市場志向の社会改良を求める思想です。文化に対しては左翼的思想を持ちます。また、国家の権力を縮小することも主張します。" }},
-"stats": { "a": 60, "b": 30, "c": 50, "d": 50, "e": 50, "f": 70, "g": 50 }}, 
+"stats": { "a": 60, "b": 25, "c": 50, "d": 50, "e": 50, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Classical_Liberalism'> Classical Liberalism </a>",
   "desc": "Classical liberalism is a political ideology and a branch of liberalism that advocates civil liberties under the rule of law with an emphasis on economic freedom. Highly influenced by the Enlightenment, it believes in a limited government that protects individual rights, and limited public services and welfare.",
@@ -188,7 +188,7 @@ ideologies = [
             "desc": "古典自由主义将个人自由和有限的政府视为自由社会的基础。 它是最初具有自由主义理想的意识形态之一。" },
     "ja": { "name": "古典的自由主義", 
             "desc": "古典的自由主義（Classical Liberalism）とは、個人の自由と小さな政府を前提とした自由社会を求める立場です。より新しい自由主義（新自由主義など）のもととなった思想であり、これらと区別するために「古典的」と呼ばれます。" }},
-"stats": { "a": 40, "b": 30, "c": 30, "d": 40, "e": 50, "f": 50, "g": 50 }}, 
+"stats": { "a": 40, "b": 20, "c": 30, "d": 40, "e": 50, "f": 50, "g": 50 }}, 
 
 
 //Traditionalism
@@ -270,7 +270,7 @@ ideologies = [
             "desc": "右翼民粹主义是将右翼价值观与民粹主义相结合的意识形态。右翼民粹主义者通常是民族主义，保护主义，并支持更严格的移民限制。" },
     "ja": { "name": "右翼ポピュリズム", 
             "desc": "右翼ポピュリズム（Right-Wing Populism）とは、右翼的価値観をもったポピュリズム（大衆主義）です。ナショナリズム的な傾向を持ち、保護貿易と移民の規制を主張します、" }},
-"stats": { "a": 30, "b": 30, "c": 60, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
+"stats": { "a": 30, "b": 55, "c": 60, "d": 70, "e": 50, "f": 50, "g": 50 }}, 
 
  { "name": "<a href='https://en.wikipedia.org/wiki/Paternalistic_conservatism'> Paternalistic Conservatism </a>",
   "desc": "Paternalistic conservatism is a strand of conservatism with an emphasis on the paternalistic obligation of those who are privileged and wealthy to the poorer parts of society.",
@@ -283,7 +283,7 @@ ideologies = [
             "desc": "家长式保守主义是保守主义的一个分支，主张富人有责任支持穷人。 " },
     "ja": { "name": "父性的保守主義", 
             "desc": "父性的保守主義は保守主義の一分野であり、貧しい人々を支援するために裕福な人々の義務を擁護しています。 " }},
-"stats": { "a": 40, "b": 60, "c": 60, "d": 20, "e": 50, "f": 50, "g": 50 }},
+"stats": { "a": 40, "b": 65, "c": 60, "d": 20, "e": 50, "f": 50, "g": 50 }},
   
  { "name": "<a href='https://en.wikipedia.org/wiki/Fiscal_conservatism'> Fiscal Conservatism </a>",
   "desc": "Fiscal conservatism is a political and economic philosophy regarding fiscal policy and fiscal responsibility advocating privatization, low taxes, reduced government spending and minimal government debt.",
@@ -296,7 +296,7 @@ ideologies = [
             "desc": "财政保守主义是用来形容主张避免赤字开支的保守主义财政政策。财政保守主义者往往支持减少整体政府开支、赤字和国债，以达到最重要的平衡预算。" },
     "ja": { "name": "財政保守主義", 
             "desc": "財政保守主義は、低税、政府支出の削減、最小限の政府債務を提唱する財政政策と財政責任に関する政治的および経済的哲学です。" }},
-"stats": { "a": 40, "b": 30, "c": 40, "d": 20, "e": 50, "f": 50, "g": 50 }},
+"stats": { "a": 40, "b": 10, "c": 40, "d": 20, "e": 50, "f": 50, "g": 50 }},
   
 //Others
 
@@ -337,7 +337,7 @@ ideologies = [
             "desc": "进步保守主义是一个来自于保守主義的思想意识，它依附于保守主義政策的基础上合并了進步主義的制度政策。" },
     "ja": { "name": "革新的保守主義", 
             "desc": "革新的保守主義（Progressive Conservatism）とは、社会改良主義的思想を持った保守です。社会に改良が必要であることを認めつつ、保守的態度を通した社会改革を求めます。" }},
-"stats": { "a": 70, "b": 30, "c": 40, "d": 50, "e": 50, "f": 70, "g": 50 }}, 
+"stats": { "a": 70, "b": 40, "c": 40, "d": 50, "e": 50, "f": 70, "g": 50 }}, 
 
 { "name": "<a href='https://en.wikipedia.org/wiki/Technocracy'> Technocracy </a>",
   "desc": "Technocracy is a system of government in which a decision-maker or makers are elected by the population or appointed on the basis of their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge.",
@@ -350,6 +350,6 @@ ideologies = [
             "desc": "在科技专制中，决策者是根据其在给定责任领域（尤其是在科学或技术知识方面）的专业知识来选拔的。" },
     "ja": { "name": "技術官僚主義", 
             "desc": "技術官僚主義（テクノクラシー；Technocracy）あるいは技術家主義とは、高度な専門的知識を持つ技術家を官僚（テクノクラート）とし、テクノクラートを中心とした政治体制を求める思想です。" }},
-"stats": { "a": 70, "b": 60, "c": 60, "d": 60, "e": 50, "f": 80, "g": 50 }}
+"stats": { "a": 60, "b": 60, "c": 60, "d": 60, "e": 50, "f": 80, "g": 50 }}
 
 ];
