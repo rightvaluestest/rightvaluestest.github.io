@@ -360,7 +360,7 @@ questions = [
 "i18n":{"ko": "산업 혁명 이전의 삶은 지금보다 훨씬 더 좋았다.",
 	"ru": "Жизнь до промышленной революции была лучше.",
 	"cn": "工业革命之前的生活要好得多。",
-	"ja": "急激な技術発展は恩恵よりも弊害の方が大きい"},
+	"ja": "産業革命以前の生活はもっと良かった"},
 "effect": { "a": 0, "b": 0, "c": 0, "d": 0, "e": 0, "f": -5, "g": 0 } },
 	
 { "question": "Modern urban life is unfulfilling because of technological development.",
