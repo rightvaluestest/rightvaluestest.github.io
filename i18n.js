@@ -67,7 +67,7 @@ const i18n = {
     "ko": "홈페이지",
     "ru": "показатель",
     "cn": "主页",
-    "ja": "ホームページ"
+    "ja": "ホーム"
 },
 	
 "quiz": {
@@ -92,7 +92,7 @@ const i18n = {
     "ko": "RightValues 훈령",
     "ru": "RightValues инструкции",
     "cn": "RightValues 指示",
-    "ja": "RightValues 指示"
+    "ja": "RightValues 説明"
 },
 	
 "title-quiz": {
@@ -106,24 +106,26 @@ const i18n = {
 //index.html 
 
 "index-about": {
-    "en": "Rightvalues is a quiz for the people on the right of the spectrum, based upon and serves as the alternative to the <a href='https://leftvalues.github.io/'>LeftValues</a> quiz. \
+    "en": "RightValues is a quiz for the people on the right of the spectrum, based upon and serves as the alternative to the <a href='https://leftvalues.github.io/'>LeftValues</a> quiz. \
      If you are not a rightist, this quiz is obviously not suited for you, and you should look for the LeftValues instead. You will be presented with a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. \
      At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br /> There are <b><u>69</u></b> questions in the test. <br><br> \
      Similar to 8values, this quiz will attempt to match you with a specific rightist ideology, which is shown in the 'Closest Match' section. \
      Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. \
      If you have any suggestions or constructive criticism please open an issue in the Github, linked in the upper right corner of this page. <br> <br> ", 
     
-     "ru": "Rightvalues это тест для людей правых взглядов, основанный на <a href='https://leftvalues.github.io/'>LeftValues</a>. Это викторина, которая пытается определить вашу позицию в спектре правых, как альтернатива LeftValues. Если вы не правый, эта викторина, очевидно, вам не подходит, и вам следует вместо этого пройти LeftValues. \
+     "ru": "RightValues это тест для людей правых взглядов, основанный на <a href='https://leftvalues.github.io/'>LeftValues</a>. Это викторина, которая пытается определить вашу позицию в спектре правых, как альтернатива LeftValues. Если вы не правый, эта викторина, очевидно, вам не подходит, и вам следует вместо этого пройти LeftValues. \
      Вам будет представлен тест, а затем вы ответите своим мнением по поводу утверждения, от <b>полностью согласен</b> до <b>полностью не согласен</b>, причем каждый ответ немного влияет на ваши результаты. В конце викторины ваши ответы будут сравниваться с максимально возможным для каждой идеологии, что даст вам процентное значение. Отвечайте честно! <br><br>\
      Подобно 8values, эта викторина будет пытаться сопоставить вас с определенной правой идеологией. В настоящее время существует 36 идеологий, и их будет еще больше. Предложения очень приветствуются. \
      Если у вас есть предложения или конструктивная критика, пожалуйста, откройте вопрос в Github, ссылка на который находится в правом верхнем углу этой страницы. напишите переводчику в телеграм, если у вас есть претензии к переводу. @ladomir37",
 	
-     "ja": "RightValuesとは、 <a href='https://leftvalues.github.io/' target='_blank'>LeftValues</a>から着想を得た、右派／右翼向け政治診断です。右のなかでも、あなたがどのような価値観をもっているのか診断します。 左寄りの方は正しい結果が得られませんので、LeftValuesをご利用ください。この診断では、表示される各文に対してどう考えるか、<b>「つよく同意する」</b>から<b>「まったく同意しない」</b>の範囲より答えていただきます。\
-     選択に応じてスコアがつけられ、最後まで回答すると、それぞれの価値観について取り得る最大スコアを100％とした確率が表示されます。正直にお答えください！<br /><br /> \
-     LeftValuesでは、発想元の<a href='https://8values-ja.github.io/index.html' target='_blank' rel='noopener noreferrer'>8values</a>や<a href='https://leftvalues.github.io/' target='_blank' rel='noopener noreferrer'>LeftValues</a> \
-     と似たように、あなたの回答に最も近い思想を診断します。現在36種類の思想が登録されており、順次拡大予定です。ご提案がありましたら、お気軽にご連絡ください。いずれの軸についても、この診断では100％をとる必要はありません。提案や建設的な批判がある場合は、このページの右上隅にリンクされているGithubで問題を開いてください (Translated by: Choux)",
+     "ja": "RightValuesとは、 <a href='https://leftvalues.github.io/'>LeftValues</a>から着想を得た、右派／右翼向け政治診断です。右のなかでも、あなたがどのような価値観をもっているのか診断します。\
+     左寄りの方は正しい結果が得られませんので、LeftValuesをご利用ください。この診断では、表示される各文に対してどう考えるか、<b>「つよく同意する」</b>から<b>「まったく同意しない」</b>の範囲より答えていただきます。\
+     選択に応じてスコアがつけられ、最後まで回答すると、それぞれの価値観について取り得る最大スコアを100％とした確率が表示されます。正直にお答えください！現在、<b><u>69</u></b>問あります。<br /><br /> \
+     また、<a href='https://8values-ja.github.io/index.html'>8values</a>や<a href='https://leftvalues.github.io/'>LeftValues</a>と同様に、RightValuesでもあなたの回答に最も近い思想を判定します。\
+     この診断では、いずれの軸についても100％をとる必要はありません。ご自身の価値観を把握し、問い直すためにご活用ください。\
+     RightValuesの改善に役立つご批判やご提案がございましたら、このページの右上隅にリンクされているGithubからご連絡ください。 (Translated by: Choux)",
 	
-     "ko": "Rightvalues는 <a href='https://leftvalues.github.io/' target='_blank' rel='noopener noreferrer'>LeftValues</a>의 대안으로 우익 스펙트럼 상에서 당신의 위치를 파악하기 위해 LeftValues를 바탕으로 만들어진 우익 설문입니다. 만약 당신이 우파가 아니라면, 이 설문은 분명 당신에게 적합하지 않습니다. \
+     "ko": "RightValues는 <a href='https://leftvalues.github.io/' target='_blank' rel='noopener noreferrer'>LeftValues</a>의 대안으로 우익 스펙트럼 상에서 당신의 위치를 파악하기 위해 LeftValues를 바탕으로 만들어진 우익 설문입니다. 만약 당신이 우파가 아니라면, 이 설문은 분명 당신에게 적합하지 않습니다. \
      대신 LeftValues를 찾으세요. 각 문항을 살펴보고 <b>적극 동의</b>부터 <b>동의</b>, <b>중립/모르겠다</b>, <b>비동의</b>, <b>적극 비동의</b>까지의 답변중 하나를 선택하면, 각각의 답변이 당신의 점수에 조금씩 영향을 주게 될 것입니다. 설문 마지막에 당신의 답변에 기초한 점수가 각각의 가치(values)에 대해 가질 수 있는 최대값에 대한 백분율로 표시됩니다. 최대한 정직하게 대답하세요!<br /><br /> \
      질문은 총 <b><u>69</u></b> 문항이 있습니다. 8Values, LeftValues와 비슷하게, 이 설문은 특정한 우파 이념과 당신을 짝지으려 할 것입니다. 현재 36개의 가능한 이념이 있고, 미래에는 더 많은 이념들이 있을 수 있습니다. 이는 진행중인 작업이며, 의도한대로 작동하지 않을 수도 있습니다. 제안은 언제나 환영합니다. \
      어떠한 범주에서든 100% 의 점수를 얻을 수 없다는 것을 인지해주세요. 이 설문의 목적은 당신 자신의 관점에 직면하는 것에 있습니다. 제안이나 건설적인 비판이 있는 경우 이 페이지의 오른쪽 상단에 링크된 Github에서 문제를 여십시오. (Translated by: Mizeery)",
@@ -143,7 +145,7 @@ const i18n = {
      копии программного обеспечения ». RightValues, таким образом, может на законных основаниях изменять исходные 8values без нарушения каких-либо авторских прав. RightValues основывается на LeftValues и 8Values.",
 	
      "ja": "8valuesはMIT Licenseに基づいてライセンスされており、「無制限('without restriction')」に、「ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する ('use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software')」権利が認められています。\
-     従って、LeftValuesは著作権を侵害することなく、適法的に8valuesへ変更を加えています。また、LeftValuesも同MIT Licenseを適用しています。RightValuesはLeftValues基にして制作されました。",
+   LeftValuesも同MIT Licenseを適用しています。従って、RightValuesは著作権を侵害することなく、適法的に8valuesへ変更を加えています。RightValuesはLeftValuesおよび8valuesを基に制作されました。",
 	
      "cn": "8values 是采用 MIT 许可证授权的，该许可证“无限制地”授予“使用、复制、修改、合并、发布、分发、再授权和 / 或出售软件的副本”的权利。\
      因此，LeftValues 能够在不侵犯任何版权的情况下合法地修改原始的 8values。同理，RightValues也能在不侵犯任何版权的情况下合法地修改 LeftValues，翻译者Songyon也能在不侵犯任何版权的情况下合法地翻译RightValues。",
@@ -162,10 +164,10 @@ const i18n = {
 },
 
 "index-valuesdesc": {
-     "en": "There are currently six axes, each of which has two opposing values. They are:",
+     "en": "There are currently seven axes, each of which has two opposing values. They are:",
      "ru": "В настоящее время существует шесть осей, каждая из которых имеет два противоположных мнения:",
      "ko": "현재 6개의 축이 있습니다. 각각의 축은 아래와 같은 상반되는 두 개의 가치를 갖게 됩니다.:",
-     "ja": "診断は、次に示す6つの「主軸」に基づいて下されます。各主軸は、対極の価値観同士を端に配置してあります。",
+     "ja": "本診断は、次に示す7本の「主軸」を用いて行われます。各主軸は、対極となる価値観同士を各端に配置してあります。",
      "cn": "当前一共有七个坐标轴，其各自代表了一对相反的意识形态。它们是："
 },
 	
@@ -182,7 +184,7 @@ const i18n = {
     "ko": "에 대한",
     "ru": "О",
     "cn": "关于",
-    "ja": "について"
+    "ja": "詳細"
 },
 	
 "tab-values": {
@@ -190,7 +192,7 @@ const i18n = {
     "ko": "가치",
     "ru": "Ценности",
     "cn": "价值观",
-    "ja": "価値観"
+    "ja": "7本の軸"
 },
 	
 "license-link": {
@@ -272,7 +274,7 @@ const i18n = {
     "ko": "소개",
     "ru": "Инструкция",
     "cn": "说明",
-    "ja": "診断の受け方"
+    "ja": "説明"
 },
   
 "inst-p": {
@@ -337,7 +339,7 @@ const i18n = {
     "ko": "당신과 가장 일치하는 성향을 100%로, 가장 일치하지 않는 성향을 0%로 둘 때, 아래 사상들은 당신의 성향에 가까운 다른 다른 사상들 입니다.",
     "ru": "С вашим самым близким соответствием в 100% и самым дальним на 0%, вот как близко вы подходите к другим идеологиям.",
     "cn": "这是你与其他意识形态之间的匹配程度，以100%表示完全符合，0%表示完全不符合。",
-    "ja": "もっとも近い思想を100%、もっとも遠いものを0％として、あなたの思想との距離を示しています。"
+    "ja": "あなたの回答にもっとも近い思想を100%、もっとも遠いものを0％として、相対的な距離を示しています。"
 },
   
 "result-h2-score": {
@@ -353,7 +355,7 @@ const i18n = {
     "ko": `어떠한 범주에서든 100%의 점수를 얻을 수 없다는 것을 기억하십시오. 이 설문의 목적은 당신 자신의 관점에 직면하는 것에 있습니다. 의견이나 건설적인 비판은 <a href="https://forms.gle/6WZYMb5GXkkDLhxr5">이 양식</a>이나 <a href="https://github.com/LeftValues/leftvalues.github.io">GitHub Page</a>의 이슈를 통해 개진할 수 있습니다.`,
     "ru": "Пожалуйста, помните, что вы не намерены получить 100%-ый результат ни в одной из осей. Смысл викторины заключается в том, чтобы оспорить ваши взгляды. Если у вас какие-либо предложения или конструктивная критика, то, пожалуйста, заполните эту <a href='https://forms.gle/Puc4sjaSQqvwNu6q8'>короткую форму</a> или откройте вкладку ''issue'' на <a href='https://github.com/rightvaluestest/rightvaluestest.github.io''>странице GitHub</a>.",
     "cn": "这个测试的目的在于表达你的观点，切记不要在任何一类（意识形态）中去有意取得满分。如果你有任何意见或建议，请填写<a href='https://forms.gle/Puc4sjaSQqvwNu6q8'>这份表格</a>或是在<a href='https://github.com/rightvaluestest/rightvaluestest.github.io''>该项目的GitHub Page</a>上开个issue。",
-    "ja": "いずれの軸についても、100％をとる必要はありません。ご自身の価値観を把握し、問い直すためにご活用ください。その上で、改善に役立つご批判やご提案がございましたら、 <a href='https://forms.gle/Puc4sjaSQqvwNu6q8'>こちら</a>よりご連絡ください。"
+    "ja": "いずれの軸についても、100％をとる必要はありません。ご自身の価値観を把握し、問い直すためにご活用ください。その上で、改善に役立つご批判やご提案がございましたら、 <a href='https://forms.gle/Puc4sjaSQqvwNu6q8'>こちらのGoogle Form</a>または<a href='https://github.com/rightvaluestest/rightvaluestest.github.io'>GitHub</a>よりご連絡ください。"
 },
   
 "result-a-label": {
@@ -377,7 +379,7 @@ const i18n = {
     "ko": ["전체주의", "권위주의", "국가주의", "중도적", "민주주의", "자유지상주의", "아나키즘"],
     "ru": ["Тоталитарный","Авторитарный","Государственный","Нейтральный","Демократический","Либертарианский","Анархистский"],
     "cn": ["极权主义","保皇派","国家主义","中立","民主派","自由主义","无政府主义"],
-    "ja": ["全体主義","威主義","国家重視","中立","民主主義","権自由至上主義","無政府主義"]
+    "ja": ["全体主義","権威主義","国家重視","中立","民主主義","自由至上主義","無政府主義"]
 },
   
 "result-d-label": { 
@@ -385,15 +387,15 @@ const i18n = {
     "ko": ["상대주의","배타주의","평화주의","중도적","외교적 개입주의","국제주의","제국주의"],
     "ru": ["Крайне Интернациональный","Очень Интернациональный","Интернациональный","Нейтральный","Национальный","Очень Национальный","Крайне Национальный"],
     "cn": ["极端国际主义","非常国际主义","国际主义","中立","民族主义","非常民族主义","极端民族主义"],
-    "ja": ["相対主義","特殊主義","平和重視","中立","介入主義寄り","普遍主義","帝国主義"]
+    "ja": ["孤立主義","平和主義","非暴力主義","中立","外交介入主義","普遍主義","帝国主義"]
 },
   
 "result-e-label": {
     "en": ["Theocrat","Theocrat","Religious Influence","Neutral","Anti-Clericalism","Seperation","Secularism"],
     "ko": ["신정주의","종교적 권위주의","종교적 영향","중도적","반교권주의","세속국가","반종교주의"],
     "ru": ["Теократия","Религиозный Авторитаризм","Религиозное влияние","Нейтралитет","Антиклерикализм","Светское государство","Атеизм"],
-    "cn": ["君权神授","宗教威权主义","宗教影响政治","中立","反教权主义","政教分离","世俗国家"],
-    "ja": ["神権政治","宗教的権威主義","教会国家寄り","中立","反聖職権","政教分離","世俗国家"]
+    "cn": ["君权神授","宗教威权主义","宗教影响政治","中立","反教权主义","政教分离","世俗主义"],
+    "ja": ["神権政治","宗教的権威主義","教会国家寄り","中立","反聖職権","政教分離","世俗主義"]
 },
   
 "result-f-label": {
@@ -401,7 +403,7 @@ const i18n = {
     "ko": ["트랜스휴머니즘","가속주의","친기술주의","중도적","인문주의","감속주의","원시주의"],
     "ru": ["Трансгуманизм", "Акселерационизм","Про-Технология","Нейтралитет","Гуманизм","Замедление","Примитивизм"],
     "cn": ["超人类主义","加速主义","倾向科技","中立","人本主义","减速主义","原始主义"],
-    "ja": ["超人間主義","科学発展重視","科学賛成派","中立","慎重派","科学減速主義","原始主義"]
+    "ja": ["進歩主義","科学発展重視","科学賛成派","中立","慎重派","科学減速主義","原始主義"]
 },
   
 "result-g-label": {
@@ -409,7 +411,7 @@ const i18n = {
     "ko": ["단일문화주의","원주민주의","동화주의","중도적","다문화주의","다문화주의","다문화주의"],
     "ru": ["Монокультурность", "нативизм", "ассимиляционизм", "Нейтральный", "поликультурность", "мультикультурализм", "мультикультурализм"],
     "cn": ["单一文化主义","本土主义","同化主义","中立","多元文化主义","多元文化主义","多元文化主义"],
-    "ja": ["単一文化主義","反移民","同化主義","中立","多文化主義","多文化主義","多文化主義"]
+    "ja": ["単一文化主義","単一民族重視","同化主義","中立","多文化重視","多文化主義","多文化主義"]
 },
   
 "result-back": {
@@ -433,7 +435,7 @@ const i18n = {
     "ko": "URL 복사됨",
     "ru": "URL скопирован",
     "cn": "网址已被复制",
-    "ja": "コピーされたURL"
+    "ja": "URLをコピーしました"
 },
 	
 //Images
