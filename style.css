@@ -529,7 +529,7 @@ li.nav a:hover:not(.active), #navres a:hover {
     min-width: 0px;
     max-width: 80%;
     width: 80%;
-    font-size: 3em;
+    font-size: 2em;
     margin: 
   }
   p.question {
@@ -537,7 +537,7 @@ li.nav a:hover:not(.active), #navres a:hover {
     min-width: 0px;
     max-width: 100%;
     width: auto;
-    font-size: 5em;
+    font-size: 2.5em;
 }
 
 /* @media (prefers-color-scheme: dark) {
