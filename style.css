@@ -506,9 +506,11 @@ li.nav a:hover:not(.active), #navres a:hover {
   div.main {
     margin-left: 0%;
     min-height: none;
+	width: auto !important;
+	border-width: 0px !important;  
   }
   body {
-    width: 100%;
+    width: auto;
     box-shadow: none;
   }
   html {
@@ -523,6 +525,19 @@ li.nav a:hover:not(.active), #navres a:hover {
     margin-right: auto;
     width: 80%;
   }
+  .button {
+    min-width: 0px;
+    max-width: 100%;
+    width: 100%;
+    font-size: 1.5em;
+    margin: 
+  }
+  p.question {
+    min-height: 224px;
+    min-width: 0px;
+    max-width: 100%;
+    width: auto;
+    font-size: 1.75em;
 }
 
 /* @media (prefers-color-scheme: dark) {
