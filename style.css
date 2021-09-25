@@ -535,7 +535,7 @@ li.nav a:hover:not(.active), #navres a:hover {
   p.question {
     min-height: 224px;
     min-width: 0px;
-    max-width: 100%;
+    max-width: 80%;
     width: auto;
     font-size: 3.5em !important;
 }
