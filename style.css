@@ -538,6 +538,10 @@ li.nav a:hover:not(.active), #navres a:hover {
     max-width: 80%;
     width: auto;
     font-size: 3.5em !important;
+  }
+  .small_button, .small_button_off {
+    font-size: 2em;
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {
