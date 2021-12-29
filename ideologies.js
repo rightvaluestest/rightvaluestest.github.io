@@ -5,7 +5,7 @@ ideologies = [
   "desc": "Fascism is a form of authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition, and strong regimentation of society and of the economy, which came to prominence in early 20th-century Europe.",
   "i18n": { 
     "ko": { "name": "파시즘", 
-            "desc": "파시즘은 권위주의적 초국가주의를 수용하는 독재 이데올로기의 한 형태입니다. 조반니 젠틸레는 이 사상을 창시했으며, 유명한 파시스트로는 베니토 무솔리니가 있습니다." },
+            "desc": "파시즘은 독재적 권력, 반대에 대한 강제적 탄압, 사회와 경제의 강력한 연대로 특징지어지는 권위주의적 초국가주의의 한 형태로, 20세기 초 유럽에서 두드러졌습니다." },
     "ru": { "name": "Фашизм",
             "desc": "Это форма диктаторской идеологии, которая представляет собой авторитарный ультранационализм. Основателем этой идеологии является Джованни Джентил, а самый известный фашист в истории - Бенито Муссолини." },
     "cn": { "name": "法西斯主义", 
@@ -17,8 +17,8 @@ ideologies = [
  { "name": "<a href='https://en.wikipedia.org/wiki/Nazism'> National Socialism </a>",
   "desc": "National Socialism, often shortened as Nazism, is a totalitarian ideology that has disdain for liberal democracy and the parliamentary system, and advocates for ideas like antisemitism, anti-communism, scientific racism, German nationalism, and eugenics.",
   "i18n": { 
-    "ko": { "name": "나치즘", 
-            "desc": "나치즘은 인종과 민족에 근거하여 힘과 기회를 할당하는 파시즘의 한 형태입니다. 그것은 안톤 드렉슬러가 창당하고 아돌프 히틀러가 대중화한 나치당의 이념이었습니다." },
+    "ko": { "name": "국가사회주의", 
+            "desc": "종종 나치즘으로 줄여 부르는 국가사회주의는 자유민주주의와 의회제도를 경멸하고 반유대주의, 반공산주의, 과학적 인종차별주의, 독일 민족주의, 우생학과 같은 사상을 옹호하는 전체주의 이념입니다." },
     "ru": { "name": "Нацизм",
             "desc": "Нацизм - это форма фашизма, которая присваивает власть и привелегии на основе расы и этнической принадлежности. Это была идеология Нацистской партии (НСДАП), которая основана Антоном Дрекслером и популяризирована Адольфом Гитлером." },
     "cn": { "name": "纳粹主义", 
@@ -34,7 +34,7 @@ ideologies = [
   "desc": "Absolute Monarchism, also called Absolutism, is a form of monarchy in which the monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature, or unwritten customs. These are often hereditary monarchies.",
   "i18n": { 
     "ko": { "name": "절대 군주제", 
-            "desc": "절대 군주제는 권위주의적 독재 이념입니다. 군주는 절대적인 권력을 가지고 있고, 지도자는 유전적으로 계승됩니다." },
+            "desc": "절대 군주제는 주로 성문법, 입법부 또는 불문율에 의해 제한되지 않는, 최고 독재 권한을 갖는 군주제의 한 형태입니다. 절대 군주제 국가들은 주로 세습 군주국입니다." },
     "ru": { "name": "Абсолютная Монархия",
             "desc": "это авторитарная идеология. Монархи обладают абсолютной властью, а власть передаётся генетически." },
     "cn": { "name": "绝对君主制", 
@@ -47,7 +47,7 @@ ideologies = [
   "desc": "Constitutional Monarchism is a form of monarchy in which the monarch exercises authority in accordance with a written or unwritten constitution. Within Constitutional Monarchism, the monarch acts as a non-party political head of state under the constitution, whether written or unwritten.",
   "i18n": { 
     "ko": { "name": "입헌 군주제", 
-            "desc": "입헌 군주제는 군주제의 변형으로, 군주는 통치할 때 헌법을 따라야 합니다. 그것은 영국, 스페인, 스웨덴 등과 같은 유럽 국가에 존재합니다." },
+            "desc": "입헌 군주제는 군주가 성문 헌법에 따라 권한을 행사하는 군주제의 한 형태입니다. 입헌 군주제에서 군주는 헌법에 따라 서면 또는 미필적 국가의 수장으로서 활동합니다." },
     "ru": { "name": "Конституционная Монархия",
             "desc": "Это вариант монархизма, когда правящий монарх должен следовать конституции, чтобы править. Он присутствует в европейских странах, таких как Великобритания, Испания, Швеция и т. Д." },
     "cn": { "name": "君主立宪制", 
@@ -59,8 +59,8 @@ ideologies = [
 { "name": "<a href='https://en.wikipedia.org/wiki/Theocracy'> Theocracy </a>",
   "desc": "Theocracy is a form of government in which a deity of some type is recognized as the supreme ruling authority, giving divine guidance to human intermediaries that manage the day-to-day affairs of the government. In some religions, the ruler, usually a king, was regarded as the chosen favorite of God (or gods) and could not be questioned, sometimes even being regarded as the descendant of or a god in their own right.",
   "i18n": { 
-    "ko": { "name": "신정 군주제", 
-            "desc": "신정 군주제는 종교를 국가 수반으로 사용하는 군주제이며, 종종 종교 조직을 사용하여 통치합니다." },
+    "ko": { "name": "신정제", 
+            "desc": "신정제는 어떤 형태의 신이 최고 통치 권위로 인정되어 정부의 일상적인 업무를 관리하는 인간 중개자에게 신의 지도를 하는 정부의 형태입니다. 어떤 종교에서는 통치자, 보통 왕은 신(또는 신들)의 선택된 총애자로 간주되어 의문을 제기할 수 없었고, 때로는 그들의 권리로도 신의 후손으로 여겨지기도 했습니다." },
     "ru": { "name": "Теократия",
             "desc": "Теократия - это форма правления, при которой власть в государстве находится в руках религиозного учреждения и духовенства. " },
     "cn": { "name": "君权神授制", 
@@ -76,8 +76,8 @@ ideologies = [
  { "name": "<a href='https://en.wikipedia.org/wiki/Right-Libertarianism'> Libertarianism </a>",
   "desc": "Libertarianism, or more specifically Right-Libertarianism, is a political philosophy and movement that upholds liberty as a core principle. Libertarians seek to maximize autonomy and political freedom, emphasizing free association, freedom of choice, individualism and voluntary association.",
   "i18n": { 
-    "ko": { "name": "자유주의", 
-            "desc": "자유주의자들은 일반적으로 문화적으로는 진보적지만 경제적으로는 보수적입니다. 그들은 비자발적인 세금 폐지는 물론 더 작은 주/정부를 원합니다." },
+    "ko": { "name": "자유지상주의", 
+            "desc": "자유지상주의 또는 더 구체적으로 우익 자유지상주의는 자유를 핵심원리로 유지하는 정치철학이자 운동입니다. 자유지상주의자들은 자유 결사, 선택의 자유, 개인주의, 자발적 결사를 강조하며 자율성과 정치적 자유를 극대화하고자 합니다." },
     "ru": { "name": "Либертарианство",
             "desc": "Либертарианцы, как правило, культурно левые, но финансово консервативные, и хотят меньшего государства/правительства, а также отмены принудительных налогов." },
     "cn": { "name": "自由主义", 
@@ -90,7 +90,7 @@ ideologies = [
   "desc": "Individualist anarchism is the branch of anarchism that emphasizes the individual and their will over external determinants such as groups, society, traditions and ideological systems.",
   "i18n": { 
     "ko": { "name": "개인주의 아나키즘", 
-            "desc": "개인주의 아나키즘은 개인주의를 강하게 옹호하는 무정부주의의 한 형태이며, 아나키즘 정부를 지지합니다." },
+            "desc": "개인주의적 아나키즘은 집단, 사회, 전통, 이념 체계와 같은 외부 결정 요인보다 개인과 그들의 의지를 강조하는 아나키즘의 한 분야입니다." },
     "ru": { "name": "Индивидуалистический анархизм",
             "desc": "Индивидуалистический анархизм-это форма анархизма, которая решительно выступает за индивидуализм, а также поддерживает анархическое идеи." },
     "cn": { "name": "个人无政府主义", 
@@ -103,7 +103,7 @@ ideologies = [
   "desc": "Agorism is a free-market anarchist political philosophy that supports bringing about a society in which all relations between people are voluntary exchanges, and aims to achieve this through counter-economics.",
   "i18n": { 
     "ko": { "name": "아고리즘", 
-            "desc": "아고리즘은 아나키즘의 분파로써 모든 인간 관계가 평화로운 혁명과 반경제적인 것에 의해 이루어져야한다고 생각합니다." },
+            "desc": "아고리즘은 자유시장 아나키스트 정치철학으로 사람 사이의 모든 관계가 자발적인 교류인 사회를 만드는 것을 지지하며, 반경제학을 통해 이를 달성하고자 합니다." },
     "ru": { "name": "Агоризм",
             "desc": "Агоризм - это анархистская политическая философия свободного рынка, которая поддерживает создание общества, в котором все отношения между людьми являются добровольными обменами, и стремится достичь этого с помощью контрэкономики. " },
     "cn": { "name": "黑市主义（阿哥拉主义)", 
@@ -115,8 +115,8 @@ ideologies = [
 { "name": "<a href='https://en.wikipedia.org/wiki/Anarcho-Capitalism'> Anarcho-Capitalism </a>",
   "desc": "Anarcho-Capitalism is a political philosophy and economic theory that advocates the elimination of centralized states in favor of a system of private property enforced by private agencies, free markets and the right-libertarian interpretation of self-ownership, which extends the concept to include control of private property as part of the self.",
   "i18n": { 
-    "ko": { "name": "아나코-자본주의", 
-            "desc": "아나코-자본주의는 개인의 권리와 자유에 매우 높은 우선순위를 두는 무정부주의 이념입니다. 그것은 무정부상태와 자본주의의 극단적인 형태이고, 세금을 도둑질의 한 형태로 간주합니다." },
+    "ko": { "name": "아나코 자본주의", 
+            "desc": "아나코 자본주의는 중앙집권화된 국가의 철폐를 옹호하는 정치철학이자 경제이론이며, 사유재산의 통제를 자신의 일부로 포함하도록 개념을 확장하는 자유주의적 자기 소유에 대한 우파적 해석입니다." },
     "ru": { "name": "Анархо-Капитализм",
             "desc": "Это анархистская идеология, которая ставит очень высокий приоритет правам и свободе личности. Это крайняя форма анархии и капитализма. Он рассматривает налогообложение как форму воровства." },
     "cn": { "name": "无政府资本主义", 
@@ -129,7 +129,7 @@ ideologies = [
   "desc": "Minarchism maintains that the state's only legitimate function is the protection of individuals from aggression, theft, breach of contract, and fraud, and the only legitimate governmental institutions are the military, police, and courts. Similarly to other Libertarian ideologies, it emphasizes on freedom of speech, property, and voluntary association.",
   "i18n": { 
     "ko": { "name": "소정부주의", 
-            "desc": "소정부주의는 매우 작은 정부를 원하는 이념입니다. 그들은 정부의 목적이 단지 법을 집행하기 위한 것이라고 생각합니다. 이런 형태의 정부는 '야경꾼 국가'라고 불립니다." },
+            "desc": "소정부주의는 국가의 유일한 합법적 기능은 공격, 절도, 계약 위반, 사기로부터 개인을 보호하는 것이며, 합법적인 정부 기관은 군, 경찰, 법원뿐이라고 주장합니다. 다른 자유주의 이념들과 비슷하게, 그것은 언론의 자유, 재산, 그리고 자발적인 결사를 강조합니다." },
     "ru": { "name": "Минархизм",
             "desc": "это идеология, которая хочет иметь очень никзкое вмешательство правительства. Они думают, что цель правительства только в том, чтобы исполнять законы." },
     "cn": { "name": "最小政府主義", 
@@ -142,7 +142,7 @@ ideologies = [
   "desc": "Paleolibertarianism is a variant of Libertarianism which stresses inherent incompatibility between progressivism and the concept of liberty, as well as a focus on the importance of inherited culture as a means of maintaining order. ",
   "i18n": { 
     "ko": { "name": "고자유주의", 
-            "desc": "고자유주의는 기본적으로 자유주의이지만 문화적으로는 보수적입니다. 그들은 작은 정부를 원합니다." },
+            "desc": "고자유주의는 질서 유지 수단으로서 계승된 문화의 중요성에 초점을 맞출 뿐만 아니라 진보주의와 자유의 개념 사이에 내재된 불협화음을 강조하는 자유지상주의의 변형입니다." },
     "ru": { "name": "Палеолибертарианство",
             "desc": "Палеолибертарианцы в основном либетарианцы, но консервативны и в культурном отношении. Они хотят небольшое государство." },
     "cn": { "name": "古希腊主义", 
@@ -154,8 +154,8 @@ ideologies = [
 { "name": "<a href='https://en.wikipedia.org/wiki/Geolibertarianism'>Geolibertarianism </a>",
   "desc": "Geolibertarianism is a political and economic ideology that integrates libertarianism with Georgism, and holds that although people should own the value they produce themselves, all land should belong equally to all members of society. It does not consider land as legitimate private property.",
   "i18n": { 
-    "ko": { "name": "토지-자유주의", 
-            "desc": "토지-자유주의는 자유주의적인 가치를 가진 지공주의의 분파입니다 지공주의는 토지가 사유재산으로 간주되지 않고 세금과 공소유지를 받는 경제체제입니다." },
+    "ko": { "name": "지공자유주의", 
+            "desc": "지공자유주의는 자유주의와 지공주의를 통합한 정치경제 이념으로, 비록 사람들이 스스로 생산하는 가치를 소유해야 하지만, 모든 토지는 사회의 모든 구성원에게 동등하게 속해야 한다고 주장합니다. 토지는 합법적인 사유재산으로 간주하지 않습니다." },
     "ru": { "name": "Геолибертарианство",
             "desc": "это джорджизм с либертарианскими ценностями. Джорджизм -это экономическая система, в которой земля не считается частной собственностью, а облагается налогом и находится в государственной собственности." },
     "cn": { "name": "地缘自由主义", 
@@ -168,7 +168,7 @@ ideologies = [
   "desc": "Neoliberalism is generally associated with policies of economic liberalization, including privatization, deregulation, globalization, free trade, and tricke-down economics, and served as the opposition of Keynesian Economics.",
   "i18n": { 
     "ko": { "name": "신자유주의", 
-            "desc": "신자유주의는 자유시장 중심의 개혁 이념으로 대개 문화적으로 좌편향적입니다. 국가의 영향력을 줄이는 것도 이념의 큰 부분입니다." },
+            "desc": "신자유주의는 일반적으로 민영화, 규제완화, 세계화, 자유무역, 낙수 경제 이론 등 경제 자유화 정책과 관련이 있으며 케인즈 경제학의 반대 역할을 했습니다." },
     "ru": { "name": "Неолиберализм",
             "desc": "это ориентированная на свободный рынок реформаторская идеология, которая обычно культурно левая. Снижение влияния государства также является большой частью идеологии." },
     "cn": { "name": "新自由主义", 
@@ -181,7 +181,7 @@ ideologies = [
   "desc": "Classical liberalism is a political ideology and a branch of liberalism that advocates civil liberties under the rule of law with an emphasis on economic freedom. Highly influenced by the Enlightenment, it believes in a limited government that protects individual rights, and limited public services and welfare.",
   "i18n": { 
     "ko": { "name": "고전적 자유주의", 
-            "desc": "고전적 자유주의는 개인의 자유와 제한적인 정부를 자유사회의 기초로 봅니다. 그것은 자유주의적 이상을 가진 최초의 이념들 중 하나였습니다." },
+            "desc": "고전적 자유주의는 경제적 자유에 중점을 두고 법치하에서 시민의 자유를 옹호하는 정치적 이념이자 자유주의의 한 분야입니다. 계몽주의의 영향을 많이 받아 개인의 권리를 보호하는 제한된 정부, 그리고 공공 서비스와 복지의 한계를 믿습니다." },
     "ru": { "name": "Классический либерализм",
             "desc": "Класси́ческий либерали́зм — политическая идеология, ветвь либерализма, которая утверждает гражданские права и политическую свободу." },
     "cn": { "name": "古典自由主义", 
@@ -197,7 +197,7 @@ ideologies = [
   "desc": "Conservatism is a cultural, social, and political philosophy which seeks to promote and to preserve traditional social institutions. n Western culture, conservatives seek to preserve a range of institutions such as organized religion, parliamentary government, and property rights.",
   "i18n": { 
     "ko": { "name": "보수주의", 
-            "desc": "보수주의는 주로 현상유지에 관한 이념입니다. 보수주의자들은 대개 외교적 개입주의, 더 많은 군사비 지출, 더 낮은 세금을 지지합니다." },
+            "desc": "보수주의는 전통적인 사회 제도를 장려하고 보존하고자 하는 문화, 사회, 정치 철학입니다. 서양 문화, 보수주의자들은 조직화된 종교, 의회 정부, 재산권과 같은 다양한 제도를 보존하고자 합니다." },
     "ru": { "name": "Консерватизм",
             "desc": "это идеология, которая в основном направлена на сохранение статус-кво. Консерваторы обычно поддерживают дипломатический интервенционизм, увеличение военных расходов и снижение налогов." },
     "cn": { "name": "保守主义", 
@@ -210,7 +210,7 @@ ideologies = [
   "desc": "Neoconservatives typically advocate the promotion of democracy and interventionism in international affairs, including peace through strength, and are known for espousing disdain for communism and political radicalism.",
   "i18n": { 
     "ko": { "name": "신보수주의", 
-            "desc": "신보수주의는 자유주의 정당의 태평양주의 정책을 싫어하는 보수주의의 한 형태입니다. 신보수주의자들은 서구 국가들의 목표가 자신들의 모델을 세계에 알리는 것이라고 생각합니다. 그들은 더 국제적으로 초점을 맞추고 있습니다." },
+            "desc": "신보수주의자들은 전형적으로 힘을 통한 평화를 포함한 국제 문제에 대한 민주주의와 개입주의를 옹호하며 공산주의와 정치적 급진주의를 경멸하는 것으로 알려져 있습니다." },
     "ru": { "name": "Неоконсерватизм",
             "desc": "это идеология,в основе которой лежат идеи консерватизма, приспособленных к новым условиям общественного развития. Неоконсерваторы считают, что цель западных стран-донести до мира свою модель. Они более ориентированы на международный уровень." },
     "cn": { "name": "新保守主义", 
@@ -222,8 +222,8 @@ ideologies = [
 { "name": "<a href='https://en.wikipedia.org/wiki/Centre-Right_Politics'> Centre-Right Politics </a>",
   "desc": "Center-Right Politics lean to the right of the political spectrum, but are closer to the centre than others. It is influenced by economics liberalism and neoliberalism, but also supports certain left-leaning ideas such as a welfare state and egalitarianism.",
   "i18n": { 
-    "ko": { "name": "중도 우파", 
-            "desc": "중도 우파는 우파 성향의 중도주의입니다. 온건 보수적인 것 말고는, 중도 우파는 대부분의 다른 견해에서는 중립적입니다." },
+    "ko": { "name": "중도우익", 
+            "desc": "중도우익은 정치적 스펙트럼의 우익에 치우쳐있지만, 다른 우익 사상들보다 중앙에 더 가깝습니다. 경제자유주의와 신자유주의의 영향을 받았지만, 복지국가와 평등주의 같은 특정 좌익 사상을 지지하기도 합니다." },
     "ru": { "name": "Правый центризм",
             "desc": "Это люди умеренных правых взглядов. Помимо того, что они умеренно консервативны, они нейтральны в большинстве других взглядов." },
     "cn": { "name": "中间派右翼主义", 
@@ -237,7 +237,7 @@ ideologies = [
   "desc": "Reactionary Conservatism, or Reactionaryism, favor a return to a previous political state of society that they believe possessed positive characteristics that are absent in contemporary society. In modern terms, Reactionary Conservatism refers to a highly traditional position that is opposed to social or political change, that tends to stand in opposition against Enlightenment ideas.",
   "i18n": { 
     "ko": { "name": "반동 보수주의", 
-            "desc": "반동주의는 구체제로 돌아가려는 정치 이념으로서 진보주의에 대한 반대 개념이다." },
+            "desc": "반동 보수주의, 또는 반동주의는 그들이 현대 사회에 존재하지 않는 긍정적인 특성을 가지고 있다고 믿는 이전의 정치 상태로의 복귀를 선호합니다. 현대 용어로 반동 보수주의는 계몽주의 사상에 반대하는 경향이 있는 사회적 또는 정치적 변화에 반대하는 매우 전통적인 입장을 말합니다." },
     "ru": { "name": "Политическая реакция",
             "desc": "политическая реакция — общественное движение в направлении, резко противоположном предшествовавшему или современному общественному строю." },
     "cn": { "name": "反动保守主义", 
@@ -250,7 +250,7 @@ ideologies = [
   "desc": "Paleoconservatism is a political philosophy and variety of conservatism in the United States stressing nationalism, Christian ethics, regionalism, and traditionalist conservatism. Their views overlap with the Old Right and Right-Wing Populism.",
   "i18n": { 
     "ko": { "name": "고보수주의", 
-            "desc": "고보수주의는 종교, 민족주의, 전통주의를 강조하는 보수주의의 변형입니다." },
+            "desc": "고보수주의는 민족주의, 기독교 윤리, 지역주의, 전통주의 보수를 강조하는 미국의 정치철학이자 다양한 보수주의입니다. 이들의 견해는 구 우익 포퓰리즘과 겹칩니다." },
     "ru": { "name": "Палеоконсерватизм",
             "desc": "Палеоконсерватизм-это разновидность консерватизма, подчеркивающая религиозность, национализм и традиционализм." },
     "cn": { "name": "古典保守主义", 
@@ -263,7 +263,7 @@ ideologies = [
   "desc": "Right-Wing Populism is a political ideology which combines right-wing politics and populist rhetoric and themes. The rhetoric often consists of anti-elitist and anti-intellectual sentiments, opposition to the Establishment, and speaking to the 'common people'.",
   "i18n": { 
     "ko": { "name": "우익 포퓰리즘", 
-            "desc": "우익 포퓰리즘은 우파적 가치와 포퓰리즘이 결합된 이념입니다. 우익 포퓰리스트들은 대개 민족주의적이고 보호주의적이며 이민에 대한 더 강력한 규제를 지지합니다." },
+            "desc": "우익 포퓰리즘은 우익 정치와 포퓰리즘적 미사여구와 주제가 결합된 정치 이념입니다. 미사여구는 종종 반엘리트적이고 반지성적인 정서, 기득권에 대한 반대, 그리고 '서민'에게 말하는 것으로 구성됩니다." },
     "ru": { "name": "Патерналистский консерватизм",
             "desc": "Патернали́стский консервати́зм — ответвление консерватизма, отражающее идею того, что сообщества функционируют и развиваются взаимозависимо, и что люди внутри них имеют обязательства друг перед другом." },
     "cn": { "name": "右翼民粹主义", 
@@ -275,8 +275,8 @@ ideologies = [
  { "name": "<a href='https://en.wikipedia.org/wiki/Paternalistic_conservatism'> Paternalistic Conservatism </a>",
   "desc": "Paternalistic conservatism is a strand of conservatism with an emphasis on the paternalistic obligation of those who are privileged and wealthy to the poorer parts of society.",
   "i18n": { 
-    "ko": { "name": "우익 사회주의", 
-            "desc": "우익 사회주의 는 시장 경제, 상업주의, 자유 방임, 내셔널리즘 등 우파적인 가치를 바탕으로 한 공동체주의를 의미한다." },
+    "ko": { "name": "가부장적 보수주의", 
+            "desc": "가부장적 보수주의는 사회의 빈곤층에 대한 특권층 및 부유층의 가부장적 의무를 강조하는 보수의 한 가닥입니다." },
     "ru": { "name": "Патерналистский консерватизм",
             "desc": "это идеология, которая в основном направлена на сохранение статус-кво. Консерваторы обычно поддерживают дипломатический интервенционизм, увеличение военных расходов и снижение налогов." },
     "cn": { "name": "家长式保守主义", 
@@ -289,7 +289,7 @@ ideologies = [
   "desc": "Fiscal conservatism is a political and economic philosophy regarding fiscal policy and fiscal responsibility advocating privatization, low taxes, reduced government spending and minimal government debt.",
   "i18n": { 
     "ko": { "name": "재정보수주의", 
-            "desc": "재정보수주의 는 재정 정책과 관련하여 재정 책임의 옹호의 정치 철학이다. 재정보수주의자들은 종종 피고려 적자 지출과 전체 정부 지출 및 국가 부채의 감소뿐만 아니라 균형 예산을 중요시한다." },
+            "desc": "재정보수주의는 민영화, 낮은 세금, 정부 지출 감소 및 최소한의 정부 부채를 옹호하는 재정 정책과 재정 책임에 관한 정치 및 경제 철학입니다." },
     "ru": { "name": "Фискальный консерватизм",
             "desc": "Фискальный консерватизм, представляет собой политическую и экономическую философию, касающуюся фискальной политики и фискальной ответственности, выступающую за низкие налоги, сокращение государственных расходов и минимальный государственный долг." },
     "cn": { "name": "财政保守主义", 
@@ -303,8 +303,8 @@ ideologies = [
 { "name": "<a href='https://en.wikipedia.org/wiki/Rainbow_capitalism'> Pink Capitalism </a>",
   "desc": "Pink Capitalism is the incorporation of the LGBT movement and sexual diversity into consumerism and capitalism, in order to create a market that is oriented and tolerated towards LGBT communities.",
   "i18n": { 
-    "ko": { "name": "핑크 자본주의", 
-            "desc": "핑크 자본주의는 LGBT 운동, 성적 다양성, 핑크워싱을 자본주의에 통합한 것입니다." },
+    "ko": { "name": "핑크자본주의", 
+            "desc": "핑크자본주의는 LGBT 커뮤니티를 지향하고 용인하는 시장을 만들기 위해 LGBT 운동과 성적 다양성을 소비주의와 자본주의에 통합한 것입니다." },
     "ru": { "name": "Розовый капитализм",
             "desc": "это идеология, которая стремится включить прогрессивизм в капитализм. Он поддерживает рынок невмешательства и, как правило, также поддерживает минимальное или несуществующее правительство." },
     "cn": { "name": "粉色资本主义", 
@@ -317,7 +317,7 @@ ideologies = [
   "desc": "Civic Nationalism is a form of nationalism identified by political philosophers who believe in an inclusive form of nationalism that adheres to traditional liberal values of freedom, tolerance, equality, and individual rights.",
   "i18n": { 
     "ko": { "name": "시민 민족주의", 
-            "desc": "시민 민족주의는 민족주의와 자유주의를 결합합니다. 이는 자유주의, 개인주의, 평등과 같은 자유주의적 가치와 서양 기준의 전통적 가치를 지지하는 민족주의의 한 형태입니다." },
+            "desc": "시민 민족주의는 자유, 관용, 평등, 개인의 권리와 같은 전통적인 자유 가치를 고수하는 포용적 형태의 민족주의를 믿는 정치 철학자들에 의해 확인되는 민족주의의 한 형태입니다." },
     "ru": { "name": "Гражданский национализм",
             "desc": "Гражданский национализм сочетает национализм с либерализмом. Это форма национализма, которая поддерживает либеральные и Традиционные (по западным стандартам) ценности, такие как Свобода, Индивидуальность и Равенство." },
     "cn": { "name": "公民民族主义", 
@@ -330,7 +330,7 @@ ideologies = [
   "desc": "Progressive conservatism is a political ideology which combines conservative and progressive policies. It believes that social reform and progression in areas such as science, economics, education, technology and medicine were necessary to improve human living conditions, but also supports the preservation of tradition.",
   "i18n": { 
     "ko": { "name": "진보적 보수주의", 
-            "desc": "진보적 보수주의는 보수적 가치와 진보적 가치의 결합입니다. 진보적 보수주의자들은 사회가 개혁되어야 하지만 보수주의적인 사고를 통해 성취되어야 한다고 믿습니다." },
+            "desc": "진보적 보수주의는 보수와 진보적 정책이 결합된 정치적 이념입니다. 인간의 생활 여건을 개선하기 위해 과학, 경제, 교육, 기술, 의학 등의 분야에서 사회 개혁과 진보가 필요하다고 믿지만, 전통 보존을 지지하기도 합니다." },
     "ru": { "name": "Прогрессивный консерватизм",
             "desc": "Прогрессивный консерватизм-это сочетание консервативных и прогрессивных ценностей. Он считает, что общество должно быть реформировано, но должно быть достигнуто с помощью консервативного мышления." },
     "cn": { "name": "进步保守主义", 
@@ -342,8 +342,8 @@ ideologies = [
 { "name": "<a href='https://en.wikipedia.org/wiki/Technocracy'> Technocracy </a>",
   "desc": "Technocracy is a system of government in which a decision-maker or makers are elected by the population or appointed on the basis of their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge.",
   "i18n": { 
-    "ko": { "name": "기술관료제", 
-            "desc": "기술관료제는 기술 전문가인 사람이 국가를 통치해야 한다는 사상을 지지하는 이념입니다." },
+    "ko": { "name": "테크로크라시", 
+            "desc": "테크노크라시는 의사 결정권자가 국민에 의해 선출되거나 주어진 책임 영역에 대한 전문지식을 바탕으로 임명되는 정부 체제입니다." },
     "ru": { "name": "Технократия",
             "desc": "это идеология, которая продвигает идею о том, что люди, которые являются экспертами в области технологий, должны править нацией." },
     "cn": { "name": "科技专制", 
