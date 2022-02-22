@@ -383,7 +383,7 @@ const i18n = {
 },
   
 "result-d-label": { 
-    "en": ["Isolationism","Pacifism","Non-Aggressive","Neutral","Diplomatic Interventionism","Universalism","Imperialism"],
+    "en": ["Isolationism","Pacifism","Non-Aggressive","Neutral","Foreign Interventionism","Universalism","Imperialism"],
     "ko": ["고립주의","자국주의","비폭력주의","중도적","외교적 개입주의","국제주의","제국주의"],
     "ru": ["Крайне Интернациональный","Очень Интернациональный","Интернациональный","Нейтральный","Национальный","Очень Национальный","Крайне Национальный"],
     "cn": ["极端国际主义","非常国际主义","国际主义","中立","民族主义","非常民族主义","极端民族主义"],
